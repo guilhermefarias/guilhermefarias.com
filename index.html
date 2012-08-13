@@ -1,54 +1,127 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Guilherme Farias - Web Developer</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
     <div class="leftbar">
         <ul>
-            <li><a href="#about">Sobre mim</a></li>
-            <li><a href="#knowledge">Conhecimento</a></li>
-            <li><a href="#freelance">Desenvolvimento de sites</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#host">Hospedagem</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a class="about" href="#top">Guilherme</a></li>
+            <li><a class="freelance" href="#freelance">Serviços</a></li>
+            <li><a class="portfolio" href="#portfolio">Portfolio</a></li>
+            <li><a class="host" href="#host">Hospedagem</a></li>
+            <li><a class="contato" href="#contato">Contato</a></li>
         </ul>
     </div>
-    <section id="about">
-        <div class="inner">
-            <h1>Guilherme Farias</h1>
-            <div class="clearfix"></div>  
+    
+    <div id="top">
+        <h1 id="about">Guilherme Farias</h1>
+        <h2 class="about">Web Developer</h2>
+    </div>
+
+    <div class="inner">
+        <section class="about">
             <p>Olá, eu sou o Guilherme Farias, tenho 19 anos, sou Front-End Engineer na MGR Tecnologia, Blogueiro no blog de tecnologia <a href="http://www.guiky.com.br" target="_blank">Guiky</a> e estou cursando o 4° período do curso de Sistemas de Informação na AESO Barros Melo.</p>
 
             <p>Utilizo a internet desde 2000, meu primeiro contato com os códigos HTML foi em 2005 quando criei meu flogão e formatava os textos e links com os cógidos básicos, mas só começei a aprender de fato em 2008 quando criei meu blog, nessa época comecei a aprofundar nos estudos de HTML e CSS. No final de 2011 comecei a fazer templates em WordPress e trabalhar como Freelancer, sou autoditada, tudo que aprendi foi na própria internet, atualmente tenho conhecimentos em XHTML, HTML5, CSS3, Javascript, PHP, AJAX, jQuery, MySQL, WordPress, SEO e mais algumas outras coisas. Mais informações, você pode conferir meu <a href="http://br.linkedin.com/in/guiky" target="_blank">perfil no LinkedIn</a> ou <a href="http://www.guilhermefarias.com.br/Guilherme-Farias.docx" target="_blank">baixar meu currículo</a>.</p>
-        </div> 
-    </section>
+        </section>
 
-    <section id="knowledge">
-        <div class="inner">
-            <h2>Conhecimento</h2>
-            <div class="clearfix"></div>
-        </div>
-    </section>
-
-    <section id="freelance">
-        <div class="inner">
+        <section id="freelance">
             <h2>Desenvolvimento de sites</h2>
+            <p>Quer ter seu proprio site? nós podemos lhe ajudar, entre em contato e peça um orçamento sem compromisso.
+Desenvolvemos seu o site em até 15 dias, qual o tipo de site que você gostaria de ter?<br/><br/>
+            <strong>Sites institucionais</strong><br/>
+            Um site institucional é aquele que tem o objetivo de divulgar a empresa na Internet, destacando seus serviços e diferenciais, sendo a porta de entrada para bons negócios.<br/><br/>
+            <strong>Portais de Conteúdo</strong><br/>
+            São sites de diversos tipos de conteúdos, podendo ter várias notícias, artigos, cursos, enquetes, em geral é um site com várias informações que são atualizadas constantemente.<br/>
+            Nós desenvolvemos seu site e fornecemos um sistema de gerenciamento de conteúdo, para que você possa manter ele sempre atualizado.</p>
             <div class="clearfix"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="portfolio">
-        <div class="inner">
+        <section id="portfolio">
             <h2>Portfólio</h2>
-            <div class="clearfix"></div>
-        </div>
-    </section>
 
-    <section id="host">
-        <div class="inner">
+            <p>Aqui você pode conferir os meus trabalhos mais recentes como Freelancer.</p>
+
+            <div class="slides_container">
+                <div>
+                    <img src="images/10.png" class="portfolio"></img>
+                    <h3 class="portfolio">Vidda</h3>
+                    <p class="portfolio">Site da marca de cosmeticos Vidda, o layout foi feito pela agência COL e enviado em .PSD para mim, o Front foi totalmente desenvolvido por mim, utilizando o CMS WordPress.<br/>
+                    Desenvolvido em Agosto de 2012<br/>
+                    Site: www.vidda.com.br</p>
+                </div>
+                <div>
+                    <img src="images/9.png" class="portfolio"></img>
+                    <h3 class="portfolio">Blog do Gayegos</h3>
+                    <p class="portfolio">Personalização do blog do estilista José Gayegos.<br/>
+                    Em Julho de 2012<br/>
+                    Site: www.gayegos.com</p>
+                </div>
+                <div>
+                    <img src="images/8.png" class="portfolio"></img>
+                    <h3 class="portfolio">Guiky</h3>
+                    <p class="portfolio">Nova versão do blog de Tecnologia Guiky, totalmente desenvolvido por mim, utilizando o CMS WordPress, HTML5, CSS3, Javascrtip/jQuery e etc.<br/>
+                    Desenvolvido em Junho de 2012<br/>
+                    Site: www.guiky.com.br</p>
+                </div>
+                <div>
+                    <img src="images/7.png" class="portfolio"></img>
+                    <h3 class="portfolio">COL - Consultoria Online</h3>
+                    <p class="portfolio">Front-End desenvolvido por mim, utilizando o CMS WordPress, Layout foi enviado em .PSD<br/>
+                    Desenvolvido em Maio de 2012</p>
+                </div>
+                <div>
+                    <img src="images/6.png" class="portfolio"></img>
+                    <h3 class="portfolio">Multitask Girl</h3>
+                    <p class="portfolio">Front-End desenvolvido por mim, utilizando o CMS WordPress, Layout foi enviado em .PSD
+                    </br>
+                    Desenvolvido em Abril de 2012<br/>
+                    Site: www.multitaskgirl.com</p>
+                </div>
+                <div>
+                    <img src="images/5.png" class="portfolio"></img>
+                    <h3 class="portfolio">Fashion Fun</h3>
+                    <p class="portfolio">Front-End desenvolvido por mim, utilizando o CMS WordPress, Layout foi enviado em .PSD<br/>
+                    Desenvolvido em Março de 2012<br/>
+                    Site: www.fashionfun.com.br</p>
+                </div>
+                <div>
+                    <img src="images/4.png" class="portfolio"></img>
+                    <h3 class="portfolio">RBMS Representações</h3>
+                    <p class="portfolio">Layout e Front-End desenvolvido por mim, utilizando o CMS WordPress, além disso o site também está hospedado no meu servidor.<br/>
+                    Desenvolvido em Fevereiro de 2012<br/>
+                    Site: www.rbms.com.br</p>
+                </div>
+                <div>
+                    <img src="images/3.png" class="portfolio"></img>
+                    <h3 class="portfolio">Powerkiteboat</h3>
+                    <p class="portfolio">Projeto do barco Tucamarino, site desenvolvido em WordPress por Yeltsin Lima, minha participação neste projeto foi transformar o site em um website multi-liguagem, com suporte nos idiomas Inglês e Português.<br/>
+                    Minha participação foi em Fevereiro de 2012<br/>
+                    Site: www.powerkiteboat.net</p>
+                </div>
+                <div>
+                    <img src="images/2.png" class="portfolio"></img>
+                    <h3 class="portfolio">Projeto Ecocidades</h3>
+                    <p class="portfolio">Layout e Front-End desenvolvido por mim para conclusão do meu curso no programa da Microsoft, Students to Business.<br/>
+                    Desenvolvido em Junho de 2011.</p>
+                </div>
+                <div>
+                    <img src="images/1.png" class="portfolio"></img>
+                    <h3 class="portfolio">Portfolio de Anderson Santos</h3>
+                    <p class="portfolio">Layout e Front-End desenvolvido por mim, para Anderson Santos, estudante de Jogos Digitais<br/>
+                    Desenvolvido em Maio de 2011</p>
+                </div>
+            </div>    
+        </section>
+        <div class="clearfix"></div>
+
+        <section id="host">
             <h2>Hospedagem</h2>
             <div class="clearfix"></div>
                 
@@ -57,7 +130,8 @@
 
             <p>Conheça nossos planos!</p>
 
-            <table class="planos">
+            <div class="clearfix"></div>
+            <table cellspacing="0" class="planos">
                 <th>Básico</th>
                 <tr><td>1GB de espaço para o site</td></tr>
                 <tr><td>2GB de transferência mensal</td></tr> 
@@ -67,7 +141,7 @@
                 <tr><td>R$100,00/ano</td></tr>
             </table>
                     
-            <table class="planos">
+            <table cellspacing="0" class="planos">
                 <th>Business</th>
                 <tr><td>2GB de espaço para o site</td></tr>
                 <tr><td>20GB de transferência mensal</td></tr> 
@@ -76,7 +150,7 @@
                 <tr><td>R$20,00/mês</td></tr>
                 <tr><td>R$200,00/ano</td></tr>
             </table>
-            <table class="planos">
+            <table cellspacing="0" class="planos">
                 <th>Avançado</th>
                 <tr><td>5GB de espaço para o site</td></tr>
                 <tr><td>100GB de transferência mensal</td></tr> 
@@ -85,15 +159,41 @@
                 <tr><td>R$40,00/mês</td></tr>
                 <tr><td>R$400,00/ano</td></tr>
             </table>
-        </div>
-    </section>
-
-    <section id="contato">
-        <div class="inner">
-            <h2>Contato</h2>
             <div class="clearfix"></div>
-        </div>
-    </section>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <div class="social">
+                <p>Você pode entrar em contato, enviando email para o guilherme@guiky.com.br, se preferir, você também pode usar este formulario aqui ao lado.</p>
+            </div>
+            <div class="emailform">
+                <form action="enviar.php" method="post" name="contato">
+                    <li>
+                        <label>Nome:</label>
+                        <input type="text" name="nome" required>
+                    </li>
+                    <li>
+                        <label>E-mail:</label>
+                        <input type="text" name="email" required>
+                    </li>
+                    <li>
+                        <label>Assunto:</label>
+                        <input type="text" name="assunto" required>
+                    </li>
+                    <li>
+                        <label>Mensagem:</label>
+                        <textarea name="mensagem"></textarea>
+                    </li>
+                    <li>
+                        <input class="submit" type="submit" value="Enviar" name="Submit">
+                    </li>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer></footer>
 </body>
 </html>
 

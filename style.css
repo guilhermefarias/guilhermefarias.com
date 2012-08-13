@@ -8,81 +8,283 @@ Version: 3
 	margin: 0;
 	padding: 0;
 }
-
 body {
-	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Open Sans Light', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 100;
 	color: #777;
+	background-image: url('images/bg.png');
 }
-
+a {
+	text-decoration: none;
+	color: #62BB01;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin-top: 20px;
+	line-height: 20px;
+}
+strong {
+	font-weight: 800;
+}
+li {
+	list-style: none;
+}
+h1 {
+	font-size: 100px; color: #fff; text-shadow: 0 0 5px #222;
+}
+h2 {
+	font-size: 50px; border-bottom: 2px solid #ccc; color: #413F38;
+}
+h2, h1 {
+	display: block;
+	font-weight: 100;
+	padding: 5px 10px;
+	border-radius: 3px;
+	text-align: center;
+	font-family: 'Open Sans Light', sans-serif;
+}
 .inner { 
-	width: 860px;
-	margin: 0 auto;
-	padding: 50px;
+	width: 960px;
+	margin: -100px auto 0;
 	height: 100%;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+	border-radius: 10px;
 }
-
-section {height: 800px; box-shadow: 0 0 30px 10px rgba(0,0,0,0.2); border-top: 1px solid #bbb;}
-.clearfix {clear: both;}
-
+section {
+	height: 800px;
+	padding: 50px;
+	border-bottom: 5px solid #eee;
+}
+.clearfix {
+	clear: both;
+}
 .leftbar { 
 	position: fixed;
 	z-index: 1000;
-	top: 40%;
+	top: 20%;
 	left: 0;
 }
 .leftbar li a {
 	color: #fff;
 	text-decoration: none;
-	background-color: #aaa;
 	display: block;
-	margin-bottom: 10px;	
-	padding: 5px 10px;
+	margin-bottom: 5px;	
+	padding: 17px 0px 17px 60px;
 	border-radius: 0 5px 5px 0;
 	box-shadow: 0 0 5px 0.1px rgba(0,0,0,0.5);
-	font-weight: 100;	
-}
-
-h1 {font-size: 80px;}
-h2 {font-size: 50px;}
-h2, h1 {
-	text-shadow: 1px 1px 10px #555; 
-	display: block;
-	color: #fff;
 	font-weight: 100;
-	padding: 5px 10px;
-	border-radius: 3px;
-	text-align: center;
-	border-bottom: 2px solid #ccc;
+	width: 0px;
+	overflow: hidden;
+	height: 20px;
 }
-a {text-decoration: none; font-weight: bold; color: #555;}
-p {
-	margin-top: 20px;
-	line-height: 20px;
-	text-shadow: 1px 1px 1px #aaa;
+.leftbar li a.active {
+	padding: 17px 0px 17px 65px;
+	width: 110px;
+}
+li a.about {
+	background: url('images/ico_me.png') no-repeat 5px 3px rgba(0,0,0,0.5);
+}
+li a.freelance {
+	background: url('images/ico_dev.png') no-repeat 5px 3px rgba(0,0,0,0.5);
+}
+li a.portfolio {
+	background: url('images/ico_p.png') no-repeat 5px 3px rgba(0,0,0,0.5);
+}
+li a.host {
+	background: url('images/ico_host.png') no-repeat 5px 3px rgba(0,0,0,0.5);
+}
+li a.contato {
+	background: url('images/ico_c.png') no-repeat 5px 3px rgba(0,0,0,0.5);
 }
 
-#host p {width: 460px; text-align: justify; float: right; margin-right: 100px;}
-
-.planos {
-	background-color: rgba(0,0,0,0.2);
+#top {
+	width: 100%;
+	height: 200px;
+	padding: 50px 0 120px 0;
+	background: url('images/bg2.png') #62BB01;
+	box-shadow: inset 0 10px 20px 10px rgba(0,0,0,0.2);
+}
+#top h2 {
+	border: none;
+	color: #fff;
+	text-shadow: 0 0 5px #222;
+}
+section.about {
+	height: 400px;
+	background-color: #f8f8f8;
+	border-radius: 10px 10px 0 0;
+}
+section.about h2.about {
+	border: none; display: block; margin: 0 0 50px 0; font-size: 35px; color: #fff; text-shadow: 0 0 5px #555;
+}
+section.about p {
+	width: 800px;
+	padding: 0px 30px;
+	text-align: justify;
+	margin-right: 100px;
+}
+#freelance {
+	background-color: #fff;
+}
+#portfolio {
+	background-color: #f8f8f8;
+}
+#host {
+	background-color: #fff;
+}
+#host p {
+	width: 800px;
+	padding: 0px 30px;
+	text-align: justify;
+	margin-right: 100px;
+}
+#host .planos {
+	background-color: #efefef;
 	border-radius: 5px;
-	margin: 10px 0 10px 0;
+	margin: 50px 8px 0;
+	float: left;
 }
-.planos th {font-weight: 500;}
-.planos tr:first-of-type { border: none;}
-.planos tr {
+#host .planos th { 
+	font-weight: 100;
+}
+#host .planos tr:first-of-type {
+	border: none;
+	background-color: #62BB01;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+}
+#host .planos tr {
 	width: 250px;
-	padding: 2px 5px;
+	padding: 5px 10px;
 	display: block;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #fff;
 }
-
-#about {background: url('images/bg2.png') repeat fixed;}
-#knowledge {background: url('images/bg2.png') repeat fixed;}
-#freelance {background: url('images/bg2.png') repeat fixed;}
-#portfolio {background: url('images/bg2.png') repeat fixed;}
-#host {background: url('images/bg2.png') repeat fixed;}
-#host .inner {background: url('images/host.png') bottom right no-repeat; padding-bottom: 0;}
-#contato {background: url('images/bg2.png') repeat fixed;}
+#contato {
+	background-color: #f8f8f8;
+	border-radius: 0 0 10px 10px;
+	height: 650px;
+}
+#contato .social {
+	width: 380px;
+	margin: 50px 0 0 0;
+	float: left;
+}
+#contato .emailform {
+	width: 425px;
+	margin: 50px 0 0 0;
+	float: right;
+}
+#contato li {
+	margin-bottom: 5px;
+}
+#contato label {
+	width: 120px;
+	float: left;
+	font-size: 20px;
+}
+#contato input, #contato textarea {
+	width: 290px;
+	height: 26px;
+	border: 1px solid #ccc;
+	color: #777;
+	font-family: 'Open Sans Light', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 0 5px;
+}
+#contato textarea {
+	height: 150px;
+	resize: none;
+}
+#contato input:focus, #contato textarea:focus {
+	box-shadow: inset 2px 2px 2px 0.1px #eee;
+	outline: none;
+}
+#contato .submit {
+	width: 100px;
+	float: right;
+	margin-right: 3px;
+}
+footer {
+	width: 100%;
+	height: 200px;
+	background: url('images/bgfooter.png');
+	margin-top: -150px;
+	z-index: -50;
+	position: absolute;
+}
+/*----- Slide -----*/
+.slides_container {
+	width: 840px;
+	margin: 20px auto 20px;
+	box-shadow: 0 0 5px 1px #888;
+}
+.slides_container div {
+	width:840px;
+	height: 300px;
+	display:block;
+	background-color: #fff;
+	overflow: hidden;
+}
+img.portfolio {
+	width: 550px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+}
+h3.portfolio {
+	display: inline-block;
+	width: 270px;
+	padding: 10px 10px 0 10px;
+	font-weight: 100;
+	font-size: 26px;
+}
+p.portfolio {
+	width: 270px;
+	padding: 0 10px;
+	display: inline-block;
+}
+.pagination {
+	text-align: center;
+}
+.pagination li {
+	display: inline-block;
+	margin: 2px;
+}
+.pagination li.current a {
+	background-color: #888;
+}
+.pagination li a {
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	padding: 5px 10px;
+	background-color: #ccc;
+}
+.next {
+	width: 32px;
+	height: 32px;
+	float: right;
+	background: url('images/next.png');
+	margin-right: 10px;
+	color: #fff;
+}
+.prev {
+	width: 32px;
+	height: 32px;
+	float: left;
+	background: url('images/prev.png');
+	margin-left: 10px;
+	color: #fff;
+}
+/*----- end Slide -----*/
+@font-face {
+	font-family:"Open Sans Light";
+	src:
+	url("font/OpenSans-Light.eot?") format("eot"),
+	url("font/OpenSans-Light.woff") format("woff"),
+	url("font/OpenSans-Light.ttf") format("truetype"),
+	url("font/OpenSans-Light.svg#OpenSans-Light") format("svg");
+}

@@ -218,7 +218,7 @@ footer {
 /*----- Slide -----*/
 .slides_container {
 	width: 840px;
-	margin: 20px auto 20px;
+	margin: 100px auto 20px;
 	box-shadow: 0 0 5px 1px #888;
 }
 .slides_container div {

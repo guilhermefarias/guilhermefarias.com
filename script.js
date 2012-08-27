@@ -4,6 +4,8 @@ jQuery(document).ready(function(){
         generateNextPrev: true
     });
 
+    jQuery(".leftbar a[href^=#]").smoothScroll();
+
     jQuery('h1').hide().fadeIn(1000);
     jQuery('#top h2').hide().delay(1000).fadeIn(1000);
     jQuery('.leftbar ul').css({'margin-left': '-80px'}).animate({'margin-left': '0px'});

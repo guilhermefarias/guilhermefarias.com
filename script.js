@@ -19,19 +19,19 @@ jQuery(document).ready(function(){
     jQuery('.leftbar a.about').addClass('active');
     
     jQuery(window).scroll(function(){
-        if (jQuery(this).scrollTop() > 0 && jQuery(this).scrollTop() < 700){
+        if (jQuery(this).scrollTop() > 0 && jQuery(this).scrollTop() < 550){
             jQuery('ul a.active').removeClass('active');
             jQuery('ul a.about').addClass('active');
-        } else if (jQuery(this).scrollTop() > 700 && jQuery(this).scrollTop() < 1500){
+        } else if (jQuery(this).scrollTop() > 550 && jQuery(this).scrollTop() < 1450){
             jQuery('ul a.active').removeClass('active');
             jQuery('ul a.freelance').addClass('active');
-        } else if (jQuery(this).scrollTop() > 1500 && jQuery(this).scrollTop() < 2300){
+        } else if (jQuery(this).scrollTop() > 1450 && jQuery(this).scrollTop() < 2250){
             jQuery('ul a.active').removeClass('active');
             jQuery('ul a.portfolio').addClass('active');
-        } else if (jQuery(this).scrollTop() > 2300 && jQuery(this).scrollTop() < 3100){
+        } else if (jQuery(this).scrollTop() > 2250 && jQuery(this).scrollTop() < 3150){
             jQuery('ul a.active').removeClass('active');
             jQuery('ul a.host').addClass('active');
-        } else if (jQuery(this).scrollTop() > 3100){
+        } else if (jQuery(this).scrollTop() > 3150){
             jQuery('ul a.active').removeClass('active');
             jQuery('ul a.contato').addClass('active');
         }

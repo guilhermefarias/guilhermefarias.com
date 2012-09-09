@@ -3,7 +3,6 @@ Guilherme Farias
 Version: 3
 */
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -44,7 +43,6 @@ h2, h1 {
 	padding: 5px 10px;
 	border-radius: 3px;
 	text-align: center;
-	font-family: 'Open Sans Light', sans-serif;
 }
 .inner { 
 	width: 960px;
@@ -128,6 +126,11 @@ section.about p {
 }
 #freelance {
 	background-color: #fff;
+}
+#freelance strong {
+	font-size: 24px;
+	font-weight: 100;
+	text-shadow: 0px 0px 2px #aaa;
 }
 #portfolio {
 	background-color: #f8f8f8;
@@ -262,6 +265,7 @@ p.portfolio {
 	display: block;
 	padding: 5px 10px;
 	background-color: #ccc;
+	text-decoration: none;
 }
 .next {
 	width: 32px;

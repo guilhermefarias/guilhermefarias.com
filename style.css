@@ -123,6 +123,51 @@ section.about p {
 	width: 510px;
 	float: right;
 }
+section.about .social {
+	margin: 100px 0 0 460px;
+}
+section.about .social li {
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-left: 10px;
+	opacity: 0.5;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+section.about .social li:hover {
+	opacity: 1;
+}
+section.about .social li a {
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+section.about .social li.facebook {
+	background-image: url(images/facebook.png);
+}
+section.about .social li.twitter {
+	background-image: url(images/twitter.png);
+}
+section.about .social li.github {
+	background-image: url(images/github.png);
+}
+section.about .social li.linkedin {
+	background-image: url(images/linkedin.png);
+}
+section.about .agenda {
+	width: 550px;
+	height: 200px;
+	margin: 80px 0 0 350px;
+	background: url(images/img-logo-feecbr.png) 320px 60px no-repeat;
+}
+section.about .agenda strong {
+	font-weight: 100;
+	color: #000;
+	text-shadow: 0 0 1px #000;
+}
 #freelance {
 	background-color: #fff;
 }

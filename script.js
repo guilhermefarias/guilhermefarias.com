@@ -24,18 +24,14 @@ jQuery(document).ready(function(){
             jQuery('ul a.about').addClass('active');
         } else if (jQuery(this).scrollTop() > 550 && jQuery(this).scrollTop() < 1450){
             jQuery('ul a.active').removeClass('active');
-            jQuery('ul a.freelance').addClass('active');
+            jQuery('ul a.portfolio').addClass('active');
         } else if (jQuery(this).scrollTop() > 1450 && jQuery(this).scrollTop() < 2250){
             jQuery('ul a.active').removeClass('active');
-            jQuery('ul a.portfolio').addClass('active');
-        } else if (jQuery(this).scrollTop() > 2250 && jQuery(this).scrollTop() < 3150){
-            jQuery('ul a.active').removeClass('active');
             jQuery('ul a.host').addClass('active');
-        } else if (jQuery(this).scrollTop() > 3150){
+        } else if (jQuery(this).scrollTop() > 2250){
             jQuery('ul a.active').removeClass('active');
             jQuery('ul a.contato').addClass('active');
         }
-
         // else if (jQuery(this).scrollTop() <= pos.top && navigations.hasClass('fixed')) {
     });
 });

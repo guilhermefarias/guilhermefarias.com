@@ -5,202 +5,189 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta name="author" content="Guilherme Farias" />
-    <meta name="description" content="Guilherme Farias, 19 anos, Recife, Blogueiro, Desenvolve sites, Sistemas e até aplicativos para Android e iOS." />
-    <meta name="keywords" content="HTML5, CSS3, JavaScript, jQuery, Desenvolvedor Web, Recife, FrontEnd Engineer, Guilherme Farias" />
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <meta name="description" content="Guilherme Farias, tem 19 anos, é de Recife, trabalha como FrontEnd Engineer na MGR Tecnologia, tem um blog de tecnologia chamado Guiky, está cursando Sistemas de Informação e nas horas vagas trabalha em seus projetos pessoais." />
+    <meta name="keywords" content="HTML5, CSS3, JavaScript, jQuery, Desenvolvedor Web, Recife, FrontEnd Engineer, Guilherme Farias, Web Developer" />
 </head>
 
 <body>
     <div class="leftbar">
         <ul>
-            <li><a class="about" href="#top">Guilherme</a></li>
-            <li><a class="portfolio" href="#portfolio">Portfolio</a></li>
-            <li><a class="host" href="#host">Hospedagem</a></li>
-            <li><a class="contato" href="#contato">Contato</a></li>
+            <li><a class="top option sprite" href="#top">Guilherme</a></li>
+            <li><a class="portfolio option sprite" href="#portfolio">Portfolio</a></li>
+            <li><a class="contato option sprite" href="#contato">Contato</a></li>
         </ul>
     </div>
     
-    <div id="top">
-        <h1 id="about">Guilherme Farias</h1>
-        <h2 class="about">Web Developer</h2>
-    </div>
+    <header id="top" class="header">
+        <h1 class="name">Guilherme Farias</h1>
+        <h2 class="title">Web Developer</h2>
+    </header>
 
     <div class="inner">
         <section class="about">
-            <p>Guilherme Farias, 19 anos, Recife, Desenvolvedor Web e Blogueiro</p>
-            <ul class="social">
-                <li class="twitter"><a href="https://twitter.com/guiky" target="_blank" title="Twitter"></a></li>
-                <li class="github"><a href="https://github.com/guilhermefarias/" target="_blank" title="Github"></a></li>
-                <li class="facebook"><a href="http://www.facebook.com/Guiky" target="_blank" title="Facebook"></a></li>
-                <li class="linkedin"><a href="http://linkedin.com/in/guiky" target="_blank" title="LinkedIn"></a></li>
-                <div class="clearfix"></div>
-            </ul>
-            
-            <div class="agenda">
-                <span><strong>Próximo evento:</strong> FEEC BRAZIL<br/>
-                <strong>Minha palestra:</strong> Aplicações híbridas utilizando Phonegap<br/>
-                <strong>Data:</strong> 1 de dezembro<br/>
-                <strong>Local:</strong> Golden Tulip Recife Palace, Boa Viagem, Recife -PE<br/>
-                <strong>Site:</strong> <a href="http://feecbr.com.br" target="_blank">www.feecbr.com.br</a></span>
+            <div class="me">
+            </div>
+            <div class="info">
+                <p>Guilherme Farias, 19 anos, Recife, Desenvolvedor Web e Blogueiro</p>
+                <ul class="social">
+                    <li class="twitter sprite"><a href="https://twitter.com/guiky" target="_blank" title="Twitter"></a></li>
+                    <li class="github sprite"><a href="https://github.com/guilhermefarias/" target="_blank" title="Github"></a></li>
+                    <li class="facebook sprite"><a href="http://www.facebook.com/Guiky" target="_blank" title="Facebook"></a></li>
+                    <li class="linkedin sprite"><a href="http://linkedin.com/in/guiky" target="_blank" title="LinkedIn"></a></li>
+                </ul>
             </div>
         </section>
 
         <section id="portfolio">
-            <h2>Portfólio</h2>
+            <h2 class="title">Portfólio</h2>
             
-            <div class="gnote">
-                <a href="http://www.gnoteboard.com" target="_blank"><img src="images/gnoteboard-2.jpg" /></a>
-                <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank"><img src="images/gnoteboard-3.jpg" /></a>
-                <p><strong>Gnoteboard</strong><br/><br/>
-                Aplicativo para organizar anotações pessoais, você pode organizar suas notas como um mural de post-it.</br></br>
-                Disponivel no <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a>, no <a href="https://chrome.google.com/webstore/detail/gnoteboard/fplbifbddpcmffmmgabkgchcjleginah" target="_blank">Chrome Web Store</a> e em <a href="http://www.gnoteboard.com" target="_blank">Gnoteboard.com</a></p>
+            <div class="application">
+                <a href="http://www.gnoteboard.com" target="_blank">
+                    <img class="app-image" src="images/app/gnoteboard-2.jpg" />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard"  target="_blank">
+                    <img class="app-image" src="images/app/gnoteboard-3.jpg" />
+                </a>
+                <div class="app-description">
+                    <h3 class="app-name">Gnoteboard</h3>
+                    <p>Aplicativo para organizar anotações pessoais, você pode organizar suas notas como um mural de post-it.</p>
+                    <p>Disponivel no <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a>, no <a href="https://chrome.google.com/webstore/detail/gnoteboard/fplbifbddpcmffmmgabkgchcjleginah" target="_blank">Chrome Web Store</a> e em <a href="http://www.gnoteboard.com" target="_blank">Gnoteboard.com</a></p>
+                </div>
             </div>
-            <div class="slides_container">
-                <div>
-                    <img src="images/11.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Pousada Olho D'Agua</h3>
-                    <p class="portfolio">Site da pousada Olho D'Agua, Maragogi - AL. Desenvolvido em conjunto com Lucas Cavalcanti, utilizando o CMS WordPress.<br/><br/>
-                    Desenvolvido em Outubro de 2012<br/><br/>
-                    Site: www.pousadaolhodagua.com</p>
+
+            <div class="slides_container slideshow">
+                <div class="job">
+                    <img src="images/portfolio/12.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Inforline Cursos</h3>
+                        <p>Site da Inforline Cursos, desenvolvido por mim na Chama Comunicação utilizando o CMS WordPress.</p>
+                        <p>Desenvolvido em Novembro de 2012</p>
+                        <p>Site: www.inforlinecursos.com.br</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/10.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Vidda</h3>
-                    <p class="portfolio">Site da marca de cosmeticos Vidda, o layout foi feito pela agência COL e enviado em .PSD, o restante foi desenvolvido popor mim, utilizando o CMS WordPress.<br/><br/>
-                    Desenvolvido em Agosto de 2012<br/><br/>
-                    Site: www.vidda.com.br</p>
+                <div class="job">
+                    <img src="images/portfolio/11.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Pousada Olho D'Agua</h3>
+                        <p>Site da pousada Olho D'Agua, Maragogi - AL. Desenvolvido em conjunto com Lucas Cavalcanti, utilizando o CMS WordPress.</p>
+                        <p>Desenvolvido em Outubro de 2012</p>
+                        <p>Site: www.pousadaolhodagua.com</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/9.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Blog do Gayegos</h3>
-                    <p class="portfolio">Personalização do blog do estilista José Gayegos.<br/><br/>
-                    Em Julho de 2012<br/><br/>
-                    Site: www.gayegos.com</p>
+                <div class="job">
+                    <img src="images/portfolio/10.jpg" class="slide-image"></img>
+                    <div class="description">
+                        <h3 class="slide-name">Vidda</h3>
+                        <p>Site da marca de cosmeticos Vidda, o layout foi feito pela agência COL e enviado em .PSD, o restante foi desenvolvido popor mim, utilizando o CMS WordPress.</p>
+                        <p>Desenvolvido em Agosto de 2012<p/>
+                        <p>Site: www.vidda.com.br</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/8.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Guiky</h3>
-                    <p class="portfolio">Nova versão do meu blog de Tecnologia Guiky, totalmente desenvolvido por mim, utilizando o CMS WordPress, HTML5, CSS3, Javascrtip/jQuery e etc.<br/><br/>
-                    Desenvolvido em Junho de 2012<br/><br/>
-                    Site: www.guiky.com.br</p>
+                <div class="job">
+                    <img src="images/portfolio/9.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Blog do Gayegos</h3>
+                        <p>Personalização do blog do estilista José Gayegos.<p/>
+                        <p>Em Julho de 2012</p>
+                        <p>Site: www.gayegos.com</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/7.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">COL - Consultoria Online</h3>
-                    <p class="portfolio">Site da COL, empresa de consultoria de comunicação e imagem especializada em ambiente online.<br/><br/>
-                    Desenvolvido em Maio de 2012<br/><br/>
-                    Site: www.col.net.br</p>
+                <div class="job">
+                    <img src="images/portfolio/8.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Guiky</h3>
+                        <p>Nova versão do meu blog de Tecnologia Guiky, totalmente desenvolvido por mim, utilizando o CMS WordPress, HTML5, CSS3, Javascrtip/jQuery e etc.</p>
+                        <p>Desenvolvido em Junho de 2012</p>
+                        <p>Site: www.guiky.com.br</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/6.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Multitask Girl</h3>
-                    <p class="portfolio">Blog Multitask Girl desenvolvido em WordPress.
-                    </br><br/>
-                    Desenvolvido em Abril de 2012<br/><br/>
-                    Site: www.multitaskgirl.com</p>
+                <div class="job">
+                    <img src="images/portfolio/7.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">COL - Consultoria Online</h3>
+                        <p>Site da COL, empresa de consultoria de comunicação e imagem especializada em ambiente online.</p>
+                        <p>Desenvolvido em Maio de 2012</p>
+                        <p>Site: www.col.net.br</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/5.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Fashion Fun</h3>
-                    <p class="portfolio">Layout foi enviado em .PSD, feito pela agência COL, o site foi desenvolvido por mim, utilizando o CMS WordPress.<br/><br/>
-                    Desenvolvido em Março de 2012<br/><br/>
-                    Site: www.fashionfun.com.br</p>
+                <div class="job">
+                    <img src="images/portfolio/6.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Multitask Girl</h3>
+                        <p>Blog Multitask Girl desenvolvido em WordPress.</p>
+                        <p>Desenvolvido em Abril de 2012</p>
+                        <p>Site: www.multitaskgirl.com</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/4.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">RBMS Representações</h3>
-                    <p class="portfolio">Site da empresa RBMS Representações, desenvolvido em WordPress.<br/><br/>
-                    Desenvolvido em Fevereiro de 2012<br/><br/>
-                    Site: www.rbms.com.br</p>
+                <div class="job">
+                    <img src="images/portfolio/5.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Fashion Fun</h3>
+                        <p>Layout foi enviado em .PSD, feito pela agência COL, o site foi desenvolvido por mim, utilizando o CMS WordPress.</p>
+                        <p>Desenvolvido em Março de 2012</p>
+                        <p>Site: www.fashionfun.com.br</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/3.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Powerkiteboat</h3>
-                    <p class="portfolio">Projeto do barco Tucamarino, site desenvolvido em WordPress em parceria com Yeltsin Lima<br/><br/>
-                    Minha participação foi em Fevereiro de 2012<br/><br/>
-                    Site: www.powerkiteboat.net</p>
+                <div class="job">
+                    <img src="images/portfolio/4.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">RBMS Representações</h3>
+                        <p>Site da empresa RBMS Representações, desenvolvido em WordPress.</p>
+                        <p>Desenvolvido em Fevereiro de 2012</p>
+                        <p>Site: www.rbms.com.br</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/2.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Projeto Ecocidades</h3>
-                    <p class="portfolio">Site desenvolvido para conclusão do curso de webdesign no programa da Microsoft, Students to Business.<br/><br/>
-                    Desenvolvido em Junho de 2011.</p>
+                <div class="job">
+                    <img src="images/portfolio/3.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Powerkiteboat</h3>
+                        <p>Projeto do barco Tucamarino, site desenvolvido em WordPress em parceria com Yeltsin Lima</p>
+                        <p>Minha participação foi em Fevereiro de 2012</p>
+                        <p>Site: www.powerkiteboat.net</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/1.jpg" class="portfolio"></img>
-                    <h3 class="portfolio">Portfolio de Anderson Santos</h3>
-                    <p class="portfolio">Porfolio de Anderson Santos, estudante de Jogos Digitais<br/><br/>
-                    Desenvolvido em Maio de 2011</p>
+                <div class="job">
+                    <img src="images/portfolio/2.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Projeto Ecocidades</h3>
+                        <p>Site desenvolvido para conclusão do curso de webdesign no programa da Microsoft, Students to Business.</p>
+                        <p>Desenvolvido em Junho de 2011.</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="images/portfolio/1.jpg" class="slide-image"></img>
+                    <div class="slide-description">
+                        <h3 class="slide-name">Portfolio de Anderson Santos</h3>
+                        <p>Porfolio de Anderson Santos, estudante de Jogos Digitais</p>
+                        <p>Desenvolvido em Maio de 2011</p>
+                    </div>
                 </div>
             </div>    
         </section>
         <div class="clearfix"></div>
-
-        <section id="host">
-            <h2>Hospedagem</h2>
-            <div class="clearfix"></div>
-                
-            <p>Além de desenvolver seu site, eu posso hospeda-lo nos meus servidores, você não terá preocupação com nada, fazemos todas as configurações para você. Além disso, garantimos estabilidade, segurança e uptime de 99% ao ano.</p>
-            <p>Se você já possui um website e quer migrar para nossos servidores, confira nossos planos e escolha o que mais se adequa ao seu perfil, caso você tenha duvida em qual plano escolher, entre em <a href="#contato" >contato</a>, nós podemos analisar seu site, e de acordo com suas estatísticas lhe indicamos o melhor plano.</p>
-
-            <p>Conheça os planos!</p>
-
-            <div class="clearfix"></div>
-            <table cellspacing="0" class="planos">
-                <th>Básico</th>
-                <tr><td>1GB de espaço para o site</td></tr>
-                <tr><td>5GB de transferência mensal</td></tr> 
-                <tr><td>1 Banco de dados MySQL</td></tr>
-                <tr><td>5 contas de e-mail</td></tr>
-                <tr><td>R$10,00/mês</td></tr>
-                <tr><td>R$100,00/ano</td></tr>
-            </table>
-                    
-            <table cellspacing="0" class="planos">
-                <th>Business</th>
-                <tr><td>2GB de espaço para o site</td></tr>
-                <tr><td>20GB de transferência mensal</td></tr> 
-                <tr><td>10 Banco de dados MySQL</td></tr>
-                <tr><td>20 contas de e-mail</td></tr>
-                <tr><td>R$20,00/mês</td></tr>
-                <tr><td>R$200,00/ano</td></tr>
-            </table>
-            <table cellspacing="0" class="planos">
-                <th>Avançado</th>
-                <tr><td>5GB de espaço para o site</td></tr>
-                <tr><td>100GB de transferência mensal</td></tr> 
-                <tr><td>Banco de dados MySQL ilimitados</td></tr>
-                <tr><td>Contas de e-mail ilimitadas</td></tr>
-                <tr><td>R$40,00/mês</td></tr>
-                <tr><td>R$400,00/ano</td></tr>
-            </table>
-            <div class="clearfix"></div>
-        </section>
-
         <section id="contato">
-            <h2>Contato</h2>
+            <h2 class="title">Contato</h2>
 
-            <div class="social">
+            <div class="text">
                 <p>Você pode entrar em contato, enviando email para o guilherme@guiky.com.br, se preferir, você também pode usar este formulario aqui ao lado.</p>
             </div>
-            <div class="emailform">
+            <div class="form">
                 <form action="email.php" method="post" name="contato">
                     <li>
                         <label>Nome:</label>
-                        <input type="text" name="nome" required>
+                        <input class="input" type="text" name="nome" required>
                     </li>
                     <li>
                         <label>E-mail:</label>
-                        <input type="text" name="email" required>
+                        <input class="input" type="text" name="email" required>
                     </li>
                     <li>
                         <label>Assunto:</label>
-                        <input type="text" name="assunto" required>
+                        <input class="input" type="text" name="assunto" required>
                     </li>
                     <li>
                         <label>Mensagem:</label>
-                        <textarea name="mensagem"></textarea>
+                        <textarea class="input mensagem" name="mensagem"></textarea>
                     </li>
                     <li>
                         <input class="submit" type="submit" value="Enviar" name="Submit">
@@ -209,7 +196,9 @@
             </div>
         </section>
     </div>
-    <footer></footer>
+    <footer class="footer">
+    <script type="text/javascript" src="script.js" async></script>
+    </footer>
 </body>
 </html>
 

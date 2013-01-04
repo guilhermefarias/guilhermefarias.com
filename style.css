@@ -211,12 +211,13 @@ section {
 /* ------------------------------- Portfolio -------------------------------*/
 
 #portfolio {
+	height: auto;
 	background-color: #ffffff;
 }
 
 #portfolio .slideshow {
 	width: 840px;
-	margin: 100px auto 20px;
+	margin: 0px auto 20px;
 	box-shadow: 0 0 5px 1px #888;
 }
 

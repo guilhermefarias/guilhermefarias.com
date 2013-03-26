@@ -150,7 +150,7 @@ section {
 .about {
 	padding: 0;
 	height: 500px;
-	background-color: #f8f8f8;
+	background-color: #fff;
 }
 
 .about .me {
@@ -212,7 +212,7 @@ section {
 
 #portfolio {
 	height: auto;
-	background-color: #ffffff;
+	background-color: #f8f8f8;
 }
 
 #portfolio .slideshow {
@@ -328,6 +328,47 @@ section {
 
 #portfolio .app-image:hover {
 	box-shadow: 0 0 10px 1px #222;
+}
+
+/* ------------------------------- Palestras -------------------------------*/
+
+#palestras {
+	height: 650px;
+	background-color: #fff;
+}
+
+#palestras .title {
+	margin-bottom: 50px;
+}
+
+#palestras .talks {
+	width: 860px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	background-color: #f8f8f8;
+}
+
+#palestras .talks:hover {
+	box-shadow: 0 0 5px 1px #ccc;
+}
+
+#palestras .slide-image {
+	float: left;
+	margin-right: 10px;
+}
+
+#palestras .slide-name {
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	font-weight: 100;
+}
+
+#palestras p {
+	margin-top: 0;
 }
 
 /*------------------------------- Contato -------------------------------*/

@@ -68,7 +68,7 @@ var Guilherme = {
 	},
 	Pages : {
 		about: '<p class="about">Olá :)<br>'+
-				'Tenho 19 anos, sou autodidata, desenvolvedor web, com foco no front-end e aplicações mobile, membro da Mozilla, engenheiro front-end na MGR Tecnologia, estudante do curso de sistemas de informação, palestrante de vez em quanto e nas horas vagas estou trabalhando nos meus projetos pessoais. o/</p>'+
+				'Tenho 19 anos, sou desenvolvedor web, com foco no front-end e aplicações mobile, membro da Mozilla, engenheiro front-end na MGR Tecnologia, estudante do curso de sistemas de informação e nas horas vagas estou trabalhando nos meus projetos pessoais. o/</p>'+
 				'<p class="about">Clicando no menu ao lado, você poderá conhecer os meus trabalhos :)</p>'
 		,
 		talks: ''+

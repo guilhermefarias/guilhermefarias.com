@@ -133,8 +133,8 @@ section {
 	height: 240px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
-	background-color: #ccf;
 	box-shadow: 0 0 2px 1px #aaa;
+	background: url(img/bg-loading.gif) no-repeat center center;
 }
 
 .app img {
@@ -168,7 +168,7 @@ section {
 	height: 360px;
 	margin-right: 10px;
 	margin-bottom: 20px;
-	background-color: #555;
+	background: url(img/bg-loading.gif) no-repeat center center;
 }
 
 .talks {
@@ -181,8 +181,8 @@ section {
 	width: 320px;
 	height: 240px;
 	margin-bottom: 20px;
-	background-color: #ccf;
 	box-shadow: 0 0 2px 1px #aaa;
+	background: url(img/bg-loading.gif) no-repeat center center;
 }
 
 .talks .description {

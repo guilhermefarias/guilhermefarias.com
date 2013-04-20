@@ -1,449 +1,252 @@
-/*
-Guilherme Farias
-Version: 3
-*/
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
 a {
-	color: #62BB01;
+	color: #555;
+	font-weight: bold;
 	text-decoration: none;
 }
 
-p {
-	margin-top: 20px;
-	line-height: 20px;
+body,
+html {
+	width: 100%;
+	height: 100%;
 }
 
-li {
-	list-style: none;
+@font-face {
+	font-family:"Proxima Nova";
+	src: url("font/ProximaNova-Light.otf");
 }
 
 body {
-	color: #777;
-	font-size: 16px;
+	color: #555;
+	font-size: 17px;
+	background-image: url(img/bg.png);
+	font-family: 'Proxima Nova', helvetica, arial, sans-serif;
+}
+
+/*
+---------------------------------------------------------------
+--------------------------- Layout ----------------------------
+---------------------------------------------------------------
+*/
+
+.page-wrapper {
+	display: block;
+	height: 100%;
+	min-width: 1024px;
+}
+
+.photo {
+	width: 220px;
+	height: 220px;
+	margin: 30px auto;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 1px #000;
+	background-image: url(img/perfil.jpg);
+}
+
+h1 {
+	color: #bbb;
+	font-size: 30px;
 	font-weight: 100;
-	background-image: url(images/bg.png);
-	font-family: 'Open Sans Light', Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin: -10px 0 20px 0;
 }
 
-a:hover {
-	text-decoration: underline;
+aside {
+	width: 25%;
+	height: 100%;
+	float: left;
+	position: fixed;
+	background-image: url(img/bg-aside.png);
 }
 
-strong {
-	font-weight: 800;
+aside li {
+	color: #aaa;
+	font-size: 20px;
+	cursor: pointer;
+	list-style: none;
+	padding: 8px 0;
+	text-align: center;
+	transition: all 0.3s;
+	text-shadow: 0 0 10px #000;
+	background-color: rgba(0,0,0,0.2);
+}
+
+aside li:hover {
+	font-size: 26px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+aside li:active {
+	background-color: rgba(0,0,0,1);
+}
+
+.wrapper {
+	width: 75%;
+	height: 100%;
+	float: right;
+	background: url(img/bg-inner.png) repeat-y;
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 section {
-	height: 800px;
-	padding: 50px;
-	border-bottom: 5px solid #eee;
+	width: 750px;
+	margin: 0 auto;
+	padding: 20px 0;
 }
-
-/* ------------------------------- Class -------------------------------*/
-
-.sprite {
-	background-image: url(images/sprite.png);
-	background-repeat: no-repeat;
-}
-
-.inner { 
-	width: 960px;	
-	overflow: hidden;
-	border-radius: 20px;
-	margin: -100px auto 0;
-	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
-
-}
-
-.title {
-	color: #413F38;
-	font-size: 50px;
-	font-weight: 100;
-	text-align: center;
-	border-bottom: 2px solid #ccc;
-}
-
-.clearfix {
-	clear: both;
-}
-
-/* ------------------------------- Leftbar -------------------------------*/
-
-.leftbar { 
-	left: 0;
-	top: 25%;
-	z-index: 1000;
-	position: fixed;
-
-}
-
-.leftbar .option {
-	width: 0px;
-	color: #fff;
-	height: 20px;
-	display: block;
-	font-weight: 100;
-	overflow: hidden;
-	margin-bottom: 5px;	
-	text-decoration: none;
-	transition: all 0.2s;
-	-o-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-webkit-transition: all 0.2s;
-	border-radius: 0 5px 5px 0;
-	padding: 17px 0px 17px 60px;
-	background-color: rgba(0,0,0,0.5);
-	box-shadow: 0 0 5px 0.1px rgba(0,0,0,0.5);
-}
-
-.leftbar .scroll,
-.leftbar .mouseIn {
-	width: 110px;
-	padding: 17px 0px 17px 65px;
-}
-
-.leftbar .top {
-	background-position: -250px -98px;
-}
-
-.leftbar .portfolio {
-	background-position: -250px -46px;
-}
-
-.leftbar .contato {
-	background-position: -250px 7px;
-}
-
-/* ------------------------------- Header -------------------------------*/
-
-.header {
-	width: 100%;
-	height: 200px;
-	text-align: center;
-	padding: 50px 0 120px 0;
-	background: url(images/header.jpg) #011743 center no-repeat;
-	box-shadow: inset 0 10px 20px 10px rgba(0,0,0,0.2);
-}
-
-.header .name {
-	font-size: 100px;
-	font-weight: 100;
-}
-
-.header .title {
-	border: none;
-}
-
-.header .name,
-.header .title {
-	color: #fff;
-	text-shadow: 0 0 10px #000, 0 0 5px #000;
-}
-
-/* ------------------------------- About -------------------------------*/
 
 .about {
-	padding: 0;
-	height: 500px;
-	background-color: #fff;
+	font-size: 30px;
+	margin-top: 50px;
+	line-height: 38px;
 }
 
-.about .me {
-	float: left;
-	width: 380px;
-	height: 500px;
-	background: url(images/me.jpg) no-repeat;
-}
+/*-------------------- Jobs --------------------*/
 
-.about .info {
-	float: right;
-	width: 540px;
-	padding: 20px;
-	display: block;
-}
-
-.about .social {
-	width: 310px;
-	margin: 20px auto;
-}
-
-.about .social li {
-	opacity: 0.5;
-	margin-left: 10px;
-	display: inline-block;
-	transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-}
-
-.about .social li:hover {
-	opacity: 1;
-}
-
-.about .social li a {
-	width: 62px;
-	height: 62px;
-	display: block;
-}
-
-.about .facebook {
-	background-position: 0 0;
-}
-
-.about .twitter {
-	background-position: -188px 0;
-}
-
-.about .github {
-	background-position: -62px 0;
-}
-
-.about .linkedin {
-	background-position: -125px 0;
-}
-
-/* ------------------------------- Portfolio -------------------------------*/
-
-#portfolio {
-	height: auto;
-	background-color: #f8f8f8;
-}
-
-#portfolio .slideshow {
-	width: 840px;
-	margin: 0px auto 20px;
-	box-shadow: 0 0 5px 1px #888;
-}
-
-#portfolio .job {
-	width:840px;
-	height: 300px;
-	display:block;
-	background-color: #fff;
-	overflow: hidden;
-}
-
-#portfolio .slide-image {
-	width: 550px;
-	height: 300px;
-	float: left;
-	overflow: hidden;
-}
-
-#portfolio .slide-name {
-	display: inline-block;
-	width: 270px;
-	padding: 10px 10px 0 10px;
-	font-weight: 100;
+.app h3,
+.mobile h3,
+.talks h3 {
 	font-size: 26px;
-}
-
-#portfolio .slide-description {
-	width: 270px;
-	padding: 0 10px;
-	display: inline-block;
-}
-
-#portfolio .pagination {
-	text-align: center;
-}
-
-#portfolio .pagination li {
-	margin: 2px;
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-	background-position: -40px -62px;
-	background-image: url(images/sprite.png);
-}
-
-#portfolio .pagination li.current {
-	background-position: -62px -62px;
-}
-
-#portfolio .pagination li a {
-	display: block;
-	text-indent: 500px;
-	overflow: hidden;
-}
-
-#portfolio .prev,
-#portfolio .next {
-	width: 21px;
-	height: 32px;
-	opacity: 0.5;
-	background: url(images/sprite.png) no-repeat;
-}
-
-#portfolio .prev:hover,
-#portfolio .next:hover {
-	opacity: 1;
-}
-
-#portfolio .next {
-	float: right;
-	margin-right: 10px;
-	background-position: 2px -62px;
-}
-
-#portfolio .prev {
-	float: left;
-	margin-left: 10px;
-	background-position: -19px -62px;
-}
-
-#portfolio .application {
-	height: 200px;
-	margin: 30px 0 30px 10px;
-}
-
-#portfolio .app-name {
-	color: #000;
-	font-size: 28px;
 	font-weight: 100;
-	text-shadow: 0 0 1px #000;
+	line-height: 36px;
 }
 
-#portfolio .app-description {
-	margin-top: 10px;
+.app p,
+.mobile p,
+.talks p {
+	line-height: 22px;
+}
+
+.app .img {
+	float: left;
+	width: 420px;
+	height: 240px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	background-color: #ccf;
+	box-shadow: 0 0 2px 1px #aaa;
+}
+
+.app img {
+	width: 100%;
+	height: auto;
+}
+
+.app:hover .img {
+	width: 441px;
+	height: 252px;
+	margin-top: -6px;
+	margin-bottom: 14px;
+	margin-left: -10.5px;
+	box-shadow: 0 0 8px 2px #555;
+}
+
+.app .description {
 	width: 310px;
 	float: right;
+	height: 240px;
 }
 
-#portfolio .app-image {
+.mobile {
+	clear: both;
+	min-height: 420px;
+}
+
+.mobile .img {
 	float: left;
-	margin-right: 5px;
-	transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	box-shadow: 0 0 10px 1px #ccc;
-}
-
-#portfolio .app-image:hover {
-	box-shadow: 0 0 10px 1px #222;
-}
-
-/* ------------------------------- Palestras -------------------------------*/
-
-#palestras {
-	height: 650px;
-	background-color: #fff;
-}
-
-#palestras .title {
-	margin-bottom: 50px;
-}
-
-#palestras .talks {
-	width: 860px;
-	height: 160px;
-	overflow: hidden;
-	border-radius: 5px;
-	margin-bottom: 20px;
-	border: 1px solid #ccc;
-	background-color: #f8f8f8;
-}
-
-#palestras .talks:hover {
-	box-shadow: 0 0 5px 1px #ccc;
-}
-
-#palestras .slide-image {
-	float: left;
+	width: 240px;
+	height: 360px;
 	margin-right: 10px;
+	margin-bottom: 20px;
+	background-color: #555;
 }
 
-#palestras .slide-name {
-	color: #000;
-	margin-top: 10px;
-	margin-bottom: 35px;
-	font-weight: 100;
+.talks {
+	clear: both;
+	min-height: 240px;
 }
 
-#palestras p {
-	margin-top: 0;
-}
-
-/*------------------------------- Contato -------------------------------*/
-
-#contato {
-	height: 650px;
-	background-color: #f8f8f8;
-	border-radius: 0 0 10px 10px;
-}
-
-#contato li {
-	margin-bottom: 5px;
-}
-
-#contato label {
-	width: 120px;
+.talks .img {
 	float: left;
-	font-size: 20px;
+	width: 320px;
+	height: 240px;
+	margin-bottom: 20px;
+	background-color: #ccf;
+	box-shadow: 0 0 2px 1px #aaa;
 }
 
-#contato .text {
-	width: 380px;
-	margin: 50px 0 0 0;
-	float: left;
-}
-
-#contato .form {
-	width: 425px;
-	margin: 50px 0 0 0;
+.talks .description {
+	width: 410px;
 	float: right;
 }
 
-#contato .input {
-	width: 290px;
-	height: 26px;
-	border: 1px solid #ccc;
-	color: #777;
-	font-family: 'Open Sans Light', Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	padding: 0 5px;
-}
+/*-------------------- Form --------------------*/
 
-#contato .input:focus {
-	box-shadow: inset 2px 2px 2px 0.1px #eee;
-	outline: none;
-}
-
-#contato .mensagem {
-	height: 150px;
-	resize: none;
-}
-
-#contato .submit {
-	width: 100px;
-	float: right;
-	margin-right: 3px;
-}
-
-/* ------------------------------- Footer -------------------------------*/
-
-.footer {
+form {
 	width: 100%;
-	z-index: -50;
-	height: 200px;
-	background: url(images/bgfooter.png);
-	margin-top: -150px;
-	position: absolute;
+	margin-top: 50px;
 }
 
-/* ------------------------------- FontFace -------------------------------*/
-@font-face {
-	font-family:"Open Sans Light";
-	src:
-	url("font/OpenSans-Light.eot?") format("eot"),
-	url("font/OpenSans-Light.woff") format("woff"),
-	url("font/OpenSans-Light.ttf") format("truetype"),
-	url("font/OpenSans-Light.svg#OpenSans-Light") format("svg");
+form label {
+	display: block;
+	font-size: 22px;
+	margin: 10px 0 5px 0;
+}
+
+form input,
+form textarea {
+	width: 500px;
+	height: 20px;
+	padding: 5px;
+	outline: none;
+	display: block;
+	resize: none;
+	font-size: 13px;
+	border: 1px solid #aaa;
+	box-shadow: inset 5px 5px 2px 1px #eee;
+	font-family: 'Proxima Nova', helvetica, arial, sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+	border: 1px solid #888;
+	box-shadow: inset 5px 5px 2px 1px #ddd;
+}
+
+form textarea {
+	resize: none;
+	height: 150px;
+}
+
+form .submit {
+	width: 150px;
+	height: 34px;
+	cursor: pointer;
+	margin-top: 15px;
+	margin-left: 362px;
+	border-radius: 5px;
+	background-color: #ccc;
+	box-shadow: none !important;
+	background-image: linear-gradient(to bottom, #eee 0%,#bbb 100%);
+}
+
+form .submit:hover {
+	background-color: #bbb;
+	background-image: linear-gradient(to bottom, #ccc 0%,#888 100%);
+
+}
+
+form .submit:active {
+	background-color: #aaa;
+	background-image: linear-gradient(to bottom, #888 0%,#555 100%);
 }

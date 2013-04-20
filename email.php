@@ -60,14 +60,14 @@ $headers .= 'To: Guilherme Farias <'. $to .'>' . "\r\n";
 $headers .= 'From: ' . $name . '<'. $email . '>' . "\r\n";
 
 
-if(isset($name) && isset($email) && isset($msg) && isset($subject)){
+if(!empty($name) && !empty($email) && !empty($msg) && !empty($subject)){
 	$emailSent = mail($to, $subject, $message, $headers);
 	if($emailSent){
-		return 'OK';
+		echo 'OK';
 	} else {
-		return 'FAIL';
+		echo 'FAIL';
 	}
 } else {
-	return 'FAIL';
+	echo 'FAIL';
 }
 ?>

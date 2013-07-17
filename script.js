@@ -99,6 +99,15 @@ var Guilherme = {
 		projects: ''+
 			'<h2>Projetos</h2>'+
 			'<div class="app">'+
+				'<div class="img"><img src="img/projetos/05.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Zoologico do Tico</h3>'+
+					'<p>É um jogo educativo onde a criança deve reconher os animais exibidos na tela, o jogo foi totalmente desenvolvido com os novos recursos do HTML5. Devido ao uso da API de reconhecimento de voz do Google, o jogo só está disponivel para o Google Chrome</p><br>'+
+					'<p>Disponivel em <a href="http://guikylabs.com/zoologicodotico" target="_blank">Guiky Labs</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/projetos/04.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Meus Gastos</h3>'+

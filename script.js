@@ -174,6 +174,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="img/sites/16.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Bolo Master</h3>'+
+					'<p>Site da empresa de bolos Bolo Master, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
+					'<p>Site: <a href="http://www.bolomaster.com.br" target="_blank">www.bolomaster.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/sites/12.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Inforline Cursos</h3>'+

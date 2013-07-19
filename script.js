@@ -151,7 +151,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>LCM Comunicação</h3>'+
 					'<p>Site da empresa LCM Comunicação, desenvolvido em WordPress, por mim no Estudio Zenit.</p><br>'+
-					'<p>Desenvolvido em Fevereiro de 2013</p>'+
 					'<p>Site: <a href="http://www.lcmbr.com.br" target="_blank">www.lcmbr.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -161,7 +160,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Proservil</h3>'+
 					'<p>Site da empresa Proservil, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
-					'<p>Desenvolvido em Janeiro de 2013</p>'+
 					'<p>Site: <a href="http://www.proservil.com.br" target="_blank">www.proservil.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -171,7 +169,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Boneca de Platina</h3>'+
 					'<p>Blog Boneca de Platina, desenvolvido por mim e Dash e Dobbin no Estudio Zenit.</p><br>'+
-					'<p>Desenvolvido em Desembro de 2012</p>'+
 					'<p>Site: <a href="http://www.bonecadeplatina.com" target="_blank">www.bonecadeplatina.com</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -181,7 +178,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Inforline Cursos</h3>'+
 					'<p>Site da Inforline Cursos, desenvolvido por mim na Chama Comunicação utilizando o CMS WordPress.</p><br>'+
-					'<p>Desenvolvido em Novembro de 2012</p>'+
 					'<p>Site: <a href="http://www.inforlinecursos.com.br" target="_blank">www.inforlinecursos.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -191,7 +187,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Pousada Olho DAgua</h3>'+
 					'<p>Site da pousada Olho DAgua, Maragogi - AL. Desenvolvido em conjunto com Lucas Cavalcanti, utilizando o CMS WordPress.</p><br>'+
-					'<p>Desenvolvido em Outubro de 2012</p>'+
 					'<p>Site: <a href="http://www.pousadaolhodagua.com" target="_blank">www.pousadaolhodagua.com</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -201,7 +196,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Vidda</h3>'+
 					'<p>Site da marca de cosmeticos Vidda, o layout foi feito pela agência COL e enviado em .PSD, o restante foi desenvolvido popor mim, utilizando o CMS WordPress.</p><br>'+
-					'<p>Desenvolvido em Agosto de 2012</p>'+
 					'<p>Site: <a href="http://www.vidda.com.br" target="_blank">www.vidda.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -220,7 +214,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Guiky</h3>'+
 					'<p>Nova versão do meu blog de Tecnologia Guiky, totalmente desenvolvido por mim, utilizando o CMS WordPress, HTML5, CSS3, Javascrtip/jQuery e etc.</p><br>'+
-					'<p>Desenvolvido em Junho de 2012</p>'+
 					'<p>Site: <a href="http://www.guiky.com.br" target="_blank">www.guiky.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -230,7 +223,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>COL - Consultoria Online</h3>'+
 					'<p>Site da COL, empresa de consultoria de comunicação e imagem especializada em ambiente online.</p><br>'+
-					'<p>Desenvolvido em Maio de 2012</p>'+
 					'<p>Site: <a href="http://www.col.net.br" target="_blank">www.col.net.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -240,7 +232,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Multitask Girl</h3>'+
 					'<p>Blog Multitask Girl desenvolvido em WordPress.</p><br>'+
-					'<p>Desenvolvido em Abril de 2012</p>'+
 					'<p>Site: <a href="http://www.multitaskgirl.com" target="_blank">www.multitaskgirl.com</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -250,7 +241,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Fashion Fun</h3>'+
 					'<p>Layout foi enviado em .PSD, feito pela agência COL, o site foi desenvolvido por mim, utilizando o CMS WordPress.</p><br>'+
-					'<p>Desenvolvido em Março de 2012</p>'+
 					'<p>Site: <a href="http://www.fashionfun.com.br" target="_blank">www.fashionfun.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -260,7 +250,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>RBMS Representações</h3>'+
 					'<p>Site da empresa RBMS Representações, desenvolvido em WordPress.</p><br>'+
-					'<p>Desenvolvido em Fevereiro de 2012</p>'+
 					'<p>Site: <a href="http://www.rbms.com.br" target="_blank">www.rbms.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -270,7 +259,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Powerkiteboat</h3>'+
 					'<p>Projeto do barco Tucamarino, site desenvolvido em WordPress por mim e Yeltsin Lima</p><br>'+
-					'<p>Desenvolvido em Fevereiro de 2012</p>'+
 					'<p>Site: <a href="http://www.powerkiteboat.com" target="_blank">www.powerkiteboat.com</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -280,7 +268,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Projeto Ecocidades</h3>'+
 					'<p>Site desenvolvido para conclusão do curso de webdesign no programa da Microsoft, Students to Business.</p><br>'+
-					'<p>Desenvolvido em Junho de 2011</p>'+
 				'</div>'+
 			'</div>'+
 
@@ -289,7 +276,6 @@ var Guilherme = {
 				'<div class="description">'+
 					'<h3>Portfolio de Anderson Santos</h3>'+
 					'<p>Porfolio de Anderson Santos, estudante de Jogos Digitais</p><br>'+
-					'<p>Desenvolvido em Maio de 2011</p>'+
 				'</div>'+
 			'</div>'
 		,

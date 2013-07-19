@@ -165,6 +165,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="img/sites/17.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Revista da Cidade</h3>'+
+					'<p>Portal da Revista da Cidade, o guia comercial da cidade de São Lourenço da Mata e região, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
+					'<p>Site: <a href="http://www.revistadacidade.net" target="_blank">www.revistadacidade.net</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/sites/13.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Boneca de Platina</h3>'+

@@ -209,10 +209,9 @@ var Guilherme = {
 			'<div class="app">'+
 				'<div class="img"><img src="img/sites/09.jpg" /></div>'+
 				'<div class="description">'+
-					'<h3>Blog do Gayegos</h3>'+
-					'<p>Personalização do blog do estilista José Gayegos.</p><br>'+
-					'<p>Desenvolvido em Julho de 2012</p>'+
-					'<p>Site: <a href="http://www.gayegos.com" target="_blank">www.gayegos.com</a></p>'+
+					'<h3>Farmaervas</h3>'+
+					'<p>Site instituicional da empresa de cosmeticos Farmaervas, o site inteiro foi feito em WordPress, a programação feita por mim e o design do site foi desenvolvido pela agência COL.</p><br>'+
+					'<p>Site: <a href="http://www.farmaervas.com.br" target="_blank">www.farmaervas.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
 

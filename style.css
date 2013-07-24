@@ -192,6 +192,25 @@ section {
 
 /*-------------------- Form --------------------*/
 
+.resp {
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	display: none;
+	margin-left: -250px;
+	margin-top: -80px;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 10px;
+	position: absolute;
+	background-color: #ABFF93;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+.resp.error {
+	background-color: #FF8E8E;
+}
+
 form {
 	width: 100%;
 	margin-top: 50px;

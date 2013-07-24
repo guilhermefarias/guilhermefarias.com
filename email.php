@@ -2,12 +2,12 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $msg = $_POST['message'];
-$subject = $_POST['subject'];
+$subject = 'Portfolio Contato - ' . $_POST['subject'];
 $to  = 'guilherme@guiky.com.br';
 $message = '
 <html>
 	<head>
-		<title>EMAIL BOILERPLATE</title>
+		<title>Contato</title>
 	</head>
 	<body>
 		<table cellspacing="0" cellpadding="0" style="width:100%;border-bottom:1px solid #eee;font-size:12px;line-height:135%;font-family:Helvetica,Arial, sans-serif">
@@ -56,8 +56,8 @@ $message = '
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
-$headers .= 'To: Guilherme Farias <'. $to .'>' . "\r\n";
-$headers .= 'From: ' . $name . '<'. $email . '>' . "\r\n";
+$headers .= 'To: Portfolio Contato <'. $to .'>' . "\r\n";
+$headers .= 'From: Portfolio Contato <guilherme@guiky.com.br>' . "\r\n";
 
 
 if(!empty($name) && !empty($email) && !empty($msg) && !empty($subject)){

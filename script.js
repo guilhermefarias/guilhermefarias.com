@@ -27,17 +27,25 @@ var Guilherme = {
 				data: obj,
 				success: function(resp){
 					if(resp == 'OK'){
-						alert('Email enviado com sucesso!');
+						jQuery('section').append('<div class="resp">Mensagem enviada com sucesso!</div>')
 						form.find('input[name="name"]').val('');
 						form.find('input[name="email"]').val('');
 						form.find('input[name="subject"]').val('');
 						form.find('textarea').val('');
 					} else {
-						alert('Houve um erro durante o envio da mensagem :/');
+						jQuery('section').append('<div class="resp error">Houve um erro durante o envio da mensagem :/</div>');
 					}
 				},
 				error: function(){
-					alert('Houve um erro durante o envio da mensagem :/');
+					jQuery('section').append('<div class="resp error">Houve um erro durante o envio da mensagem :/</div>');
+				},
+				complete: function(){
+					jQuery('section .resp').fadeIn();
+					setTimeout(function(){
+						jQuery('.resp').fadeOut(function(){
+							jQuery('.resp').remove();
+						});
+					},5000);
 				}
 			});
 			e.preventDefault();

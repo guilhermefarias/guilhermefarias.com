@@ -191,6 +191,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="img/sites/18.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Cimentazzi</h3>'+
+					'<p>Site da empresa Cimentazzi, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
+					'<p>Site: <a href="http://www.cimentazzi.com" target="_blank">www.cimentazzi.com</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/sites/16.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Bolo Master</h3>'+

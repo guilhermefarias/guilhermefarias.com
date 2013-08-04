@@ -362,6 +362,4 @@ var Guilherme = {
 	}
 }
 
-jQuery(document).ready(function() {
-	Guilherme.setup();
-});
+Guilherme.setup();

@@ -272,11 +272,29 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="img/sites/05.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Fashion Fun</h3>'+
+					'<p>Layout foi enviado em .PSD, feito pela agência COL, o site foi desenvolvido por mim, utilizando o CMS WordPress.</p><br>'+
+					'<p>Site: <a href="http://www.fashionfun.com.br" target="_blank">www.fashionfun.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/sites/07.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>COL - Consultoria Online</h3>'+
 					'<p>Site da COL, empresa de consultoria de comunicação e imagem especializada em ambiente online.</p><br>'+
 					'<p>Site: <a href="http://www.col.net.br" target="_blank">www.col.net.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
+				'<div class="img"><img src="img/sites/20.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Guiky Labs Host</h3>'+
+					'<p>Site instituicional da minha empresa de hospedagem.</p><br>'+
+					'<p>Site: <a href="http://www.guikylabs.com" target="_blank">www.guikylabs.com</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -289,14 +307,7 @@ var Guilherme = {
 				'</div>'+
 			'</div>'+
 
-			'<div class="app">'+
-				'<div class="img"><img src="img/sites/05.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Fashion Fun</h3>'+
-					'<p>Layout foi enviado em .PSD, feito pela agência COL, o site foi desenvolvido por mim, utilizando o CMS WordPress.</p><br>'+
-					'<p>Site: <a href="http://www.fashionfun.com.br" target="_blank">www.fashionfun.com.br</a></p>'+
-				'</div>'+
-			'</div>'+
+
 
 			'<div class="app">'+
 				'<div class="img"><img src="img/sites/04.jpg" /></div>'+

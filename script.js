@@ -254,6 +254,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="img/sites/19.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Educca</h3>'+
+					'<p>Site instituicional da startup Educca, responsável por criar um sistema de gestão educacional online voltado para escolas, faculdades e cursos técnicos.</p><br>'+
+					'<p>Site: <a href="http://www.educca.com.br" target="_blank">www.educca.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/sites/07.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>COL - Consultoria Online</h3>'+

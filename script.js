@@ -116,6 +116,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="img/projetos/06.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Educca</h3>'+
+					'<p>É um sistema de gestão educacional com o objetivo modernizar a maneira como os alunos se relacionam com as instituições de ensinos. Facilitar e diminuir custos com comunicação, melhorar a gestão das escolas ou faculdades são alguns dos objetivos do sistema.</p><br>'+
+					'<p>Disponivel em <a href="http://www.educca.com.br" target="_blank">Educca.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/projetos/04.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Meus Gastos</h3>'+

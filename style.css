@@ -86,6 +86,43 @@ aside li:active {
 	background-color: rgba(0,0,0,1);
 }
 
+aside .social {
+	width: 210px;
+	height: 50px;
+	margin: 30px auto 0;
+}
+
+aside .social a {
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	display: block;
+	float: left;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-ms-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+	background-image: url(img/sprite.png);
+}
+
+aside .social a:hover {
+	opacity: 1;
+}
+
+aside .social .twitter {
+	background-position: -60px 0;
+}
+
+aside .social .github {
+	background-position: 0 0;
+}
+
+aside .social .linkedin {
+	background-position: -120px 0;
+}
+
 .wrapper {
 	width: 75%;
 	float: right;

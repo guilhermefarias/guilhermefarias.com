@@ -117,6 +117,7 @@ var Guilherme = {
 		,
 		projects: ''+
 			'<h2>Projetos</h2>'+
+
 			'<div class="app">'+
 				'<div class="img"><img src="img/projetos/07.jpg" /></div>'+
 				'<div class="description">'+
@@ -125,12 +126,22 @@ var Guilherme = {
 					'<p>Disponivel em <a href="http://guilhermefarias.github.io/CSS-Dice/" target="_blank">Github</a></p>'+
 				'</div>'+
 			'</div>'+
+
 			'<div class="app">'+
 				'<div class="img"><img src="img/projetos/05.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Zoologico do Tico</h3>'+
 					'<p>É um jogo educativo onde a criança deve reconher os animais exibidos na tela, o jogo foi totalmente desenvolvido com os novos recursos do HTML5. Devido ao uso da API de reconhecimento de voz do Google, o jogo só está disponivel para o Google Chrome</p><br>'+
 					'<p>Disponivel em <a href="http://guikylabs.com/zoologicodotico" target="_blank">Guiky Labs</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
+				'<div class="img"><img src="img/projetos/08.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>ZeptoJS BR</h3>'+
+					'<p>Tradução da documentação do ZeptoJS para o português. Zepto é uma biblioteca JavaScript minimalista para navegadores modernos com uma API em grande parte compatível com jQuery.</p><br>'+
+					'<p>Disponivel em <a href="http://guilhermefarias.github.io/zepto-br/" target="_blank">Github</a></p>'+
 				'</div>'+
 			'</div>'+
 

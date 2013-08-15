@@ -83,6 +83,17 @@ var Guilherme = {
 			'<h2>Palestras</h2>'+
 
 			'<div class="talks">'+
+				'<div class="img"><img src="img/talks/03.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>2° Open Meeting - PernambucoJS</h3>'+
+					'<p><b>Palestra:</b> Getting Started with FirefoxOS</p>'+
+					'<p><b>Onde:</b> Faculdade Marista, Recife - PE</p>'+
+					'<p><b>Data:</b> 15/08/2013</p>'+
+					'<p><a href="http://www.slideshare.net/guiky/firefoxos-plataforma-open-web" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks">'+
 				'<div class="img"><img src="img/talks/02.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>MobDev Alagoas</h3>'+

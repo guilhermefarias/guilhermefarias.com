@@ -107,6 +107,14 @@ var Guilherme = {
 		projects: ''+
 			'<h2>Projetos</h2>'+
 			'<div class="app">'+
+				'<div class="img"><img src="img/projetos/07.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Dado em CSS</h3>'+
+					'<p>Dado feito apenas com CSS3.<br/> Veja como é possivel fazer um dado 3D e com animações usando apenas CSS e um pouco de HTML</p><br>'+
+					'<p>Disponivel em <a href="http://guilhermefarias.github.io/CSS-Dice/" target="_blank">Github</a></p>'+
+				'</div>'+
+			'</div>'+
+			'<div class="app">'+
 				'<div class="img"><img src="img/projetos/05.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Zoologico do Tico</h3>'+

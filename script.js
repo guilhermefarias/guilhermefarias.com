@@ -137,6 +137,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="img/projetos/09.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>CSSReload.JS</h3>'+
+					'<p>Script que recarrega todos os arquivos CSS da página em um determinado intervalo de tempo. Feito apenas com JavaScript (no jQuery dependency)</p><br>'+
+					'<p>Disponivel em <a href="https://github.com/guilhermefarias/cssreload.js" target="_blank">Github</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="img/projetos/08.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>ZeptoJS BR</h3>'+

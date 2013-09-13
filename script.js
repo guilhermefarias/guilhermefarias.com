@@ -1,54 +1,12 @@
 var Guilherme = {
+	sidebar: document.getElementsByTagName('aside')[0],
+	section: document.getElementsByTagName('section')[0],
 	setup: function(){
-		jQuery('aside').off('click', 'li');
-		jQuery('aside').on('click', 'li', function(){
-			var tab = jQuery(this).data('tab');
-			Guilherme.showPage(tab);
-		});
-
-		jQuery(document).off('submit', 'form');
-		jQuery(document).on('submit', 'form', function(e){
-			var form = jQuery(this),
-				name = form.find('input[name="name"]').val(),
-				email = form.find('input[name="email"]').val(),
-				subject = form.find('input[name="subject"]').val(),
-				message = form.find('textarea').val();
-
-			var obj = {
-					name: name,
-					email: email,
-					subject: subject,
-					message: message
-				};
-
-			jQuery.ajax({
-				url: 'email',
-				type: 'POST',
-				data: obj,
-				success: function(resp){
-					if(resp == 'OK'){
-						jQuery('section').append('<div class="resp">Mensagem enviada com sucesso!</div>')
-						form.find('input[name="name"]').val('');
-						form.find('input[name="email"]').val('');
-						form.find('input[name="subject"]').val('');
-						form.find('textarea').val('');
-					} else {
-						jQuery('section').append('<div class="resp error">Houve um erro durante o envio da mensagem :/</div>');
-					}
-				},
-				error: function(){
-					jQuery('section').append('<div class="resp error">Houve um erro durante o envio da mensagem :/</div>');
-				},
-				complete: function(){
-					jQuery('section .resp').fadeIn();
-					setTimeout(function(){
-						jQuery('.resp').fadeOut(function(){
-							jQuery('.resp').remove();
-						});
-					},5000);
-				}
-			});
-			e.preventDefault();
+		Guilherme.sidebar.addEventListener('click', function(e){
+			if(e.target && e.target.nodeName == "LI") {
+				var tab = e.target.getAttribute('data-tab');
+				Guilherme.showPage(tab);
+			}
 		});
 
 		if(window.location.hash){
@@ -59,17 +17,17 @@ var Guilherme = {
 	},
 	showPage: function(tab){
 		if(tab == 'about'){
-			jQuery('section').html(Guilherme.Pages.about);
+			Guilherme.section.innerHTML = Guilherme.Pages.about;
 		} else if(tab == 'talks'){
-			jQuery('section').html(Guilherme.Pages.talks);
+			Guilherme.section.innerHTML = Guilherme.Pages.talks;
 		} else if(tab == 'projects'){
-			jQuery('section').html(Guilherme.Pages.projects);
+			Guilherme.section.innerHTML = Guilherme.Pages.projects;
 		} else if(tab == 'sites'){
-			jQuery('section').html(Guilherme.Pages.sites);
+			Guilherme.section.innerHTML = Guilherme.Pages.sites;
 		} else if(tab == 'mobile'){
-			jQuery('section').html(Guilherme.Pages.mobile);
+			Guilherme.section.innerHTML = Guilherme.Pages.mobile;
 		} else if(tab == 'contact'){
-			jQuery('section').html(Guilherme.Pages.contact);
+			Guilherme.section.innerHTML = Guilherme.Pages.contact;
 		}
 		window.location.hash = tab;
 		window.scrollTo(0,0);

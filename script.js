@@ -2,6 +2,7 @@ var Guilherme = {
 	sidebar: document.getElementsByTagName('aside')[0],
 	section: document.getElementsByTagName('section')[0],
 	setup: function(){
+		document.addEventListener('submit', Guilherme.formSubmit);
 		Guilherme.sidebar.addEventListener('click', function(e){
 			if(e.target && e.target.nodeName == "LI") {
 				var tab = e.target.getAttribute('data-tab');
@@ -14,6 +15,43 @@ var Guilherme = {
 			hash = hash.replace('#','');
 			Guilherme.showPage(hash);
 		}
+	},
+	formSubmit: function(e){
+		e.preventDefault();
+
+		var submitRequest = new XMLHttpRequest(),
+			formElement = document.getElementsByTagName('form')[0].elements,
+			respElement = document.createElement('div');
+			formData = {
+				name: formElement.name.value,
+				email: formElement.email.value,
+				subject: formElement.subject.value,
+				message: formElement.message.value
+			};
+
+		submitRequest.open("POST","email.php",true);
+		submitRequest.onreadystatechange = function(){
+			if (submitRequest.readyState == 4 && submitRequest.status == 200 && submitRequest.responseText == 'OK'){
+				respElement.setAttribute('class','resp');
+				respElement.innerHTML = 'Mensagem enviada com sucesso!';
+				Guilherme.section.appendChild(respElement);
+				formElement.name.value = '';
+				formElement.email.value = '';
+				formElement.subject.value = '';
+				formElement.message.value = '';
+				setTimeout(function(){
+					Guilherme.section.removeChild(respElement);
+				},5000);
+			} else if(submitRequest.readyState == 4){
+				respElement.setAttribute('class','resp error');
+				respElement.innerHTML = 'Houve um erro durante o envio da mensagem';
+				Guilherme.section.appendChild(respElement);
+				setTimeout(function(){
+					Guilherme.section.removeChild(respElement);
+				},5000);
+			}
+		}
+		submitRequest.send(JSON.stringify(formData));
 	},
 	showPage: function(tab){
 		if(tab == 'about'){

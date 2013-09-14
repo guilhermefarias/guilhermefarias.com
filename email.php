@@ -44,7 +44,7 @@ $message = '
 					<span style="color:red">*</span>
 				</th>
 				<td style="vertical-align:top;color:#333;width:60%;padding:7px 9px 7px 0;border-top:1px solid #eee;">
-					<div>'. $msg . '</div>
+					<div>'. nl2br($msg) . '</div>
 				</td>
 			</tr>
 		</table>

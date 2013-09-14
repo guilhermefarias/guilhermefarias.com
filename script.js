@@ -22,14 +22,14 @@ var Guilherme = {
 		var submitRequest = new XMLHttpRequest(),
 			formElement = document.getElementsByTagName('form')[0].elements,
 			respElement = document.createElement('div');
-			formData = {
-				name: formElement.name.value,
-				email: formElement.email.value,
-				subject: formElement.subject.value,
-				message: formElement.message.value
-			};
+			formData = ''+
+				'name=' + encodeURIComponent(formElement.name.value)+'&'+
+				'email=' + encodeURIComponent(formElement.email.value)+'&'+
+				'subject=' + encodeURIComponent(formElement.subject.value)+'&'+
+				'message=' + encodeURIComponent(formElement.message.value);
 
 		submitRequest.open("POST","email.php",true);
+		submitRequest.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 		submitRequest.onreadystatechange = function(){
 			if (submitRequest.readyState == 4 && submitRequest.status == 200 && submitRequest.responseText == 'OK'){
 				respElement.setAttribute('class','resp');
@@ -51,7 +51,8 @@ var Guilherme = {
 				},5000);
 			}
 		}
-		submitRequest.send(JSON.stringify(formData));
+
+		submitRequest.send(formData);
 	},
 	showPage: function(tab){
 		if(tab == 'about'){

@@ -2,19 +2,30 @@ var Guilherme = {
 	sidebar: document.getElementsByTagName('aside')[0],
 	section: document.getElementsByTagName('section')[0],
 	setup: function(){
-		document.addEventListener('submit', Guilherme.formSubmit);
-		Guilherme.sidebar.addEventListener('click', function(e){
-			if(e.target && e.target.nodeName == "LI") {
-				var tab = e.target.getAttribute('data-tab');
-				Guilherme.showPage(tab);
-			}
-		});
+		if(document.addEventListener){
+			document.addEventListener('submit', Guilherme.formSubmit);
+			Guilherme.sidebar.addEventListener('click', function(e){
+				if(e.target && e.target.nodeName == "LI") {
+					var tab = e.target.getAttribute('data-tab');
+					Guilherme.showPage(tab);
+				}
+			});
 
-		if(window.location.hash){
-			var hash = window.location.hash;
-			hash = hash.replace('#','');
-			Guilherme.showPage(hash);
+			if(window.location.hash){
+				var hash = window.location.hash;
+				hash = hash.replace('#','');
+				Guilherme.showPage(hash);
+			}
+		} else {
+			Guilherme.oldBrowser();
 		}
+	},
+	oldBrowser: function(){
+		var alertElement = document.createElement('div');
+		Guilherme.section.innerHTML = '';
+		alertElement.setAttribute('class','resp error');
+		alertElement.innerHTML = 'Você está usando um navegador muito antigo, por favor atualize.';
+		Guilherme.section.appendChild(alertElement);
 	},
 	formSubmit: function(e){
 		e.preventDefault();

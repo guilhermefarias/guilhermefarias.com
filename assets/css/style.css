@@ -28,6 +28,10 @@ body {
 	font-family: 'Proxima Nova', helvetica, arial, sans-serif;
 }
 
+.clearfix {
+	clear: both;
+}
+
 /*
 ---------------------------------------------------------------
 --------------------------- Layout ----------------------------
@@ -139,6 +143,12 @@ h2 {
 	margin-bottom: 30px;
 }
 
+.talks + h2,
+.clearfix + h2 {
+	display: block;
+	margin-top: 60px;
+}
+
 section {
 	width: 750px;
 	margin: 0 auto;
@@ -230,11 +240,6 @@ section {
 	width: 410px;
 	float: right;
 	margin-bottom: 20px;
-}
-
-.talks + h2 {
-	margin-top: 60px;
-	display: block;
 }
 
 /*-------------------- Form --------------------*/

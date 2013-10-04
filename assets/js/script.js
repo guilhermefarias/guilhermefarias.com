@@ -151,7 +151,37 @@ var Guilherme = {
 			'</div>'
 		,
 		projects: ''+
-			'<h2>Projetos</h2>'+
+			'<h2>Sistemas</h2>'+
+
+			'<div class="app">'+
+				'<div class="img"><img src="assets/img/projetos/06.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Educca</h3>'+
+					'<p>É um sistema de gestão educacional com o objetivo modernizar a maneira como os alunos se relacionam com as instituições de ensinos. Facilitar e diminuir custos com comunicação, melhorar a gestão das escolas ou faculdades são alguns dos objetivos do sistema.</p><br>'+
+					'<p>Disponivel em <a href="http://www.educca.com.br" target="_blank">Educca.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
+				'<div class="img"><img src="assets/img/projetos/04.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Meus Gastos</h3>'+
+					'<p>Meus Gastos é um gerenciador financeiro online, onde você pode registrar seus ganhos e seus gastos, tendo um maior controle do seu dinheiro.</p><br>'+
+					'<p>Disponivel em <a href="http://meusgastos.com" target="_blank">MeusGastos.com</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
+				'<div class="img"><img src="assets/img/projetos/03.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Gnoteboard</h3>'+
+					'<p>Aplicativo para organizar anotações pessoais, você pode organizar suas notas como um mural de post-it.</p><br>'+
+					'<p>Disponivel no <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a>, no <a href="https://chrome.google.com/webstore/detail/gnoteboard/fplbifbddpcmffmmgabkgchcjleginah" target="_blank">Chrome Web Store</a> e em <a href="http://gnoteboard.com" target="_blank">Gnoteboard.com</a></p>'+
+				'</div>'+
+			'</div>'+
+			'<div class="clearfix"></div>'+
+
+			'<h2>Outros projetos</h2>'+
 
 			'<div class="app">'+
 				'<div class="img"><img src="assets/img/projetos/07.jpg" /></div>'+
@@ -195,33 +225,6 @@ var Guilherme = {
 					'<h3>Fear Ant</h3>'+
 					'<p>Exemplo de uso dos Ambient Light Events, onde as formigas (que foram feitas apenas com CSS3) se movem ao estarem em um ambiente com pouca luz (é recomendado que o dispositivo tenha sensor de luminosidade para melhor experiência)</p><br>'+
 					'<p>Disponivel em <a href="http://guilhermefarias.github.io/fear-ant/" target="_blank">Github</a></p>'+
-				'</div>'+
-			'</div>'+
-
-			'<div class="app">'+
-				'<div class="img"><img src="assets/img/projetos/06.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Educca</h3>'+
-					'<p>É um sistema de gestão educacional com o objetivo modernizar a maneira como os alunos se relacionam com as instituições de ensinos. Facilitar e diminuir custos com comunicação, melhorar a gestão das escolas ou faculdades são alguns dos objetivos do sistema.</p><br>'+
-					'<p>Disponivel em <a href="http://www.educca.com.br" target="_blank">Educca.com.br</a></p>'+
-				'</div>'+
-			'</div>'+
-
-			'<div class="app">'+
-				'<div class="img"><img src="assets/img/projetos/04.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Meus Gastos</h3>'+
-					'<p>Meus Gastos é um gerenciador financeiro online, onde você pode registrar seus ganhos e seus gastos, tendo um maior controle do seu dinheiro.</p><br>'+
-					'<p>Disponivel em <a href="http://meusgastos.com" target="_blank">MeusGastos.com</a></p>'+
-				'</div>'+
-			'</div>'+
-
-			'<div class="app">'+
-				'<div class="img"><img src="assets/img/projetos/03.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Gnoteboard</h3>'+
-					'<p>Aplicativo para organizar anotações pessoais, você pode organizar suas notas como um mural de post-it.</p><br>'+
-					'<p>Disponivel no <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a>, no <a href="https://chrome.google.com/webstore/detail/gnoteboard/fplbifbddpcmffmmgabkgchcjleginah" target="_blank">Chrome Web Store</a> e em <a href="http://gnoteboard.com" target="_blank">Gnoteboard.com</a></p>'+
 				'</div>'+
 			'</div>'+
 

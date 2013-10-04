@@ -156,9 +156,10 @@ section {
 .app h3,
 .mobile h3,
 .talks h3 {
+	margin: 4px 0;
 	font-size: 26px;
 	font-weight: 100;
-	line-height: 36px;
+	line-height: 28px;
 }
 
 .app p,
@@ -228,6 +229,12 @@ section {
 .talks .description {
 	width: 410px;
 	float: right;
+	margin-bottom: 20px;
+}
+
+.talks + h2 {
+	margin-top: 60px;
+	display: block;
 }
 
 /*-------------------- Form --------------------*/

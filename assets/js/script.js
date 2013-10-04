@@ -99,6 +99,22 @@ var Guilherme = {
 					'<p><b>Data:</b> 15/08/2013</p>'+
 					'<p><a href="http://www.slideshare.net/guiky/firefoxos-plataforma-open-web" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
 				'</div>'+
+
+				'<div class="description">'+
+					'<h3>FEEC Lite - Angicos</h3>'+
+					'<p><b>Palestra:</b> Getting Started with FirefoxOS</p>'+
+					'<p><b>Onde:</b> Universidade Federal Rural do Semi-??rido - UFERSA, Angicos - RN</p>'+
+					'<p><b>Data:</b> 30/08/2013</p>'+
+					'<p><a href="http://www.slideshare.net/guiky/firefoxos-plataforma-open-web" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+				'</div>'+
+
+				'<div class="description">'+
+					'<h3>FEEC Lite - Recife</h3>'+
+					'<p><b>Palestra:</b> Getting Started with FirefoxOS</p>'+
+					'<p><b>Onde:</b> Livraria Cultura do Recife Antigo, Recife - PE</p>'+
+					'<p><b>Data:</b> 11/09/2013</p>'+
+					'<p><a href="http://www.slideshare.net/guiky/firefoxos-plataforma-open-web" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+				'</div>'+
 			'</div>'+
 
 			'<div class="talks">'+
@@ -120,6 +136,17 @@ var Guilherme = {
 					'<p><b>Onde:</b> Recife Palace Hotel</p>'+
 					'<p><b>Data:</b> 01/12/2012</p>'+
 					'<p><a href="http://www.slideshare.net/guiky/feec-brazil2012" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<h2>Workshops</h2>'+
+
+			'<div class="talks">'+
+				'<div class="img"><img src="assets/img/talks/04.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Como criar seu primeiro site em wordpress</h3>'+
+					'<p><b>Onde:</b> Universidade Federal Rural do Semi-??rido - UFERSA, Angicos - RN</p>'+
+					'<p><b>Data:</b> 31/08/2013</p>'+
 				'</div>'+
 			'</div>'
 		,

@@ -385,6 +385,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="assets/img/sites/21.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Clube Damata</h3>'+
+					'<p>Site da revista Clube Damata, o guia comercial da cidade de S??o Louren??o da Mata. Al??m do site, tamb??m desenvolvi o sistema de gerenciamento de s??cios da revista e o sistema que permite a impress??o da carteira dos afiliados.</p><br>'+
+					'<p>Site: <a href="http://www.clubedamata.com.br" target="_blank">www.clubedamata.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="assets/img/sites/06.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Multitask Girl</h3>'+
@@ -392,8 +401,6 @@ var Guilherme = {
 					'<p>Site: <a href="http://www.multitaskgirl.com" target="_blank">www.multitaskgirl.com</a></p>'+
 				'</div>'+
 			'</div>'+
-
-
 
 			'<div class="app">'+
 				'<div class="img"><img src="assets/img/sites/04.jpg" /></div>'+

@@ -388,7 +388,7 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/sites/21.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Clube Damata</h3>'+
-					'<p>Site da revista Clube Damata, o guia comercial da cidade de S??o Louren??o da Mata. Al??m do site, tamb??m desenvolvi o sistema de gerenciamento de s??cios da revista e o sistema que permite a impress??o da carteira dos afiliados.</p><br>'+
+					'<p>Site da revista Clube Damata, o guia comercial da cidade de São Lourenço da Mata. Além do site, também desenvolvi o sistema de gerenciamento de sócios da revista e o sistema que permite a impressão da carteira dos afiliados.</p><br>'+
 					'<p>Site: <a href="http://www.clubedamata.com.br" target="_blank">www.clubedamata.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -444,8 +444,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/mobile/03-b.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Cahier</h3>'+
-					'<p>Aplicativo da rede social corporativa Cahier, feito para iPhone e iPad utilizando o framework Phonegap, projeto desenvolvido por mim e <a href="http://luiztiago.com" target="_blank">Luiz Tiago</a></p><br>'+
-					'<p>Disponivel na <a href="https://itunes.apple.com/mg/app/cahier/id662294381" target="_blank">App Store</a></p>'+
+					'<p>Aplicativo da rede social corporativa Cahier, feito para iPhone, iPad e smartphones com Android, utilizando o framework Phonegap, projeto desenvolvido por mim e <a href="http://luiztiago.com" target="_blank">Luiz Tiago</a></p><br>'+
+					'<p>Disponivel na <a href="https://itunes.apple.com/mg/app/cahier/id662294381" target="_blank">App Store</a> e no <a href="https://play.google.com/store/apps/details?id=com.mgr.cahier" target="_blank">Google Play</a></p>'+
 				'</div>'+
 			'</div>'+
 

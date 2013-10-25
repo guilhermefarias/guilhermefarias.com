@@ -92,6 +92,17 @@ var Guilherme = {
 			'<h2>Palestras</h2>'+
 
 			'<div class="talks">'+
+				'<div class="img"><img src="assets/img/talks/05.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>IV SECOMP AESO</h3>'+
+					'<p><b>Palestra:</b> Git e a importância de versionar um projeto</p>'+
+					'<p><b>Onde:</b> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>'+
+					'<p><b>Data:</b> 25/10/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/git-e-a-importancia-de-versionar-um-projeto" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks">'+
 				'<div class="img"><img src="assets/img/talks/03.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>2° Open Meeting - PernambucoJS</h3>'+

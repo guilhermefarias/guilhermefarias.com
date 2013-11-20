@@ -464,6 +464,15 @@ var Guilherme = {
 					'<h3>Portfolio de Anderson Santos</h3>'+
 					'<p>Porfolio de Anderson Santos, estudante de Jogos Digitais</p><br>'+
 				'</div>'+
+			'</div>' +
+
+			'<div class="app">'+
+				'<div class="img"><img src="assets/img/sites/24.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Auto Escola Piloto</h3>'+
+					'<p>Site da Auto Escola Piloto. Desenvolvido em WordPress, por mim, na Chama Comunicação.</p><br>'+
+					'<p>Site: <a href="http://autoescolapiloto.net.br" target="_blank">www.autoescolapiloto.net.br</a></p>'+
+				'</div>'+
 			'</div>'
 		,
 		mobile: ''+

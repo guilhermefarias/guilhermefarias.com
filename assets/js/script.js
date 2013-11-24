@@ -92,6 +92,17 @@ var Guilherme = {
 			'<h2>Palestras</h2>'+
 
 			'<div class="talks">'+
+				'<div class="img"><img src="assets/img/talks/06.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>FEEC Brazil - Recife - 2013</h3>'+
+					'<p><b>Palestra:</b> JavaScript em todos os lugares</p>'+
+					'<p><b>Onde:</b> Recife Palace Hotel</p>'+
+					'<p><b>Data:</b> 23/11/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/javascript-em-todos-os-lugares" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks">'+
 				'<div class="img"><img src="assets/img/talks/05.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>IV SECOMP AESO</h3>'+

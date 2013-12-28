@@ -363,6 +363,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="assets/img/sites/25.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Aquino e Estrela</h3>'+
+					'<p>Site dos advogados trabalhistas, Aquino e Estrela, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
+					'<p>Site: <a href="http://aquinoeestrela.adv.br/" target="_blank">www.aquinoeestrela.adv.br/</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="assets/img/sites/09.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Farmaervas</h3>'+

@@ -302,6 +302,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="assets/img/sites/27.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Senar</h3>'+
+					'<p>Site da entidade paraestatal SENAR - Serviço Nacional de Aprendizagem Rural</p><br>'+
+					'<p>Site: <a href="http://senar-pe.com.br" target="_blank">www.senar-pe.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="assets/img/sites/17.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Revista da Cidade</h3>'+

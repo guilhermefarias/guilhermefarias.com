@@ -479,6 +479,16 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="assets/img/sites/26.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Festival Som do Rio</h3>'+
+					'<p>Site do festival de rock Som do Rio</p><br>'+
+					//'<p>Site do evento fícticio Som do Rio, campanha realizada para o filme de comédia brasileiro Muita Calma Nessa Hora 2</p><br>'+
+					'<p>Site: <a href="http://somdorio.com.br/" target="_blank">www.somdorio.com.br</a></p>'+
+				'</div>'+
+			'</div>' +
+
+			'<div class="app">'+
 				'<div class="img"><img src="assets/img/sites/01.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Portfolio de Anderson Santos</h3>'+

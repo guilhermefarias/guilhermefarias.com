@@ -92,6 +92,17 @@ var Guilherme = {
 			'<h2>Palestras</h2>'+
 
 			'<div class="talks">'+
+				'<div class="img"><img src="assets/img/talks/07.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Front In Recife</h3>'+
+					'<p><b>Palestra:</b> HTML, CSS e JS: Olhando pra frente</p>'+
+					'<p><b>Onde:</b> Faculdade Marista, Recife - PE</p>'+
+					'<p><b>Data:</b> 14/12/2013</p>'+
+					'<p><a href="http://pt.slideshare.net/luiztiago/html-css-js-olhando-pra-frente" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks">'+
 				'<div class="img"><img src="assets/img/talks/06.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>FEEC Brazil - Recife - 2013</h3>'+

@@ -311,6 +311,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="assets/img/sites/28.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>Faepe</h3>'+
+					'<p>Site da entidade sindical FAEPE - Federação da Agricultura do Estado de Pernambuco.</p><br>'+
+					'<p>Site: <a href="http://faepe.com.br" target="_blank">www.faepe.com.br</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="assets/img/sites/17.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Revista da Cidade</h3>'+

@@ -263,6 +263,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app">'+
+				'<div class="img"><img src="assets/img/projetos/11.jpg" /></div>'+
+				'<div class="description">'+
+					'<h3>SimpleThumbnail.php</h3>'+
+					'<p>Classe PHP simples e leve para gerar miniaturas de imagens.</p><br>'+
+					'<p>Disponivel em <a href="https://github.com/guilhermefarias/SimpleThumbnail" target="_blank">Github</a></p> e <a href="https://packagist.org/packages/simple-thumbnail/simple-thumbnail" target="_blank">Packagist</a> (esta classe pode ser usada através do Composer)</p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app">'+
 				'<div class="img"><img src="assets/img/projetos/02.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>NodeJS Chat</h3>'+

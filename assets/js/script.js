@@ -191,7 +191,7 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/06.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Educca</h3>'+
-					'<p>É um sistema de gestão educacional com o objetivo modernizar a maneira como os alunos se relacionam com as instituições de ensinos. Facilitar e diminuir custos com comunicação, melhorar a gestão das escolas ou faculdades são alguns dos objetivos do sistema.</p><br>'+
+					'<p>É um sistema de gestão educacional com o objetivo modernizar a maneira como os alunos se relacionam com as instituições de ensinos. Facilitar e diminuir custos com comunicação, melhorar a gestão das escolas ou faculdades são alguns dos objetivos do sistema.</p>'+
 					'<p>Disponivel em <a href="http://www.educca.com.br" target="_blank">Educca.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
@@ -292,255 +292,144 @@ var Guilherme = {
 		sites: ''+
 			'<h2>Sites</h2>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/15.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>LCM Comunicação</h3>'+
-					'<p>Site da empresa LCM Comunicação, desenvolvido em WordPress, por mim no Estudio Zenit.</p><br>'+
-					'<p>Site: <a href="http://www.lcmbr.com.br" target="_blank">www.lcmbr.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.lcmbr.com.br" target="_blank">LCM Comunicação</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/14.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Proservil</h3>'+
-					'<p>Site da empresa Proservil, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://www.proservil.com.br" target="_blank">www.proservil.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" class="title" href="http://www.proservil.com.br" target="_blank">Proservil</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/27.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Senar</h3>'+
-					'<p>Site da entidade paraestatal SENAR - Serviço Nacional de Aprendizagem Rural</p><br>'+
-					'<p>Site: <a href="http://senar-pe.com.br" target="_blank">www.senar-pe.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://senar-pe.com.br" target="_blank">Senar</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/28.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Faepe</h3>'+
-					'<p>Site da entidade sindical FAEPE - Federação da Agricultura do Estado de Pernambuco.</p><br>'+
-					'<p>Site: <a href="http://faepe.com.br" target="_blank">www.faepe.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://faepe.com.br" target="_blank">Faepe</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/17.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Revista da Cidade</h3>'+
-					'<p>Portal da Revista da Cidade, o guia comercial da cidade de São Lourenço da Mata e região, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://www.revistadacidade.net" target="_blank">www.revistadacidade.net</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.revistadacidade.net" target="_blank">Revista da Cidade</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/22.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Impertecne</h3>'+
-					'<p>Site da empresa Impertecne Engenharia, desenvolvido por mim na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://impertecne.com.br" target="_blank">www.impertecne.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://impertecne.com.br" target="_blank">Impertecne</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/13.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Boneca de Platina</h3>'+
-					'<p>Blog Boneca de Platina, desenvolvido por mim e Dash e Dobbin no Estudio Zenit.</p><br>'+
-					'<p>Site: <a href="http://www.bonecadeplatina.com" target="_blank">www.bonecadeplatina.com</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.bonecadeplatina.com" target="_blank">Boneca de Platina</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/18.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Cimentazzi</h3>'+
-					'<p>Site da empresa Cimentazzi, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://www.cimentazzi.com" target="_blank">www.cimentazzi.com</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.cimentazzi.com" target="_blank">Cimentazzi</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/16.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Bolo Master</h3>'+
-					'<p>Site da empresa de bolos Bolo Master, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://www.bolomaster.com.br" target="_blank">www.bolomaster.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.bolomaster.com.br" target="_blank">Bolo Master</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/12.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Inforline Cursos</h3>'+
-					'<p>Site da Inforline Cursos, desenvolvido por mim na Chama Comunicação utilizando o CMS WordPress.</p><br>'+
-					'<p>Site: <a href="http://www.inforlinecursos.com.br" target="_blank">www.inforlinecursos.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.inforlinecursos.com.br" target="_blank">Inforline Cursos</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/11.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Pousada Olho DAgua</h3>'+
-					'<p>Site da pousada Olho DAgua, Maragogi - AL. Desenvolvido em conjunto com Lucas Cavalcanti, utilizando o CMS WordPress.</p><br>'+
-					'<p>Site: <a href="http://www.pousadaolhodagua.com" target="_blank">www.pousadaolhodagua.com</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.pousadaolhodagua.com" target="_blank">Pousada Olho DAgua</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/10.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Vidda</h3>'+
-					'<p>Site da marca de cosmeticos Vidda, o layout foi feito pela agência COL e enviado em .PSD, o restante foi desenvolvido popor mim, utilizando o CMS WordPress.</p><br>'+
-					'<p>Site: <a href="http://www.vidda.com.br" target="_blank">www.vidda.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.vidda.com.br" target="_blank">Vidda</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/25.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Aquino e Estrela</h3>'+
-					'<p>Site dos advogados trabalhistas, Aquino e Estrela, desenvolvido em WordPress, por mim na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://aquinoeestrela.adv.br/" target="_blank">www.aquinoeestrela.adv.br/</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://aquinoeestrela.adv.br/" target="_blank">Aquino e Estrela</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/09.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Farmaervas</h3>'+
-					'<p>Site instituicional da empresa de cosmeticos Farmaervas, o site inteiro foi feito em WordPress, a programação feita por mim e o design do site foi desenvolvido pela agência COL.</p><br>'+
-					'<p>Site: <a href="http://www.farmaervas.com.br" target="_blank">www.farmaervas.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.farmaervas.com.br" target="_blank">Farmaervas</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/08.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Guiky</h3>'+
-					'<p>Nova versão do meu blog de Tecnologia Guiky, totalmente desenvolvido por mim, utilizando o CMS WordPress, HTML5, CSS3, Javascrtip/jQuery e etc.</p><br>'+
-					'<p>Site: <a href="http://www.guiky.com.br" target="_blank">www.guiky.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.guiky.com.br" target="_blank">Guiky</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/19.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Educca</h3>'+
-					'<p>Site instituicional da startup Educca, responsável por criar um sistema de gestão educacional online voltado para escolas, faculdades e cursos técnicos.</p><br>'+
-					'<p>Site: <a href="http://www.educca.com.br" target="_blank">www.educca.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.educca.com.br" target="_blank">Educca</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/05.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Fashion Fun</h3>'+
-					'<p>Layout foi enviado em .PSD, feito pela agência COL, o site foi desenvolvido por mim, utilizando o CMS WordPress.</p><br>'+
-					'<p>Site: <a href="http://www.fashionfun.com.br" target="_blank">www.fashionfun.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.fashionfun.com.br" target="_blank">Fashion Fun</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/07.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>COL - Consultoria Online</h3>'+
-					'<p>Site da COL, empresa de consultoria de comunicação e imagem especializada em ambiente online.</p><br>'+
-					'<p>Site: <a href="http://www.col.net.br" target="_blank">www.col.net.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.col.net.br" target="_blank">COL - Consultoria Online</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/20.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Guiky Labs Host</h3>'+
-					'<p>Site instituicional da minha empresa de hospedagem.</p><br>'+
-					'<p>Site: <a href="http://www.guikylabs.com" target="_blank">www.guikylabs.com</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.guikylabs.com" target="_blank">Guiky Labs Host</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/21.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Clube Damata</h3>'+
-					'<p>Site da revista Clube Damata, o guia comercial da cidade de São Lourenço da Mata. Além do site, também desenvolvi o sistema de gerenciamento de sócios da revista e o sistema que permite a impressão da carteira dos afiliados.</p><br>'+
-					'<p>Site: <a href="http://www.clubedamata.com.br" target="_blank">www.clubedamata.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.clubedamata.com.br" target="_blank">Clube Damata</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/23.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Realtef</h3>'+
-					'<p>Site da empresa pernambucana de soluções em pagamentos, Realtef. Desenvolvido por mim na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://www.realtef.com.br" target="_blank">www.realtef.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.realtef.com.br" target="_blank">Realtef</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/06.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Multitask Girl</h3>'+
-					'<p>Blog Multitask Girl desenvolvido em WordPress.</p><br>'+
-					'<p>Site: <a href="http://www.multitaskgirl.com" target="_blank">www.multitaskgirl.com</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.multitaskgirl.com" target="_blank">Multitask Girl</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/04.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>RBMS Representações</h3>'+
-					'<p>Site da empresa RBMS Representações, desenvolvido em WordPress.</p><br>'+
-					'<p>Site: <a href="http://www.rbms.com.br" target="_blank">www.rbms.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.rbms.com.br" target="_blank">RBMS Representações</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/03.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Powerkiteboat</h3>'+
-					'<p>Projeto do barco Tucamarino, site desenvolvido em WordPress por mim e Yeltsin Lima</p><br>'+
-					'<p>Site: <a href="http://www.powerkiteboat.com" target="_blank">www.powerkiteboat.com</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://www.powerkiteboat.com" target="_blank">Powerkiteboat</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/02.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Projeto Ecocidades</h3>'+
-					'<p>Site desenvolvido para conclusão do curso de webdesign no programa da Microsoft, Students to Business.</p><br>'+
-				'</div>'+
+				'<a class="title"> Projeto Ecocidades</a>'+
 			'</div>'+
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/26.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Festival Som do Rio</h3>'+
-					'<p>Site do festival de rock Som do Rio</p><br>'+
-					//'<p>Site do evento fícticio Som do Rio, campanha realizada para o filme de comédia brasileiro Muita Calma Nessa Hora 2</p><br>'+
-					'<p>Site: <a href="http://somdorio.com.br/" target="_blank">www.somdorio.com.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://somdorio.com.br/" target="_blank">Festival Som do Rio</a>'+
 			'</div>' +
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/01.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Portfolio de Anderson Santos</h3>'+
-					'<p>Porfolio de Anderson Santos, estudante de Jogos Digitais</p><br>'+
-				'</div>'+
+				'<a class="title"> Portfolio de Anderson Santos</a>'+
 			'</div>' +
 
-			'<div class="app">'+
+			'<div class="site item">'+
 				'<div class="img"><img src="assets/img/sites/24.jpg" /></div>'+
-				'<div class="description">'+
-					'<h3>Auto Escola Piloto</h3>'+
-					'<p>Site da Auto Escola Piloto. Desenvolvido em WordPress, por mim, na Chama Comunicação.</p><br>'+
-					'<p>Site: <a href="http://autoescolapiloto.net.br" target="_blank">www.autoescolapiloto.net.br</a></p>'+
-				'</div>'+
+				'<a class="title" href="http://autoescolapiloto.net.br" target="_blank">Auto Escola Piloto</a>'+
 			'</div>'
 		,
 		mobile: ''+
@@ -577,6 +466,8 @@ var Guilherme = {
 			'</div>'
 		,
 		contact: ''+
+				'<h2>Contato</h2>'+
+
 				'<form method="post">'+
 					'<label for="name">Nome:</label>'+
 					'<input type="text" name="name" required />'+

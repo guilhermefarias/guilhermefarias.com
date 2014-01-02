@@ -3,12 +3,6 @@
 	padding: 0;
 }
 
-a {
-	color: #555;
-	font-weight: bold;
-	text-decoration: none;
-}
-
 body,
 html {
 	width: 100%;
@@ -16,27 +10,56 @@ html {
 }
 
 @font-face {
-	font-family:"Proxima Nova";
-	src: url("../font/ProximaNova-Light.otf");
+	font-family:"Roboto Light";
+	src: url("../font/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family:"Roboto Thin";
+	src: url("../font/Roboto-Thin.ttf");
 }
 
 body {
-	color: #555;
+	color: #888;
 	font-size: 17px;
-	background-color: #d1d5d4;
-	background-image: url(../img/bg.png);
-	font-family: 'Proxima Nova', helvetica, arial, sans-serif;
+	background-color: #F4F4F4;
+	font-family: 'Roboto Light', helvetica, arial, sans-serif;
 }
 
 .clearfix {
 	clear: both;
 }
 
-/*
----------------------------------------------------------------
---------------------------- Layout ----------------------------
----------------------------------------------------------------
-*/
+a {
+	color: #888;
+}
+
+h1,
+h2,
+h3 {
+	color: #39B54A;
+	font-weight: 100;
+	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
+}
+
+h1 {
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+
+section {
+	padding: 20px 0;
+	margin-left: 360px;
+}
 
 .page-wrapper {
 	display: block;
@@ -44,58 +67,51 @@ body {
 	min-width: 1000px;
 }
 
-.photo {
-	width: 220px;
-	height: 220px;
-	margin: 30px auto;
-	border-radius: 20px;
-	box-shadow: 0 0 10px 1px #000;
-	background-image: url(../img/perfil.jpg);
-}
 
-h1 {
-	color: #bbb;
-	font-size: 30px;
-	font-weight: 100;
-	text-align: center;
-	margin: -10px 0 20px 0;
-}
+/*---------------------------------------*\
+                  Aside
+\*---------------------------------------*/
 
 aside {
-	width: 25%;
+	width: 320px;
 	height: 100%;
 	float: left;
 	position: fixed;
-	background-color: #211f1b;
-	background-image: url(../img/bg-aside.png);
+	background-color: #39B54A;
+}
+
+aside ul {
+	margin-top: 60px;
 }
 
 aside li {
-	color: #aaa;
-	font-size: 20px;
+	color: #fff;
+	line-height: 45px;
+	font-size: 26px;
 	cursor: pointer;
 	list-style: none;
-	padding: 8px 0;
-	text-align: center;
+	text-align: right;
+	padding-right: 25px;
 	transition: all 0.3s;
-	text-shadow: 0 0 10px #000;
-	background-color: rgba(0,0,0,0.2);
+	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
 }
 
 aside li:hover {
-	font-size: 26px;
-	background-color: #111;
-	background-color: rgba(0,0,0,0.5);
+	font-size: 30px;
+	background-color: #339105;
+	background-color: rgba(0,255,0,0.3);
 }
 
 aside li:active {
-	background-color: rgba(0,0,0,1);
+	background-color: #339105;
+	background-color: rgba(0,255,0,1);
 }
 
 aside .social {
 	width: 210px;
-	height: 50px;
-	margin: 30px auto 0;
+	position: fixed;
+	bottom: 10px;
+	left: 55px;
 }
 
 aside .social a {
@@ -129,47 +145,173 @@ aside .social .linkedin {
 	background-position: -60px 0;
 }
 
-.wrapper {
-	width: 75%;
-	float: right;
-	min-height: 100%;
-	background: url(../img/bg-inner.png) repeat-y;
-}
 
-h2 {
-	font-size: 60px;
-	font-weight: 100;
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-.talks + h2,
-.clearfix + h2 {
-	display: block;
-	margin-top: 60px;
-}
-
-section {
-	width: 750px;
-	margin: 0 auto;
-	padding: 20px 0;
-}
+/*---------------------------------------*\
+                About
+\*---------------------------------------*/
 
 .about {
+	width: 800px;
 	font-size: 30px;
 	margin-top: 50px;
 	line-height: 38px;
 }
 
-/*-------------------- Jobs --------------------*/
+
+/*---------------------------------------*\
+                    Form
+\*---------------------------------------*/
+
+.resp {
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -80px;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 10px;
+	position: absolute;
+	background-color: #ABFF93;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+.resp.error {
+	background-color: #FF8E8E;
+}
+
+form {
+	width: 100%;
+	margin-top: 50px;
+}
+
+form label {
+	display: block;
+	font-size: 22px;
+	margin: 10px 0 5px 0;
+}
+
+form input,
+form textarea {
+	width: 500px;
+	height: 20px;
+	padding: 5px;
+	outline: none;
+	display: block;
+	resize: none;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	font-family: 'Roboto Light', helvetica, arial, sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+	border: 1px solid #aaa;
+}
+
+form textarea {
+	resize: none;
+	height: 150px;
+}
+
+form .submit {
+	color: #fff;
+	width: 150px;
+	height: 34px;
+	cursor: pointer;
+	border-width: 0;
+	margin-top: 15px;
+	margin-left: 362px;
+	background-color: #39B54A;
+	text-transform: uppercase;
+}
+
+form .submit:hover {
+	background-color: #0c0;
+
+}
+
+form .submit:active {
+	background-color: #0f0;
+}
+
+
+/*---------------------------------------*\
+                   Sites
+\*---------------------------------------*/
+
+.site {
+	float: left;
+	width: 420px;
+	height: 240px;
+	display: block;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	border: 3px solid #ddd;
+}
+
+.site:nth-child(odd){
+	margin-right: 0;
+}
+
+.site .title {
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	font-size: 26px;
+	line-height: 30px;
+	display: block;
+	padding: 3px 10px;
+	position: absolute;
+	text-decoration: none;
+	background-color: #39B54A;
+	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
+}
+
+.site .img {
+	float: left;
+	width: 420px;
+	height: 240px;
+	transition: all 0.5s;
+	background: url(../img/bg-loading.gif) no-repeat center center;
+}
+
+.site img {
+	width: 100%;
+	height: auto;
+}
+
+.site:hover .img {
+	width: 441px;
+	height: 252px;
+	margin-top: -6px;
+	margin-bottom: 14px;
+	margin-left: -10.5px;
+	box-shadow: 0 0 8px 2px #bbb;
+}
+
+
+/*---------------------------------------*\
+                    Jobs
+\*---------------------------------------*/
+
+.app,
+.talks,
+.mobile {
+	width: 750px;
+}
 
 .app h3,
 .mobile h3,
 .talks h3 {
+	color: #fff;
 	margin: 4px 0;
 	font-size: 26px;
-	font-weight: 100;
 	line-height: 28px;
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: #39B54A;
 }
 
 .app p,
@@ -184,7 +326,6 @@ section {
 	height: 240px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
-	box-shadow: 0 0 2px 1px #aaa;
 	background: url(../img/bg-loading.gif) no-repeat center center;
 }
 
@@ -232,7 +373,6 @@ section {
 	width: 320px;
 	height: 240px;
 	margin-bottom: 20px;
-	box-shadow: 0 0 2px 1px #aaa;
 	background: url(../img/bg-loading.gif) no-repeat center center;
 }
 
@@ -242,81 +382,8 @@ section {
 	margin-bottom: 20px;
 }
 
-/*-------------------- Form --------------------*/
-
-.resp {
-	width: 500px;
-	top: 50%;
-	left: 50%;
-	margin-left: -250px;
-	margin-top: -80px;
-	padding: 20px;
-	font-size: 24px;
-	border-radius: 10px;
-	position: absolute;
-	background-color: #ABFF93;
-	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
-}
-
-.resp.error {
-	background-color: #FF8E8E;
-}
-
-form {
-	width: 100%;
-	margin-top: 50px;
-}
-
-form label {
+.talks + h2,
+.clearfix + h2 {
 	display: block;
-	font-size: 22px;
-	margin: 10px 0 5px 0;
-}
-
-form input,
-form textarea {
-	width: 500px;
-	height: 20px;
-	padding: 5px;
-	outline: none;
-	display: block;
-	resize: none;
-	font-size: 16px;
-	border: 1px solid #aaa;
-	box-shadow: inset 5px 5px 2px 1px #eee;
-	font-family: 'Proxima Nova', helvetica, arial, sans-serif;
-}
-
-form input:focus,
-form textarea:focus {
-	border: 1px solid #888;
-	box-shadow: inset 5px 5px 2px 1px #ddd;
-}
-
-form textarea {
-	resize: none;
-	height: 150px;
-}
-
-form .submit {
-	width: 150px;
-	height: 34px;
-	cursor: pointer;
-	margin-top: 15px;
-	margin-left: 362px;
-	border-radius: 5px;
-	background-color: #ccc;
-	box-shadow: none !important;
-	background-image: linear-gradient(to bottom, #eee 0%,#bbb 100%);
-}
-
-form .submit:hover {
-	background-color: #bbb;
-	background-image: linear-gradient(to bottom, #ccc 0%,#888 100%);
-
-}
-
-form .submit:active {
-	background-color: #aaa;
-	background-image: linear-gradient(to bottom, #888 0%,#555 100%);
+	margin-top: 60px;
 }

@@ -24,7 +24,7 @@ var Guilherme = {
 		var alertElement = document.createElement('div');
 		Guilherme.section.innerHTML = '';
 		alertElement.setAttribute('class','resp error');
-		alertElement.innerHTML = 'Você está usando um navegador muito antigo, por favor atualize.';
+		alertElement.innerHTML = 'You are using a very old browser, please upgrade.';
 		Guilherme.section.appendChild(alertElement);
 	},
 	formSubmit: function(e){
@@ -44,7 +44,7 @@ var Guilherme = {
 		submitRequest.onreadystatechange = function(){
 			if (submitRequest.readyState == 4 && submitRequest.status == 200 && submitRequest.responseText == 'OK'){
 				respElement.setAttribute('class','resp');
-				respElement.innerHTML = 'Mensagem enviada com sucesso!';
+				respElement.innerHTML = 'Message sent successfully!';
 				Guilherme.section.appendChild(respElement);
 				formElement.name.value = '';
 				formElement.email.value = '';
@@ -55,7 +55,7 @@ var Guilherme = {
 				},5000);
 			} else if(submitRequest.readyState == 4){
 				respElement.setAttribute('class','resp error');
-				respElement.innerHTML = 'Houve um erro durante o envio da mensagem';
+				respElement.innerHTML = 'There was an error sending the message';
 				Guilherme.section.appendChild(respElement);
 				setTimeout(function(){
 					Guilherme.section.removeChild(respElement);
@@ -84,21 +84,22 @@ var Guilherme = {
 	},
 	Pages : {
 		about: ''+
-			'<p class="about">Olá :)<br/>'+
-			'Sou Desenvolvedor Web, moro em Recife, tenho 20 anos e estou cursando Sistemas de Informação. Apesar do meu foco ser client-side e mobile, também tenho conhecimentos em PHP, NodeJS, Java, MySQL e outras coisas.</p>'+
-			'<p class="about">Sou Engenheiro Front-End na <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, onde desenvolvemos uma rede social corporativa, sou criador do blog de tecnologia <a href="http://guiky.com.br" target="_blank">Guiky</a>, que mantenho desde 2008 e nas horas vagas estou envolvido com vários projetos, que você pode conferir navegando no menu ao lado :)</p>'
+			'<p class="about">Hello :)<br/>'+
+			'I\'m a Web Developer who lives in Recife and love JavaScript.<br/>'+
+			'I have 20 year old, am near to finish the Information System Bachelor\'s Degree and although my focus is client-side engineering and mobile, I also have knowledge in PHP, NodeJS (server-side JavaScript), Java, MySQL and other technologies.</p>'+
+			'<p class="about">I\'m a Front-End Engineer at <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, which developed a corporate social network, I am the creator of the blog <a href="http://guiky.com.br" target="_blank">Guiky</a> technology that I update since 2008 and in my spare time I am involved with several projects, you can check navigating the menus :)</p>'
 		,
 		talks: ''+
-			'<h2>Palestras</h2>'+
+			'<h2>Talks</h2>'+
 
 			'<div class="talks">'+
 				'<div class="img"><img src="assets/img/talks/07.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Front In Recife</h3>'+
-					'<p><b>Palestra:</b> HTML, CSS e JS: Olhando pra frente</p>'+
-					'<p><b>Onde:</b> Faculdade Marista, Recife - PE</p>'+
-					'<p><b>Data:</b> 14/12/2013</p>'+
-					'<p><a href="http://pt.slideshare.net/luiztiago/html-css-js-olhando-pra-frente" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> HTML, CSS e JS: Olhando pra frente</p>'+
+					'<p><b>Where::</b> Faculdade Marista, Recife - PE</p>'+
+					'<p><b>When:</b> 14/12/2013</p>'+
+					'<p><a href="http://pt.slideshare.net/luiztiago/html-css-js-olhando-pra-frente" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -106,10 +107,10 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/talks/06.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>FEEC Brazil - Recife - 2013</h3>'+
-					'<p><b>Palestra:</b> JavaScript em todos os lugares</p>'+
-					'<p><b>Onde:</b> Recife Palace Hotel</p>'+
-					'<p><b>Data:</b> 23/11/2013</p>'+
-					'<p><a href="https://speakerdeck.com/guilhermefarias/javascript-em-todos-os-lugares" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> JavaScript em todos os lugares</p>'+
+					'<p><b>Where:</b> Recife Palace Hotel</p>'+
+					'<p><b>When:</b> 23/11/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/javascript-em-todos-os-lugares" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -117,10 +118,10 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/talks/05.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>IV SECOMP AESO</h3>'+
-					'<p><b>Palestra:</b> Git e a importância de versionar um projeto</p>'+
-					'<p><b>Onde:</b> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>'+
-					'<p><b>Data:</b> 25/10/2013</p>'+
-					'<p><a href="https://speakerdeck.com/guilhermefarias/git-e-a-importancia-de-versionar-um-projeto" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> Git e a importância de versionar um projeto</p>'+
+					'<p><b>Where:</b> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>'+
+					'<p><b>When:</b> 25/10/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/git-e-a-importancia-de-versionar-um-projeto" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -128,26 +129,26 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/talks/03.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>2° Open Meeting - PernambucoJS</h3>'+
-					'<p><b>Palestra:</b> Getting Started with FirefoxOS</p>'+
-					'<p><b>Onde:</b> Faculdade Marista, Recife - PE</p>'+
-					'<p><b>Data:</b> 15/08/2013</p>'+
-					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-plataforma-open-web" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> Getting Started with FirefoxOS</p>'+
+					'<p><b>Where:</b> Faculdade Marista, Recife - PE</p>'+
+					'<p><b>When:</b> 15/08/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-plataforma-open-web" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 
 				'<div class="description">'+
 					'<h3>FEEC Lite - Angicos</h3>'+
-					'<p><b>Palestra:</b> Getting Started with FirefoxOS</p>'+
-					'<p><b>Onde:</b> Universidade Federal Rural do Semiárido - UFERSA, Angicos - RN</p>'+
-					'<p><b>Data:</b> 30/08/2013</p>'+
-					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-plataforma-open-web" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> Getting Started with FirefoxOS</p>'+
+					'<p><b>Where:</b> Universidade Federal Rural do Semiárido - UFERSA, Angicos - RN</p>'+
+					'<p><b>When:</b> 30/08/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-plataforma-open-web" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 
 				'<div class="description">'+
 					'<h3>FEEC Lite - Recife</h3>'+
-					'<p><b>Palestra:</b> Getting Started with FirefoxOS</p>'+
-					'<p><b>Onde:</b> Livraria Cultura do Recife Antigo, Recife - PE</p>'+
-					'<p><b>Data:</b> 11/09/2013</p>'+
-					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-plataforma-open-web" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> Getting Started with FirefoxOS</p>'+
+					'<p><b>Where:</b> Livraria Cultura do Recife Antigo, Recife - PE</p>'+
+					'<p><b>When:</b> 11/09/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-plataforma-open-web" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -155,10 +156,10 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/talks/02.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>MobDev Alagoas</h3>'+
-					'<p><b>Palestra:</b> FirefoxOS - A web como plataforma, usando HTML5 e Web Standards</p>'+
-					'<p><b>Onde:</b> Centro Universitário CESMAC, Maceió - AL</p>'+
-					'<p><b>Data:</b> 22/03/2013</p>'+
-					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-web-como-plataforma" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> FirefoxOS - A web como plataforma, usando HTML5 e Web Standards</p>'+
+					'<p><b>Where:</b> Centro Universitário CESMAC, Maceió - AL</p>'+
+					'<p><b>When:</b> 22/03/2013</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/firefoxos-a-web-como-plataforma" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -166,10 +167,10 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/talks/01.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>FEEC Brazil - Recife</h3>'+
-					'<p><b>Palestra:</b> Aplicações hibridas usando Phonegap</p>'+
-					'<p><b>Onde:</b> Recife Palace Hotel</p>'+
-					'<p><b>Data:</b> 01/12/2012</p>'+
-					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-hibridas-usando-phonegap" target="_blank">Clique aqui para ver os slides dessa palestra</a></p>'+
+					'<p><b>Talk:</b> Aplicações hibridas usando Phonegap</p>'+
+					'<p><b>Where:</b> Recife Palace Hotel</p>'+
+					'<p><b>When:</b> 01/12/2012</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-hibridas-usando-phonegap" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -179,8 +180,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/talks/04.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Como criar seu primeiro site em wordpress</h3>'+
-					'<p><b>Onde:</b> Universidade Federal Rural do Semi-??rido - UFERSA, Angicos - RN</p>'+
-					'<p><b>Data:</b> 31/08/2013</p>'+
+					'<p><b>Where:</b> Universidade Federal Rural do Semi-árido - UFERSA, Angicos - RN</p>'+
+					'<p><b>When:</b> 31/08/2013</p>'+
 				'</div>'+
 			'</div>'
 		,
@@ -191,8 +192,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/06.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Educca</h3>'+
-					'<p>É um sistema de gestão educacional com o objetivo modernizar a maneira como os alunos se relacionam com as instituições de ensinos. Facilitar e diminuir custos com comunicação, melhorar a gestão das escolas ou faculdades são alguns dos objetivos do sistema.</p>'+
-					'<p>Disponivel em <a href="http://www.educca.com.br" target="_blank">Educca.com.br</a></p>'+
+					'<p>It is an educational management system in order to modernize the way students relate to the institutions teachings. Facilitate and reduce communication costs, improve management of schools or colleges are some of the goals of the system.</p>'+
+					'<p>Available on <a href="http://www.educca.com.br" target="_blank">Educca.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -200,8 +201,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/04.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Meus Gastos</h3>'+
-					'<p>Meus Gastos é um gerenciador financeiro online, onde você pode registrar seus ganhos e seus gastos, tendo um maior controle do seu dinheiro.</p><br>'+
-					'<p>Disponivel em <a href="http://meusgastos.com" target="_blank">MeusGastos.com</a></p>'+
+					'<p>Meus Gastos is an online financial manager, where you can register your earnings and your expenses, taking greater control of your money.</p><br>'+
+					'<p>Available on <a href="http://meusgastos.com" target="_blank">MeusGastos.com</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -209,8 +210,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/03.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Gnoteboard</h3>'+
-					'<p>Aplicativo para organizar anotações pessoais, você pode organizar suas notas como um mural de post-it.</p><br>'+
-					'<p>Disponivel no <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a>, no <a href="https://chrome.google.com/webstore/detail/gnoteboard/fplbifbddpcmffmmgabkgchcjleginah" target="_blank">Chrome Web Store</a> e em <a href="http://gnoteboard.com" target="_blank">Gnoteboard.com</a></p>'+
+					'<p>Application for organizing personal notes, you can organize your notes like a sticky notes board.</p><br>'+
+					'<p>Available on <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a> on <a href="https://chrome.google.com/webstore/detail/gnoteboard/fplbifbddpcmffmmgabkgchcjleginah" target="_blank">Chrome Web Store</a> and on <a href="http://gnoteboard.com" target="_blank">Gnoteboard.com</a></p>'+
 				'</div>'+
 			'</div>'+
 			'<div class="clearfix"></div>'+
@@ -220,9 +221,9 @@ var Guilherme = {
 			'<div class="app">'+
 				'<div class="img"><img src="assets/img/projetos/07.jpg" /></div>'+
 				'<div class="description">'+
-					'<h3>Dado em CSS</h3>'+
-					'<p>Dado feito apenas com CSS3.<br/> Veja como é possivel fazer um dado 3D e com animações usando apenas CSS e um pouco de HTML</p><br>'+
-					'<p>Disponivel em <a href="http://guilhermefarias.github.io/CSS-Dice/" target="_blank">Github</a></p>'+
+					'<h3>CSS Dice</h3>'+
+					'<p>3D Dice done only with CSS3.<br/>See how it is possible to make a 3D Dice and animations using only CSS and some HTML</p><br>'+
+					'<p>Available on <a href="http://guilhermefarias.github.io/CSS-Dice/" target="_blank">Github</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -230,8 +231,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/05.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Zoologico do Tico</h3>'+
-					'<p>É um jogo educativo onde a criança deve reconher os animais exibidos na tela, o jogo foi totalmente desenvolvido com os novos recursos do HTML5. Devido ao uso da API de reconhecimento de voz do Google, o jogo só está disponivel para o Google Chrome</p><br>'+
-					'<p>Disponivel em <a href="http://guikylabs.com/zoologicodotico" target="_blank">Guiky Labs</a></p>'+
+					'<p>It is an educational game where children must recognize the animals displayed on the screen, the game was fully developed with the new features of HTML5 (no-flash). Due to the use of API Google voice recognition, the game is only available on Google Chrome</p><br>'+
+					'<p>Available on <a href="http://guikylabs.com/zoologicodotico" target="_blank">Guiky Labs</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -239,8 +240,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/09.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>CSSReload.JS</h3>'+
-					'<p>Script que recarrega todos os arquivos CSS da página em um determinado intervalo de tempo. Feito apenas com JavaScript (no jQuery dependency)</p><br>'+
-					'<p>Disponivel em <a href="https://github.com/guilhermefarias/cssreload.js" target="_blank">Github</a></p>'+
+					'<p>Script that reloads all CSS files on page in a given time interval. Made only with JavaScript (no jQuery dependency)</p><br>'+
+					'<p>Available on <a href="https://github.com/guilhermefarias/cssreload.js" target="_blank">Github</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -248,8 +249,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/08.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>ZeptoJS BR</h3>'+
-					'<p>Tradução da documentação do ZeptoJS para o português. Zepto é uma biblioteca JavaScript minimalista para navegadores modernos com uma API em grande parte compatível com jQuery.</p><br>'+
-					'<p>Disponivel em <a href="http://guilhermefarias.github.io/zepto-br/" target="_blank">Github</a></p>'+
+					'<p>Translation of ZeptoJS documentation into Portuguese. Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API.</p><br>'+
+					'<p>Available on <a href="http://zeptojs.com.br" target="_blank">zeptojs.com.br</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -257,8 +258,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/10.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Fear Ant</h3>'+
-					'<p>Exemplo de uso dos Ambient Light Events, onde as formigas (que foram feitas apenas com CSS3) se movem ao estarem em um ambiente com pouca luz (é recomendado que o dispositivo tenha sensor de luminosidade para melhor experiência)</p><br>'+
-					'<p>Disponivel em <a href="http://guilhermefarias.github.io/fear-ant/" target="_blank">Github</a></p>'+
+					'<p>Example of use of Ambient Light Events, where ants (which were made ​​with only CSS3) move to be in an environment with low light (it is recommended that the device has light sensor for better experience)</p><br>'+
+					'<p>Available on <a href="http://guilhermefarias.github.io/fear-ant/" target="_blank">Github</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -266,8 +267,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/11.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>SimpleThumbnail.php</h3>'+
-					'<p>Classe PHP simples e leve para gerar miniaturas de imagens.</p><br>'+
-					'<p>Disponivel em <a href="https://github.com/guilhermefarias/SimpleThumbnail" target="_blank">Github</a></p> e <a href="https://packagist.org/packages/simple-thumbnail/simple-thumbnail" target="_blank">Packagist</a> (esta classe pode ser usada através do Composer)</p>'+
+					'<p>Simple and lightweight PHP class to generate thumbnails.</p><br>'+
+					'<p>Available on <a href="https://github.com/guilhermefarias/SimpleThumbnail" target="_blank">Github</a></p> and <a href="https://packagist.org/packages/simple-thumbnail/simple-thumbnail" target="_blank">Packagist</a> (this class can be used on Composer)</p>'+
 				'</div>'+
 			'</div>'+
 
@@ -275,17 +276,17 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/projetos/02.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>NodeJS Chat</h3>'+
-					'<p>Chat feito em NodeJS onde é possivel criar salas de bate-papo com vários usuários e trocar mensagem em tempo real utilizando Web Sockets.</p><br>'+
-					'<p>Disponivel em <a href="http://chat.guikylabs.com/" target="_blank">Guiky Labs</a></p>'+
+					'<p>Chat done in NodeJS where you can create chat rooms with multiple users and exchange messages in real time using Web Sockets.</p><br>'+
+					'<p>Available on <a href="http://chat.guikylabs.com/" target="_blank">Guiky Labs</a></p>'+
 				'</div>'+
 			'</div>'+
 
 			'<div class="app">'+
 				'<div class="img"><img src="assets/img/projetos/01.jpg" /></div>'+
 				'<div class="description">'+
-					'<h3>Jogo da Velha</h3>'+
-					'<p> Esta é a versão inicial do jogo da velha, por enquanto os 2 jogadores só podem jogar na mesma tela, em breve será possivel jogar sozinho e até mesmo jogar com outra pessoa que está em outro computador, o jogo será em tempo real, utilizando WebSockets e NodeJS.</p><br>'+
-					'<p>Disponivel em <a href="http://www.guikylabs.com/jogodavelha" target="_blank">Guiky Labs</a></p>'+
+					'<h3>Tic-tac-toe</h3>'+
+					'<p>This is the initial version of the Tic-tac-toe, for now the only 2 players can play on the same screen, will soon be possible to play alone and even play with another person who is on another computer, the game will be in real time, using WebSockets and NodeJS.</p><br>'+
+					'<p>Available on <a href="http://www.guikylabs.com/jogodavelha" target="_blank">Guiky Labs</a></p>'+
 				'</div>'+
 			'</div>'
 		,
@@ -440,8 +441,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/mobile/03-b.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Cahier</h3>'+
-					'<p>Aplicativo da rede social corporativa Cahier, feito para iPhone, iPad e smartphones com Android, utilizando o framework Phonegap, projeto desenvolvido por mim e <a href="http://luiztiago.com" target="_blank">Luiz Tiago</a></p><br>'+
-					'<p>Disponivel na <a href="https://itunes.apple.com/mg/app/cahier/id662294381" target="_blank">App Store</a> e no <a href="https://play.google.com/store/apps/details?id=com.mgr.cahier" target="_blank">Google Play</a></p>'+
+					'<p>Application of a corporate social networking, made for iPhone, iPad and Android smartphones using the Phonegap framework, a project developed by me and <a href="http://luiztiago.com" target="_blank">Luiz Tiago</a></p><br>'+
+					'<p>Available on <a href="https://itunes.apple.com/mg/app/cahier/id662294381" target="_blank">App Store</a> and on <a href="https://play.google.com/store/apps/details?id=com.mgr.cahier" target="_blank">Google Play</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -450,8 +451,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/mobile/02-b.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>LCM Comunicação</h3>'+
-					'<p>WebApp da LCM Comunicação, onde o usuário pode conhecer a empresa, além de poder ver fotos, portfolio e ainda entrar em contato com a equipe!</p><br>'+
-					'<p>Disponivel em <a href="http://lcmbr.com.br/" target="_blank">lcmbr.com.br/mobile</a></p>'+
+					'<p>WebApp of LCM Comunicação, where the user can know the company, view photos, portfolio and even contact with the team!</p><br>'+
+					'<p>Available on <a href="http://lcmbr.com.br/" target="_blank">lcmbr.com.br/mobile</a></p>'+
 				'</div>'+
 			'</div>'+
 
@@ -460,8 +461,8 @@ var Guilherme = {
 				'<div class="img"><img src="assets/img/mobile/01-b.jpg" /></div>'+
 				'<div class="description">'+
 					'<h3>Gnoteboard</h3>'+
-					'<p>Aplicativo para organizar anotações pessoais para Android, você pode organizar suas notas como um mural de post-it.</p><br>'+
-					'<p>Disponivel no <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a></p>'+
+					'<p>Application for organizing personal notes for Android, you can organize your notes like a sticky notes board.</p><br>'+
+					'<p>Available on <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a></p>'+
 				'</div>'+
 			'</div>'
 		,
@@ -469,15 +470,15 @@ var Guilherme = {
 				'<h2>Contato</h2>'+
 
 				'<form method="post">'+
-					'<label for="name">Nome:</label>'+
+					'<label for="name">Name:</label>'+
 					'<input type="text" name="name" required />'+
 					'<label for="email">Email:</label>'+
 					'<input type="email" name="email" required/>'+
-					'<label for="subject">Assunto:</label>'+
+					'<label for="subject">Subject:</label>'+
 					'<input type="text" name="subject" required>'+
-					'<label for="message">Mensagem:</label>'+
+					'<label for="message">Message:</label>'+
 					'<textarea name="message" required></textarea>'+
-					'<input type="submit" class="submit" value="Enviar" />'+
+					'<input type="submit" class="submit" value="Send" />'+
 				'</form>'
 	}
 }

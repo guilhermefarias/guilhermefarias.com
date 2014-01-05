@@ -66,7 +66,9 @@ var Guilherme = {
 		submitRequest.send(formData);
 	},
 	showPage: function(tab){
-		if(tab == 'about'){
+		if(tab == 'home'){
+			Guilherme.section.innerHTML = Guilherme.Pages.home;
+		} else if(tab == 'about'){
 			Guilherme.section.innerHTML = Guilherme.Pages.about;
 		} else if(tab == 'talks'){
 			Guilherme.section.innerHTML = Guilherme.Pages.talks;
@@ -83,6 +85,10 @@ var Guilherme = {
 		window.scrollTo(0,0);
 	},
 	Pages : {
+		home: ''+
+			'<p class="about">Hello :)<br/>'+
+			'I\'m a Web Developer who lives in Recife and love JavaScript.<br/>'
+		,
 		about: ''+
 			'<p class="about">Hello :)<br/>'+
 			'I\'m a Web Developer who lives in Recife and love JavaScript.<br/>'+

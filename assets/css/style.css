@@ -73,14 +73,20 @@ aside {
 	background-color: #39B54A;
 }
 
+.photo {
+	width: 320px;
+	height: 280px;
+	background-image: url(../img/perfil.jpg);
+}
+
 aside ul {
-	margin-top: 60px;
+	margin-top: 20px;
 }
 
 aside li {
 	color: #fff;
-	line-height: 45px;
-	font-size: 26px;
+	line-height: 38px;
+	font-size: 22px;
 	cursor: pointer;
 	list-style: none;
 	text-align: right;
@@ -90,7 +96,7 @@ aside li {
 }
 
 aside li:hover {
-	font-size: 30px;
+	font-size: 26px;
 	background-color: #339105;
 	background-color: rgba(0,255,0,0.3);
 }

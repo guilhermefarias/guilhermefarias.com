@@ -42,13 +42,6 @@ h3 {
 	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
 }
 
-h1 {
-	color: #fff;
-	font-size: 60px;
-	text-align: center;
-	margin-top: 20px;
-}
-
 h2 {
 	font-size: 60px;
 	text-align: center;
@@ -143,6 +136,36 @@ aside .social .github {
 
 aside .social .linkedin {
 	background-position: -60px 0;
+}
+
+
+/*---------------------------------------*\
+                Home
+\*---------------------------------------*/
+
+h1 {
+	color: #000;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.home-role {
+	color: #555;
+	width: 570px;
+	font-size: 30px;
+	margin: 15px auto;
+	text-align: center;
+	line-height: 50px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.home-legend {
+	width: 550px;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
 }
 
 

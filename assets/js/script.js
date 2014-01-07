@@ -86,8 +86,9 @@ var Guilherme = {
 	},
 	Pages : {
 		home: ''+
-			'<p class="about">Hello :)<br/>'+
-			'I\'m a Web Developer who lives in Recife and love JavaScript.<br/>'
+			'<h1>Guilherme Farias</h1>'+
+			'<h2 class="home-role">Front-end Enginner</h2>'+
+			'<p class="home-legend">I am a 20 year old front-end engineer who lives in Recife, works at MGR Tecnologia and love JavaScript.</p>'
 		,
 		about: ''+
 			'<p class="about">Hello :)<br/>'+

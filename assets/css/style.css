@@ -266,10 +266,78 @@ form .submit:active {
 	background-color: #0f0;
 }
 
-
 /*---------------------------------------*\
-                   Sites
+                   Item
 \*---------------------------------------*/
+
+.item-title {
+	color: #fff;
+	font-size: 26px;
+	line-height: 30px;
+	padding: 3px 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #39B54A;
+	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
+}
+
+.item-description {
+	width: 355px;
+	float: right;
+	height: 240px;
+	line-height: 22px;
+}
+
+.item-img {
+	float: left;
+	width: 420px;
+	height: 240px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	background: url(../img/bg-loading.gif) no-repeat center center;
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+}
+
+/*-------------- Talks ---------------*/
+
+.talks {
+	clear: both;
+	width: 800px;
+	min-height: 240px;
+}
+
+.talks .item-img {
+	width: 320px;
+	height: 240px;
+	border: 3px solid #ddd;
+}
+
+.talks .item-description {
+	width: 455px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.talks + h2 {
+	margin-top: 60px;
+}
+
+/*-------------- Projects ---------------*/
+
+.app {
+	width: 800px;
+}
+
+.app .item-img {
+	border: 3px solid #ddd;
+}
+
+/*-------------- Sites ---------------*/
 
 .site {
 	float: left;
@@ -286,135 +354,38 @@ form .submit:active {
 	margin-right: 0;
 }
 
-.site .title {
+.site .item-title {
 	left: 0;
 	bottom: 0;
-	color: #fff;
-	font-size: 26px;
-	line-height: 30px;
 	display: block;
-	padding: 3px 10px;
 	position: absolute;
-	text-decoration: none;
-	background-color: #39B54A;
-	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
+	margin-bottom: 0;
 }
 
-.site .img {
-	float: left;
-	width: 420px;
-	height: 240px;
-	transition: all 0.5s;
-	background: url(../img/bg-loading.gif) no-repeat center center;
-}
-
-.site img {
-	width: 100%;
-	height: auto;
-}
-
-.site:hover .img {
+.site:hover .item-img {
 	width: 441px;
 	height: 252px;
 	margin-top: -6px;
 	margin-bottom: 14px;
 	margin-left: -10.5px;
-	box-shadow: 0 0 8px 2px #bbb;
 }
 
-
-/*---------------------------------------*\
-                    Jobs
-\*---------------------------------------*/
-
-.app,
-.talks,
-.mobile {
-	width: 750px;
-}
-
-.app h3,
-.mobile h3,
-.talks h3 {
-	color: #fff;
-	margin: 4px 0;
-	font-size: 26px;
-	line-height: 28px;
-	padding: 2px 10px;
-	display: inline-block;
-	background-color: #39B54A;
-}
-
-.app p,
-.mobile p,
-.talks p {
-	line-height: 22px;
-}
-
-.app .img {
-	float: left;
-	width: 420px;
-	height: 240px;
-	margin-bottom: 20px;
-	transition: all 0.5s;
-	background: url(../img/bg-loading.gif) no-repeat center center;
-}
-
-.app img {
-	width: 100%;
-	height: auto;
-}
-
-.app:hover .img {
-	width: 441px;
-	height: 252px;
-	margin-top: -6px;
-	margin-bottom: 14px;
-	margin-left: -10.5px;
-	box-shadow: 0 0 8px 2px #555;
-}
-
-.app .description {
-	width: 310px;
-	float: right;
-	height: 240px;
-}
+/*-------------- Mobile ---------------*/
 
 .mobile {
 	clear: both;
+	width: 800px;
 	min-height: 420px;
 }
 
-.mobile .img {
-	float: left;
+.mobile .item-img {
 	width: 240px;
-	height: 360px;
+	height: 400px;
 	margin-right: 10px;
-	margin-bottom: 20px;
-	background: url(../img/bg-loading.gif) no-repeat center center;
+	border: 3px solid #ddd;
 }
 
-.talks {
-	clear: both;
-	min-height: 240px;
+.mobile .item-description {
+	width: 280px;
 }
 
-.talks .img {
-	float: left;
-	width: 320px;
-	height: 240px;
-	margin-bottom: 20px;
-	background: url(../img/bg-loading.gif) no-repeat center center;
-}
-
-.talks .description {
-	width: 410px;
-	float: right;
-	margin-bottom: 20px;
-}
-
-.talks + h2,
-.clearfix + h2 {
-	display: block;
-	margin-top: 60px;
-}

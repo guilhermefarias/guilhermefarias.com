@@ -93,6 +93,36 @@ aside li {
 	padding-right: 25px;
 	transition: all 0.3s;
 	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
+	background-repeat: no-repeat;
+	background-position: 30px 3px;
+}
+
+aside li[data-tab="home"]:hover {
+	background-image: url(../img/home.png);
+}
+
+aside li[data-tab="about"]:hover {
+	background-image: url(../img/about.png);
+}
+
+aside li[data-tab="talks"]:hover {
+	background-image: url(../img/talks.png);
+}
+
+aside li[data-tab="projects"]:hover {
+	background-image: url(../img/projects.png);
+}
+
+aside li[data-tab="sites"]:hover {
+	background-image: url(../img/sites.png);
+}
+
+aside li[data-tab="mobile"]:hover {
+	background-image: url(../img/mobile.png);
+}
+
+aside li[data-tab="contact"]:hover {
+	background-image: url(../img/contact.png);
 }
 
 aside li:hover {

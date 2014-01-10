@@ -94,35 +94,36 @@ aside li {
 	transition: all 0.3s;
 	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
 	background-repeat: no-repeat;
-	background-position: 30px 3px;
+	background-position: -30px 40px;
+	background-image: url(../img/sprite-sidebar.png);
 }
 
 aside li[data-tab="home"]:hover {
-	background-image: url(../img/home.png);
+	background-position: 30px 2px;
 }
 
 aside li[data-tab="about"]:hover {
-	background-image: url(../img/about.png);
+	background-position: 30px -38px;
 }
 
 aside li[data-tab="talks"]:hover {
-	background-image: url(../img/talks.png);
+	background-position: 30px -77px;
 }
 
 aside li[data-tab="projects"]:hover {
-	background-image: url(../img/projects.png);
+	background-position: 30px -114px;
 }
 
 aside li[data-tab="sites"]:hover {
-	background-image: url(../img/sites.png);
+	background-position: 30px -157px;
 }
 
 aside li[data-tab="mobile"]:hover {
-	background-image: url(../img/mobile.png);
+	background-position: 30px -197px;
 }
 
 aside li[data-tab="contact"]:hover {
-	background-image: url(../img/contact.png);
+	background-position: 30px -233px;
 }
 
 aside li:hover {

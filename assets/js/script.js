@@ -5,8 +5,10 @@ var Guilherme = {
 		if(document.addEventListener){
 			document.addEventListener('submit', Guilherme.formSubmit);
 			Guilherme.sidebar.addEventListener('click', function(e){
-				if(e.target && e.target.nodeName == "LI") {
-					var tab = e.target.getAttribute('data-tab');
+				var tab, element = e.target;
+
+				if(element && element.nodeName == "LI") {
+					tab = element.getAttribute('data-tab');
 					Guilherme.showPage(tab);
 				}
 			});
@@ -26,6 +28,28 @@ var Guilherme = {
 		alertElement.setAttribute('class','resp error');
 		alertElement.innerHTML = 'You are using a very old browser, please upgrade.';
 		Guilherme.section.appendChild(alertElement);
+	},
+	activeTab: function(sidebarItem){
+		Guilherme.removeActiveClass();
+		Guilherme.addActiveClass(sidebarItem);
+	},
+	removeActiveClass: function(){
+		var sidebarActiveItem,
+			sidebarActiveItemClass;
+
+		sidebarActiveItem = Guilherme.sidebar.getElementsByClassName('active')[0];
+		if(sidebarActiveItem){
+			sidebarActiveItemClass = sidebarActiveItem.className;
+			sidebarActiveItem.className = sidebarActiveItemClass.replace('active', '');
+		}
+	},
+	addActiveClass: function(tab){
+		var sidebarItem;
+
+		sidebarItem = Guilherme.sidebar.getElementsByClassName('tab-'+tab)[0];
+		if(sidebarItem){
+			sidebarItem.className += ' active';
+		}
 	},
 	formSubmit: function(e){
 		e.preventDefault();
@@ -81,6 +105,8 @@ var Guilherme = {
 		} else if(tab == 'contact'){
 			Guilherme.section.innerHTML = Guilherme.Pages.contact;
 		}
+
+		Guilherme.activeTab(tab);
 		window.location.hash = tab;
 		window.scrollTo(0,0);
 	},

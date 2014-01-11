@@ -98,43 +98,50 @@ aside li {
 	background-image: url(../img/sprite-sidebar.png);
 }
 
-aside li[data-tab="home"]:hover {
+aside li[data-tab="home"]:hover,
+aside li[data-tab="home"].active {
 	background-position: 30px 2px;
 }
 
-aside li[data-tab="about"]:hover {
+aside li[data-tab="about"]:hover,
+aside li[data-tab="about"].active {
 	background-position: 30px -38px;
 }
 
-aside li[data-tab="talks"]:hover {
+aside li[data-tab="talks"]:hover,
+aside li[data-tab="talks"].active {
 	background-position: 30px -77px;
 }
 
-aside li[data-tab="projects"]:hover {
+aside li[data-tab="projects"]:hover,
+aside li[data-tab="projects"].active {
 	background-position: 30px -114px;
 }
 
-aside li[data-tab="sites"]:hover {
+aside li[data-tab="sites"]:hover,
+aside li[data-tab="sites"].active {
 	background-position: 30px -157px;
 }
 
-aside li[data-tab="mobile"]:hover {
+aside li[data-tab="mobile"]:hover,
+aside li[data-tab="mobile"].active {
 	background-position: 30px -197px;
 }
 
-aside li[data-tab="contact"]:hover {
+aside li[data-tab="contact"]:hover,
+aside li[data-tab="contact"].active {
 	background-position: 30px -233px;
 }
 
-aside li:hover {
+aside li:hover,
+aside li.active {
 	font-size: 26px;
 	background-color: #339105;
 	background-color: rgba(0,255,0,0.3);
 }
 
 aside li:active {
-	background-color: #339105;
-	background-color: rgba(0,255,0,1);
+	background-color: rgb(0,255,0);;
 }
 
 aside .social {

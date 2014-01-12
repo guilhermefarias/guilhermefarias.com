@@ -1,0 +1,23 @@
+{
+	"boss": true,
+	"curly": true,
+	"eqeqeq": true,
+	"eqnull": true,
+	"immed": true,
+	"noarg": true,
+	"trailing": true,
+	"undef": true,
+	"unused": true,
+	"newcap": true,
+	"camelcase": true,
+	"strict": true,
+	"latedef": true,
+	"browser": true,
+	"freeze": true,
+	"maxparams": 3,
+	"indent": 4,
+	"maxcomplexity": 3,
+	"maxstatements": 15,
+	"globalstrict": true,
+	"quotmark": "single"
+}

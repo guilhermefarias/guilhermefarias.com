@@ -1,3 +1,5 @@
+'use strict';
+
 var Guilherme = {
 	sidebar: document.getElementsByTagName('aside')[0],
 	section: document.getElementsByTagName('section')[0],
@@ -7,7 +9,7 @@ var Guilherme = {
 			Guilherme.sidebar.addEventListener('click', function(e){
 				var tab, element = e.target;
 
-				if(element && element.nodeName == "LI") {
+				if(element && element.nodeName === 'LI') {
 					tab = element.getAttribute('data-tab');
 					Guilherme.showPage(tab);
 				}
@@ -56,17 +58,17 @@ var Guilherme = {
 
 		var submitRequest = new XMLHttpRequest(),
 			formElement = document.getElementsByTagName('form')[0].elements,
-			respElement = document.createElement('div');
+			respElement = document.createElement('div'),
 			formData = ''+
 				'name=' + encodeURIComponent(formElement.name.value)+'&'+
 				'email=' + encodeURIComponent(formElement.email.value)+'&'+
 				'subject=' + encodeURIComponent(formElement.subject.value)+'&'+
 				'message=' + encodeURIComponent(formElement.message.value);
 
-		submitRequest.open("POST","assets/php/email.php",true);
-		submitRequest.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		submitRequest.open('POST','assets/php/email.php',true);
+		submitRequest.setRequestHeader('Content-type','application/x-www-form-urlencoded');
 		submitRequest.onreadystatechange = function(){
-			if (submitRequest.readyState == 4 && submitRequest.status == 200 && submitRequest.responseText == 'OK'){
+			if (submitRequest.readyState === 4 && submitRequest.status === 200 && submitRequest.responseText === 'OK'){
 				respElement.setAttribute('class','resp');
 				respElement.innerHTML = 'Message sent successfully!';
 				Guilherme.section.appendChild(respElement);
@@ -77,7 +79,7 @@ var Guilherme = {
 				setTimeout(function(){
 					Guilherme.section.removeChild(respElement);
 				},5000);
-			} else if(submitRequest.readyState == 4){
+			} else if(submitRequest.readyState === 4){
 				respElement.setAttribute('class','resp error');
 				respElement.innerHTML = 'There was an error sending the message';
 				Guilherme.section.appendChild(respElement);
@@ -85,27 +87,12 @@ var Guilherme = {
 					Guilherme.section.removeChild(respElement);
 				},5000);
 			}
-		}
+		};
 
 		submitRequest.send(formData);
 	},
 	showPage: function(tab){
-		if(tab == 'home'){
-			Guilherme.section.innerHTML = Guilherme.Pages.home;
-		} else if(tab == 'about'){
-			Guilherme.section.innerHTML = Guilherme.Pages.about;
-		} else if(tab == 'talks'){
-			Guilherme.section.innerHTML = Guilherme.Pages.talks;
-		} else if(tab == 'projects'){
-			Guilherme.section.innerHTML = Guilherme.Pages.projects;
-		} else if(tab == 'sites'){
-			Guilherme.section.innerHTML = Guilherme.Pages.sites;
-		} else if(tab == 'mobile'){
-			Guilherme.section.innerHTML = Guilherme.Pages.mobile;
-		} else if(tab == 'contact'){
-			Guilherme.section.innerHTML = Guilherme.Pages.contact;
-		}
-
+		Guilherme.section.innerHTML = Guilherme.Pages[tab];
 		Guilherme.activeTab(tab);
 		window.location.hash = tab;
 		window.scrollTo(0,0);
@@ -114,14 +101,12 @@ var Guilherme = {
 		home: ''+
 			'<h1>Guilherme Farias</h1>'+
 			'<h2 class="home-role">Front-end Enginner</h2>'+
-			'<p class="home-legend">I am a 20 year old front-end engineer who lives in Recife, works at MGR Tecnologia and love JavaScript.</p>'
-		,
+			'<p class="home-legend">I am a 20 year old front-end engineer who lives in Recife, works at MGR Tecnologia and love JavaScript.</p>',
 		about: ''+
 			'<p class="about">Hello :)<br/>'+
 			'I\'m a Web Developer who lives in Recife and love JavaScript.<br/>'+
 			'I have 20 year old, am near to finish the Information System Bachelor\'s Degree and although my focus is client-side engineering and mobile, I also have knowledge in PHP, NodeJS (server-side JavaScript), Java, MySQL and other technologies.</p>'+
-			'<p class="about">I\'m a Front-End Engineer at <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, which developed a corporate social network, I am the creator of the blog <a href="http://guiky.com.br" target="_blank">Guiky</a> technology that I update since 2008 and in my spare time I am involved with several projects, you can check navigating the menus :)</p>'
-		,
+			'<p class="about">I\'m a Front-End Engineer at <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, which developed a corporate social network, I am the creator of the blog <a href="http://guiky.com.br" target="_blank">Guiky</a> technology that I update since 2008 and in my spare time I am involved with several projects, you can check navigating the menus :)</p>',
 		talks: ''+
 			'<h2>Talks</h2>'+
 
@@ -216,8 +201,7 @@ var Guilherme = {
 					'<p><b>Where:</b> Universidade Federal Rural do Semi-árido - UFERSA, Angicos - RN</p>'+
 					'<p><b>When:</b> 31/08/2013</p>'+
 				'</div>'+
-			'</div>'
-		,
+			'</div>',
 		projects: ''+
 			'<h2>Sistemas</h2>'+
 
@@ -321,8 +305,7 @@ var Guilherme = {
 					'<p>This is the initial version of the Tic-tac-toe, for now the only 2 players can play on the same screen, will soon be possible to play alone and even play with another person who is on another computer, the game will be in real time, using WebSockets and NodeJS.</p><br>'+
 					'<p>Available on <a href="http://www.guikylabs.com/jogodavelha" target="_blank">Guiky Labs</a></p>'+
 				'</div>'+
-			'</div>'
-		,
+			'</div>',
 		sites: ''+
 			'<h2>Sites</h2>'+
 
@@ -464,8 +447,7 @@ var Guilherme = {
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/24.jpg" /></div>'+
 				'<a class="item-title" href="http://autoescolapiloto.net.br" target="_blank">Auto Escola Piloto</a>'+
-			'</div>'
-		,
+			'</div>',
 		mobile: ''+
 			'<h2>Mobile</h2>'+
 
@@ -497,8 +479,7 @@ var Guilherme = {
 					'<p>Application for organizing personal notes for Android, you can organize your notes like a sticky notes board.</p><br>'+
 					'<p>Available on <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a></p>'+
 				'</div>'+
-			'</div>'
-		,
+			'</div>',
 		contact: ''+
 				'<h2>Contato</h2>'+
 
@@ -514,6 +495,6 @@ var Guilherme = {
 					'<input type="submit" class="submit" value="Send" />'+
 				'</form>'
 	}
-}
+};
 
 Guilherme.setup();

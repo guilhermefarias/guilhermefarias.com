@@ -4,32 +4,37 @@ var Guilherme = {
 	sidebar: document.getElementsByTagName('aside')[0],
 	section: document.getElementsByTagName('section')[0],
 	setup: function(){
-		if(document.addEventListener){
+		if(Guilherme.isOldBrowser()){
+			Guilherme.oldBrowser();
+		} else {
+			var hash;
 			document.addEventListener('submit', Guilherme.formSubmit);
-			Guilherme.sidebar.addEventListener('click', function(e){
-				var tab, element = e.target;
+			Guilherme.sidebar.addEventListener('click', Guilherme.handleMenuClick);
+			hash = window.location.hash;
 
-				if(element && element.nodeName === 'LI') {
-					tab = element.getAttribute('data-tab');
-					Guilherme.showPage(tab);
-				}
-			});
-
-			if(window.location.hash){
-				var hash = window.location.hash;
+			if(hash){
 				hash = hash.replace('#','');
 				Guilherme.showPage(hash);
 			}
-		} else {
-			Guilherme.oldBrowser();
 		}
+	},
+	isOldBrowser: function(){
+		return typeof document.addEventListener !== 'function';
 	},
 	oldBrowser: function(){
 		var alertElement = document.createElement('div');
-		Guilherme.section.innerHTML = '';
+		Guilherme.section.innerText = '';
 		alertElement.setAttribute('class','resp error');
-		alertElement.innerHTML = 'You are using a very old browser, please upgrade.';
+		alertElement.innerText = 'You are using a very old browser, please upgrade.';
 		Guilherme.section.appendChild(alertElement);
+	},
+	handleMenuClick: function(e){
+		var tab, element = e.target;
+
+		if(element && element.nodeName === 'LI') {
+			tab = element.getAttribute('data-tab');
+			Guilherme.showPage(tab);
+		}
 	},
 	activeTab: function(sidebarItem){
 		Guilherme.removeActiveClass();

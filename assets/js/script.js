@@ -3,6 +3,7 @@
 var Guilherme = {
 	sidebar: document.getElementsByTagName('aside')[0],
 	section: document.getElementsByTagName('section')[0],
+	mobileMenu: document.getElementsByClassName('menu-mobile')[0],
 	setup: function(){
 		if(Guilherme.isOldBrowser()){
 			Guilherme.oldBrowser();
@@ -10,6 +11,7 @@ var Guilherme = {
 			var hash;
 			document.addEventListener('submit', Guilherme.formSubmit);
 			Guilherme.sidebar.addEventListener('click', Guilherme.handleMenuClick);
+			Guilherme.mobileMenu.addEventListener('click', Guilherme.handleMenuMobile);
 			hash = window.location.hash;
 
 			if(hash){
@@ -34,7 +36,12 @@ var Guilherme = {
 		if(element && element.nodeName === 'LI') {
 			tab = element.getAttribute('data-tab');
 			Guilherme.showPage(tab);
+			Guilherme.sidebar.className = '';
 		}
+	},
+	handleMenuMobile: function(){
+		var sidebarClass = Guilherme.sidebar.className;
+		Guilherme.sidebar.className = (sidebarClass) ? '' : 'active';
 	},
 	activeTab: function(sidebarItem){
 		Guilherme.removeActiveClass();

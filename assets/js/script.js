@@ -1,9 +1,9 @@
 'use strict';
 
 var Guilherme = {
-	sidebar: document.getElementsByTagName('aside')[0],
-	section: document.getElementsByTagName('section')[0],
-	mobileMenu: document.getElementsByClassName('menu-mobile')[0],
+	sidebar: document.querySelector('aside'),
+	section: document.querySelector('section'),
+	mobileMenu: document.querySelector('.menu-mobile'),
 	setup: function(){
 		if(Guilherme.isOldBrowser()){
 			Guilherme.oldBrowser();
@@ -51,7 +51,7 @@ var Guilherme = {
 		var sidebarActiveItem,
 			sidebarActiveItemClass;
 
-		sidebarActiveItem = Guilherme.sidebar.getElementsByClassName('active')[0];
+		sidebarActiveItem = Guilherme.sidebar.querySelector('.active');
 		if(sidebarActiveItem){
 			sidebarActiveItemClass = sidebarActiveItem.className;
 			sidebarActiveItem.className = sidebarActiveItemClass.replace('active', '');
@@ -60,7 +60,7 @@ var Guilherme = {
 	addActiveClass: function(tab){
 		var sidebarItem;
 
-		sidebarItem = Guilherme.sidebar.getElementsByClassName('tab-'+tab)[0];
+		sidebarItem = Guilherme.sidebar.querySelector('.tab-'+tab);
 		if(sidebarItem){
 			sidebarItem.className += ' active';
 		}
@@ -69,7 +69,7 @@ var Guilherme = {
 		e.preventDefault();
 
 		var submitRequest = new XMLHttpRequest(),
-			formElement = document.getElementsByTagName('form')[0].elements,
+			formElement = document.querySelector('form').elements,
 			respElement = document.createElement('div'),
 			formData = ''+
 				'name=' + encodeURIComponent(formElement.name.value)+'&'+

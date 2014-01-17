@@ -4,6 +4,7 @@ var Guilherme = {
 	sidebar: document.querySelector('aside'),
 	section: document.querySelector('section'),
 	mobileMenu: document.querySelector('.menu-mobile'),
+
 	setup: function(){
 		if(Guilherme.isOldBrowser()){
 			Guilherme.oldBrowser();
@@ -20,9 +21,11 @@ var Guilherme = {
 			}
 		}
 	},
+
 	isOldBrowser: function(){
 		return typeof document.addEventListener !== 'function';
 	},
+
 	oldBrowser: function(){
 		var alertElement = document.createElement('div');
 		Guilherme.section.innerText = '';
@@ -30,6 +33,7 @@ var Guilherme = {
 		alertElement.innerText = 'You are using a very old browser, please upgrade.';
 		Guilherme.section.appendChild(alertElement);
 	},
+
 	handleMenuClick: function(e){
 		var tab, element = e.target;
 
@@ -39,14 +43,17 @@ var Guilherme = {
 			Guilherme.sidebar.className = '';
 		}
 	},
+
 	handleMenuMobile: function(){
 		var sidebarClass = Guilherme.sidebar.className;
 		Guilherme.sidebar.className = (sidebarClass) ? '' : 'active';
 	},
+
 	activeTab: function(sidebarItem){
 		Guilherme.removeActiveClass();
 		Guilherme.addActiveClass(sidebarItem);
 	},
+
 	removeActiveClass: function(){
 		var sidebarActiveItem,
 			sidebarActiveItemClass;
@@ -57,6 +64,7 @@ var Guilherme = {
 			sidebarActiveItem.className = sidebarActiveItemClass.replace('active', '');
 		}
 	},
+
 	addActiveClass: function(tab){
 		var sidebarItem;
 
@@ -65,6 +73,7 @@ var Guilherme = {
 			sidebarItem.className += ' active';
 		}
 	},
+
 	formSubmit: function(e){
 		e.preventDefault();
 
@@ -103,12 +112,14 @@ var Guilherme = {
 
 		submitRequest.send(formData);
 	},
+
 	showPage: function(tab){
 		Guilherme.section.innerHTML = Guilherme.Pages[tab];
 		Guilherme.activeTab(tab);
 		window.location.hash = tab;
 		window.scrollTo(0,0);
 	},
+
 	Pages : {
 		home: ''+
 			'<h1>Guilherme Farias</h1>'+

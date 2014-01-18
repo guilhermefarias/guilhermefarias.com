@@ -126,6 +126,8 @@ var Guilherme = {
 			'<h2 class="home-role">Front-end Enginner</h2>'+
 			'<p class="home-legend">I am a 20 year old front-end engineer who lives in Recife, works at MGR Tecnologia and love JavaScript.</p>',
 		about: ''+
+			'<h2>About me</h2>'+
+
 			'<p class="about">Hello :)<br/>'+
 			'I\'m a Web Developer who lives in Recife and love JavaScript.<br/>'+
 			'I have 20 year old, am near to finish the Information System Bachelor\'s Degree and although my focus is client-side engineering and mobile, I also have knowledge in PHP, NodeJS (server-side JavaScript), Java, MySQL and other technologies.</p>'+
@@ -504,7 +506,7 @@ var Guilherme = {
 				'</div>'+
 			'</div>',
 		contact: ''+
-				'<h2>Contato</h2>'+
+				'<h2>Contact</h2>'+
 
 				'<form method="post">'+
 					'<label for="name">Name:</label>'+

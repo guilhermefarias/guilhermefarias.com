@@ -456,7 +456,7 @@ var Guilherme = {
 
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/02.jpg" /></div>'+
-				'<a class="item-title"> Projeto Ecocidades</a>'+
+				'<a class="item-title">Projeto Ecocidades</a>'+
 			'</div>'+
 
 			'<div class="site item">'+
@@ -466,7 +466,12 @@ var Guilherme = {
 
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/01.jpg" /></div>'+
-				'<a class="item-title"> Portfolio de Anderson Santos</a>'+
+				'<a class="item-title">Portfolio de Anderson Santos</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/29.jpg" /></div>'+
+				'<a class="item-title" href="http://cpjmaquinas.com.br" target="_blank">CPJ Máquinas</a>'+
 			'</div>' +
 
 			'<div class="site item">'+

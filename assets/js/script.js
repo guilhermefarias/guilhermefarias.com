@@ -475,6 +475,11 @@ var Guilherme = {
 			'</div>' +
 
 			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/30.jpg" /></div>'+
+				'<a class="item-title" href="http://mpn.adv.br" target="_blank">MPN Advogados</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/24.jpg" /></div>'+
 				'<a class="item-title" href="http://autoescolapiloto.net.br" target="_blank">Auto Escola Piloto</a>'+
 			'</div>',

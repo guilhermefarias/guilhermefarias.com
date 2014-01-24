@@ -86,7 +86,7 @@ var Guilherme = {
 				'subject=' + encodeURIComponent(formElement.subject.value)+'&'+
 				'message=' + encodeURIComponent(formElement.message.value);
 
-		submitRequest.open('POST','assets/php/email.php',true);
+		submitRequest.open('POST','http://guilhermefarias.com.br/mail',true);
 		submitRequest.setRequestHeader('Content-type','application/x-www-form-urlencoded');
 		submitRequest.onreadystatechange = function(){
 			if (submitRequest.readyState === 4 && submitRequest.status === 200 && submitRequest.responseText === 'OK'){

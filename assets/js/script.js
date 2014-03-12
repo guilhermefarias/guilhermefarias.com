@@ -231,7 +231,7 @@ var Guilherme = {
 			'<h2>Sistemas</h2>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/06.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/06.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Educca</h3>'+
 					'<p>It is an educational management system in order to modernize the way students relate to the institutions teachings. Facilitate and reduce communication costs, improve management of schools or colleges are some of the goals of the system.</p>'+
@@ -240,7 +240,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/04.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/04.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Meus Gastos</h3>'+
 					'<p>Meus Gastos is an online financial manager, where you can register your earnings and your expenses, taking greater control of your money.</p><br>'+
@@ -249,7 +249,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/03.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/03.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Gnoteboard</h3>'+
 					'<p>Application for organizing personal notes, you can organize your notes like a sticky notes board.</p><br>'+
@@ -261,7 +261,7 @@ var Guilherme = {
 			'<h2>Outros projetos</h2>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/07.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/07.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">CSS Dice</h3>'+
 					'<p>3D Dice done only with CSS3.<br/>See how it is possible to make a 3D Dice and animations using only CSS and some HTML</p><br>'+
@@ -270,7 +270,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/05.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/05.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Zoologico do Tico</h3>'+
 					'<p>It is an educational game where children must recognize the animals displayed on the screen, the game was fully developed with the new features of HTML5 (no-flash). Due to the use of API Google voice recognition, the game is only available on Google Chrome</p><br>'+
@@ -279,7 +279,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/09.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/09.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">CSSReload.JS</h3>'+
 					'<p>Script that reloads all CSS files on page in a given time interval. Made only with JavaScript (no jQuery dependency)</p><br>'+
@@ -288,7 +288,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/08.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/08.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">ZeptoJS BR</h3>'+
 					'<p>Translation of ZeptoJS documentation into Portuguese. Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API.</p><br>'+
@@ -297,7 +297,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/10.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/10.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Fear Ant</h3>'+
 					'<p>Example of use of Ambient Light Events, where ants (which were made ​​with only CSS3) move to be in an environment with low light (it is recommended that the device has light sensor for better experience)</p><br>'+
@@ -306,7 +306,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/11.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/11.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">SimpleThumbnail.php</h3>'+
 					'<p>Simple and lightweight PHP class to generate thumbnails.</p><br>'+
@@ -315,7 +315,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/02.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/02.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">NodeJS Chat</h3>'+
 					'<p>Chat done in NodeJS where you can create chat rooms with multiple users and exchange messages in real time using Web Sockets.</p><br>'+
@@ -324,7 +324,7 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
-				'<div class="item-img"><img src="assets/img/projetos/01.jpg" /></div>'+
+				'<div class="item-img"><img src="assets/img/projects/01.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Tic-tac-toe</h3>'+
 					'<p>This is the initial version of the Tic-tac-toe, for now the only 2 players can play on the same screen, will soon be possible to play alone and even play with another person who is on another computer, the game will be in real time, using WebSockets and NodeJS.</p><br>'+

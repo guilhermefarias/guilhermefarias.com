@@ -228,7 +228,7 @@ var Guilherme = {
 				'</div>'+
 			'</div>',
 		projects: ''+
-			'<h2>Sistemas</h2>'+
+			'<h2>Systems</h2>'+
 
 			'<div class="app item">'+
 				'<div class="item-img"><img src="assets/img/projects/06.jpg" /></div>'+
@@ -258,7 +258,7 @@ var Guilherme = {
 			'</div>'+
 			'<div class="clearfix"></div>'+
 
-			'<h2>Outros projetos</h2>'+
+			'<h2>Other projects</h2>'+
 
 			'<div class="app item">'+
 				'<div class="item-img"><img src="assets/img/projects/07.jpg" /></div>'+

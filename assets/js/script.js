@@ -123,14 +123,14 @@ var Guilherme = {
 	Pages : {
 		home: ''+
 			'<h1>Guilherme Farias</h1>'+
-			'<h2 class="home-role">Front-end Enginner</h2>'+
-			'<p class="home-legend">I am a 20 year old front-end engineer who lives in Recife, works at MGR Tecnologia and love JavaScript.</p>',
+			'<h2 class="home-role">Full Stack Web Developer</h2>'+
+			'<p class="home-legend">I am a 20 year old web developer who lives in Recife, works at MGR Tecnologia and love JavaScript.</p>',
 		about: ''+
 			'<h2>About me</h2>'+
 
-			'<p class="about">Hello :)<br/>'+
-			'I\'m a Web Developer who lives in Recife and love JavaScript.<br/>'+
-			'I have 20 year old, am near to finish the Information System Bachelor\'s Degree and although my focus is client-side engineering and mobile, I also have knowledge in PHP, NodeJS (server-side JavaScript), Java, MySQL and other technologies.</p>'+
+			'<p class="about">Hi there!<br/>'+
+			'I\'m Guilherme, a Brazilian web developer living in Recife.<br/> I work mostly with JavaScript, but I\'m also very enthusiastic about all related technologies that can be used to create web stuff and make my job more fun :)</p>'+
+			'<p class="about">I have 20 year old, am near to finish the Information System Bachelor\'s Degree and although my focus is client-side engineering and mobile, I also have knowledge in PHP, NodeJS (server-side JavaScript), Java, MySQL and other technologies.</p>'+
 			'<p class="about">I\'m a Front-End Engineer at <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, which developed a corporate social network, I am the creator of the blog <a href="http://guiky.com.br" target="_blank">Guiky</a> technology that I update since 2008 and in my spare time I am involved with several projects, you can check navigating the menus :)</p>',
 		talks: ''+
 			'<h2>Talks</h2>'+
@@ -502,6 +502,16 @@ var Guilherme = {
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/30.jpg" /></div>'+
 				'<a class="item-title" href="http://mpn.adv.br" target="_blank">MPN Advogados</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/37.jpg" /></div>'+
+				'<a class="item-title" href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/36.jpg" /></div>'+
+				'<a class="item-title" href="http://jetservicecomercial.com" target="_blank">Jet Service</a>'+
 			'</div>' +
 
 			'<div class="site item">'+

@@ -136,6 +136,17 @@ var Guilherme = {
 			'<h2>Talks</h2>'+
 
 			'<div class="talks item">'+
+				'<div class="item-img"><img src="assets/img/talks/08.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Alagoas Dev Day</h3>'+
+					'<p><b>Talk:</b> Aplicações Web Isomórficas</p>'+
+					'<p><b>Where::</b> Arte Pajuçara, Maceió - AL</p>'+
+					'<p><b>When:</b> 12/04/2014</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-web-isomorficas" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks item">'+
 				'<div class="item-img"><img src="assets/img/talks/07.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Front In Recife</h3>'+

@@ -491,6 +491,11 @@ var Guilherme = {
 			'</div>' +
 
 			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/38.jpg" /></div>'+
+				'<a class="item-title">Casa Revest</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/31.jpg" /></div>'+
 				'<a class="item-title" href="http://maracatupromo.com.br" target="_blank">Maracatu Promo</a>'+
 			'</div>' +

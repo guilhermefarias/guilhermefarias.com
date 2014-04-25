@@ -131,7 +131,9 @@ var Guilherme = {
 			'<p class="about">Hi there!<br/>'+
 			'I\'m Guilherme, a Brazilian web developer living in Recife.<br/> I work mostly with JavaScript, but I\'m also very enthusiastic about all related technologies that can be used to create web stuff and make my job more fun :)</p>'+
 			'<p class="about">I have 20 year old, am near to finish the Information System Bachelor\'s Degree and although my focus is client-side engineering and mobile, I also have knowledge in PHP, NodeJS (server-side JavaScript), Java, MySQL and other technologies.</p>'+
-			'<p class="about">I\'m a Front-End Engineer at <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, which developed a corporate social network, I am the creator of the blog <a href="http://guiky.com.br" target="_blank">Guiky</a> technology that I update since 2008 and in my spare time I am involved with several projects, you can check navigating the menus :)</p>',
+			'<p class="about">I\'m a Front-End Engineer at <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, which developed a corporate social network, I am the creator of the blog <a href="http://guiky.com.br" target="_blank">Guiky</a> technology that I update since 2008. In 2012, I co-founded with two other partners, a Digital Agency called <a href="http://chamacomunicacao.com.br/" target="_blank">Chama Comunicação</a>.</p>'+
+			'<p class="about"> Since 2012 until today, I am responsible for all work involving web technologies at Chama Comunicação, in this period I participated in many projects, most of them are websites. And in my spare time I am involved with several projects, that you can check navigating the menus :)</p>',
+
 		talks: ''+
 			'<h2>Talks</h2>'+
 
@@ -345,6 +347,10 @@ var Guilherme = {
 		sites: ''+
 			'<h2>Sites</h2>'+
 
+			'<div class="site-description">In 2012, I co-founded with two other partners, a Digital Agency called Chama Comunicação. Since 2012 until today, I am responsible for all work involving web technologies, in this period I participated in many projects, most of them are websites, which you can see below.</div>'+
+
+			'<div class="clearfix"></div>'+
+
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/15.jpg" /></div>'+
 				'<a class="item-title" href="http://www.lcmbr.com.br" target="_blank">LCM Comunicação</a>'+
@@ -488,6 +494,11 @@ var Guilherme = {
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/01.jpg" /></div>'+
 				'<a class="item-title">Portfolio de Anderson Santos</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/38.jpg" /></div>'+
+				'<a class="item-title">Casa Revest</a>'+
 			'</div>' +
 
 			'<div class="site item">'+

@@ -352,6 +352,11 @@ var Guilherme = {
 			'<div class="clearfix"></div>'+
 
 			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/39.jpg" /></div>'+
+				'<a class="item-title" href="http://oteatromagico.com.br" target="_blank">O Teatro Mágico</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/15.jpg" /></div>'+
 				'<a class="item-title" href="http://www.lcmbr.com.br" target="_blank">LCM Comunicação</a>'+
 			'</div>'+

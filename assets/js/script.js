@@ -285,6 +285,15 @@ var Guilherme = {
 			'<h2>Other projects</h2>'+
 
 			'<div class="app item">'+
+				'<div class="item-img"><img src="assets/img/projects/12.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Joel Ipsum Sublime Snippet</h3>'+
+					'<p>Lorem Ipsum is too mainstream, if you want fill something with text, use the new Joel Ipsum, now available as Sublime snippet.</p><br>'+
+					'<p>Available on <a href="https://github.com/guilhermefarias/joel-ipsum-sublime-snippet/" target="_blank">Github</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app item">'+
 				'<div class="item-img"><img src="assets/img/projects/07.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">CSS Dice</h3>'+

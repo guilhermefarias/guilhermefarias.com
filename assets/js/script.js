@@ -285,6 +285,15 @@ var Guilherme = {
 			'<h2>Other projects</h2>'+
 
 			'<div class="app item">'+
+				'<div class="item-img"><img src="assets/img/projects/13.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Cordova Exif</h3>'+
+					'<p>This plugin, is the simplest way to get exif data of images at Cordova platform (Phonegap).</p><br>'+
+					'<p>Available on <a href="https://github.com/guilhermefarias/cordova-exif" target="_blank">Github</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app item">'+
 				'<div class="item-img"><img src="assets/img/projects/12.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Joel Ipsum Sublime Snippet</h3>'+

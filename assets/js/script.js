@@ -284,6 +284,16 @@ var Guilherme = {
 
 			'<h2>Other projects</h2>'+
 
+
+			'<div class="app item">'+
+				'<div class="item-img"><img src="assets/img/projects/14.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Device Orientation Element</h3>'+
+					'<p>It is a custom element that allows capture the current device orientation using just one tag and a little bit JS.</p><br>'+
+					'<p>Available on <a href="https://github.com/guilhermefarias/device-orientation" target="_blank">Github</a></p>'+
+				'</div>'+
+			'</div>'+
+
 			'<div class="app item">'+
 				'<div class="item-img"><img src="assets/img/projects/13.jpg" /></div>'+
 				'<div class="item-description">'+

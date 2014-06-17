@@ -527,7 +527,7 @@ var Guilherme = {
 
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/33.jpg" /></div>'+
-				'<a class="item-title" href="#">Embalar</a>'+
+				'<a class="item-title" href="http://embalarnordeste.com.br/">Embalar</a>'+
 			'</div>'+
 
 			'<div class="site item">'+
@@ -557,7 +557,7 @@ var Guilherme = {
 
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/35.jpg" /></div>'+
-				'<a class="item-title" href="http://guaiamundo17.com.br" target="_blank">Guaiamundo 17</a>'+
+				'<a class="item-title" href="http://guaiamundo.com.br" target="_blank">Guaiamundo 17</a>'+
 			'</div>' +
 
 			'<div class="site item">'+

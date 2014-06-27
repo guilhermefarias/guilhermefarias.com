@@ -304,6 +304,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
+				'<div class="item-img"><img src="assets/img/projects/15.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Dark CMD</h3>'+
+					'<p>It is a THEME for Windows Command Prompt (cmd.exe), yes, its possible :)</p><br>'+
+					'<p>Available on <a href="https://github.com/guilhermefarias/Dark-CMD" target="_blank">Github</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app item">'+
 				'<div class="item-img"><img src="assets/img/projects/12.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Joel Ipsum Sublime Snippet</h3>'+

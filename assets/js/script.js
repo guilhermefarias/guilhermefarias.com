@@ -304,6 +304,15 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="app item">'+
+				'<div class="item-img"><img src="assets/img/projects/15.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Dark CMD</h3>'+
+					'<p>It is a THEME for Windows Command Prompt (cmd.exe), yes, its possible :)</p><br>'+
+					'<p>Available on <a href="https://github.com/guilhermefarias/Dark-CMD" target="_blank">Github</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="app item">'+
 				'<div class="item-img"><img src="assets/img/projects/12.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Joel Ipsum Sublime Snippet</h3>'+
@@ -527,7 +536,7 @@ var Guilherme = {
 
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/33.jpg" /></div>'+
-				'<a class="item-title" href="#">Embalar</a>'+
+				'<a class="item-title" href="http://embalarnordeste.com.br/">Embalar</a>'+
 			'</div>'+
 
 			'<div class="site item">'+
@@ -557,7 +566,7 @@ var Guilherme = {
 
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/35.jpg" /></div>'+
-				'<a class="item-title" href="http://guaiamundo17.com.br" target="_blank">Guaiamundo 17</a>'+
+				'<a class="item-title" href="http://guaiamundo.com.br" target="_blank">Guaiamundo 17</a>'+
 			'</div>' +
 
 			'<div class="site item">'+
@@ -573,6 +582,21 @@ var Guilherme = {
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/37.jpg" /></div>'+
 				'<a class="item-title" href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/40.jpg" /></div>'+
+				'<a class="item-title" href="http://vempragoiana.com.br/" target="_blank">VemPraGoiana</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/41.jpg" /></div>'+
+				'<a class="item-title" href="http://snne.com.br/" target="_blank">SNNE</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/42.jpg" /></div>'+
+				'<a class="item-title" href="http://chamacomunicacao.com.br/" target="_blank">Chama Comunicação</a>'+
 			'</div>' +
 
 			'<div class="site item">'+

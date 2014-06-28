@@ -276,8 +276,9 @@ var Guilherme = {
 				'<div class="item-img"><img src="assets/img/projects/03.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Gnoteboard</h3>'+
-					'<p>Application for organizing personal notes, you can organize your notes like a sticky notes board.</p><br>'+
+					'<p>Application for organizing personal notes, you can organize your notes like a sticky notes board. (Written in PHP)</p><br>'+
 					'<p>Available on <a href="https://play.google.com/store/apps/details?id=br.web.gnoteboard" target="_blank">Google Play</a> on <a href="https://chrome.google.com/webstore/detail/gnoteboard/fplbifbddpcmffmmgabkgchcjleginah" target="_blank">Chrome Web Store</a> and on <a href="http://gnoteboard.com" target="_blank">Gnoteboard.com</a></p>'+
+					'<p>I also wrote an "alternative version" in Java, just to improve my skills, you can found at <a href="http://github.com/guilhermefarias/jnoteboard" target="_blank">Github</a>.</p>'+
 				'</div>'+
 			'</div>'+
 			'<div class="clearfix"></div>'+

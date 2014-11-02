@@ -616,6 +616,11 @@ var Guilherme = {
 			'</div>' +
 
 			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/47.jpg" /></div>'+
+				'<a class="item-title" href="http://saxbr.com/" target="_blank">SAX</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/42.jpg" /></div>'+
 				'<a class="item-title" href="http://chamacomunicacao.com.br/" target="_blank">Chama Comunicação</a>'+
 			'</div>' +

@@ -138,6 +138,17 @@ var Guilherme = {
 			'<h2>Talks</h2>'+
 
 			'<div class="talks item">'+
+				'<div class="item-img"><img src="assets/img/talks/10.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">FEEC Lite - Recife</h3>'+
+					'<p><b>Talk:</b> Aplicações Web Modernas</p>'+
+					'<p><b>Where:</b> Livraria Cultura do Recife Antigo, Recife - PE</p>'+
+					'<p><b>When:</b> 04/11/2014</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-web-modernas" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks item">'+
 				'<div class="item-img"><img src="assets/img/talks/09.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Congresso de Software Livre do NE</h3>'+

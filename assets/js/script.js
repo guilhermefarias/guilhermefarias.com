@@ -602,6 +602,11 @@ var Guilherme = {
 			'</div>' +
 
 			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/51.jpg" /></div>'+
+				'<a class="item-title" href="http://natiflora.com.br/" target="_blank">Natiflora</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/41.jpg" /></div>'+
 				'<a class="item-title" href="http://snne.com.br/" target="_blank">SNNE</a>'+
 			'</div>' +

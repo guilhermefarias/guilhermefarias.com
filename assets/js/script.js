@@ -146,6 +146,14 @@ var Guilherme = {
 					'<p><b>When:</b> 04/11/2014</p>'+
 					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-web-modernas" target="_blank">Click here to view the slides from this talk</a></p>'+
 				'</div>'+
+
+				'<div class="item-description">'+
+					'<h3 class="item-title">ENCODEV - Encontro Nacional de Desenvolvimento de Software</h3>'+
+					'<p><b>Talk:</b> Aplicações Web Modernas</p>'+
+					'<p><b>Where:</b> Aracaju - SE, with streaming throughout Brazil</p>'+
+					'<p><b>When:</b> 28/11/2014</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-web-modernas" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
 			'</div>'+
 
 			'<div class="talks item">'+

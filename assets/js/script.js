@@ -138,6 +138,25 @@ var Guilherme = {
 			'<h2>Talks</h2>'+
 
 			'<div class="talks item">'+
+				'<div class="item-img"><img src="assets/img/talks/10.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">FEEC Lite - Recife</h3>'+
+					'<p><b>Talk:</b> Aplicações Web Modernas</p>'+
+					'<p><b>Where:</b> Livraria Cultura do Recife Antigo, Recife - PE</p>'+
+					'<p><b>When:</b> 04/11/2014</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-web-modernas" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
+
+				'<div class="item-description">'+
+					'<h3 class="item-title">ENCODEV - Encontro Nacional de Desenvolvimento de Software</h3>'+
+					'<p><b>Talk:</b> Aplicações Web Modernas</p>'+
+					'<p><b>Where:</b> Aracaju - SE, with streaming throughout Brazil</p>'+
+					'<p><b>When:</b> 28/11/2014</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/aplicacoes-web-modernas" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks item">'+
 				'<div class="item-img"><img src="assets/img/talks/09.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">Congresso de Software Livre do NE</h3>'+
@@ -588,6 +607,11 @@ var Guilherme = {
 			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/40.jpg" /></div>'+
 				'<a class="item-title" href="http://vempragoiana.com.br/" target="_blank">VemPraGoiana</a>'+
+			'</div>' +
+
+			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/51.jpg" /></div>'+
+				'<a class="item-title" href="http://natiflora.com.br/" target="_blank">Natiflora</a>'+
 			'</div>' +
 
 			'<div class="site item">'+

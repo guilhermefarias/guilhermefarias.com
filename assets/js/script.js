@@ -530,6 +530,11 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/52.jpg" /></div>'+
+				'<a class="item-title" href="http://lanchasrecife.com.br/" target="_blank">Royal Mariner</a>'+
+			'</div>'+
+
+			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/23.jpg" /></div>'+
 				'<a class="item-title" href="http://www.realtef.com.br" target="_blank">Realtef</a>'+
 			'</div>'+

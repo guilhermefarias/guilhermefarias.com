@@ -565,6 +565,11 @@ var Guilherme = {
 			'</div>'+
 
 			'<div class="site item">'+
+				'<div class="item-img"><img src="assets/img/sites/53.jpg" /></div>'+
+				'<a class="item-title" target="_blank">Vip Pilates</a>'+
+			'</div>'+
+
+			'<div class="site item">'+
 				'<div class="item-img"><img src="assets/img/sites/26.jpg" /></div>'+
 				'<a class="item-title" href="http://somdorio.com.br/" target="_blank">Festival Som do Rio</a>'+
 			'</div>' +

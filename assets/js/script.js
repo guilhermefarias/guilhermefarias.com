@@ -124,15 +124,14 @@ var Guilherme = {
 		home: ''+
 			'<h1>Guilherme Farias</h1>'+
 			'<h2 class="home-role">Full Stack Web Developer</h2>'+
-			'<p class="home-legend">I am a 20 year old web developer who lives in Recife, works at MGR Tecnologia and love JavaScript.</p>',
+			'<p class="home-legend">I am a 21 year old web developer and entrepreneur who lives in Recife, works at DigitalBits and love JavaScript.</p>',
 		about: ''+
 			'<h2>About me</h2>'+
 
 			'<p class="about">Hi there!<br/>'+
-			'I\'m Guilherme, a Brazilian web developer living in Recife.<br/> I work mostly with JavaScript, but I\'m also very enthusiastic about all related technologies that can be used to create web stuff and make my job more fun :)</p>'+
-			'<p class="about">I have 20 year old, am near to finish the Information System Bachelor\'s Degree and although my focus is client-side engineering and mobile, I also have knowledge in PHP, NodeJS (server-side JavaScript), Java, MySQL and other technologies.</p>'+
-			'<p class="about">I\'m a Front-End Engineer at <a href="http://mgrtech.com.br" target="_blank">MGR Tecnologia</a>, which developed a corporate social network, I am the creator of the blog <a href="http://guiky.com.br" target="_blank">Guiky</a> technology that I update since 2008. In 2012, I co-founded with two other partners, a Digital Agency called <a href="http://chamacomunicacao.com.br/" target="_blank">Chama Comunicação</a>.</p>'+
-			'<p class="about"> Since 2012 until today, I am responsible for all work involving web technologies at Chama Comunicação, in this period I participated in many projects, most of them are websites. And in my spare time I am involved with several projects, that you can check navigating the menus :)</p>',
+			'I\'m Guilherme, a Brazilian full stack web developer living in Recife.<br/> I work mostly with JavaScript, but I\'m also very enthusiastic about all related technologies that can be used to create web stuff and make my job more fun :)</p>'+
+			'<p class="about">I\'m a CEO at <a href="http://digitalbits.com.br" target="_blank">DigitalBits</a> and in my spare time I am involved with several projects, that you can check navigating the menus :)</p>'+
+			'<p class="about">More info about me you can find at <a href="http://www.linkedin.com/in/guiky" target="_blank">Linkedin</a></p>',
 
 		talks: ''+
 			'<h2>Talks</h2>'+

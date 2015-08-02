@@ -137,6 +137,17 @@ var Guilherme = {
 			'<h2>Talks</h2>'+
 
 			'<div class="talks item">'+
+				'<div class="item-img"><img src="assets/img/talks/11.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Inicio do curso de S.I.</h3>'+
+					'<p><b>Talk:</b> Trabalho, Futuro e Carreira</p>'+
+					'<p><b>Where:</b> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>'+
+					'<p><b>When:</b> 23/02/2015</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/trabalho-futuro-e-carreira" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks item">'+
 				'<div class="item-img"><img src="assets/img/talks/10.jpg" /></div>'+
 				'<div class="item-description">'+
 					'<h3 class="item-title">FEEC Lite - Recife</h3>'+

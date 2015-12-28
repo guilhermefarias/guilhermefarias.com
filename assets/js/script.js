@@ -124,17 +124,39 @@ var Guilherme = {
 		home: ''+
 			'<h1>Guilherme Farias</h1>'+
 			'<h2 class="home-role">Full Stack Web Developer</h2>'+
-			'<p class="home-legend">I am a 21 year old web developer and entrepreneur who lives in Recife, works at DigitalBits and love JavaScript.</p>',
+			'<p class="home-legend">I am a 21 year old web developer and entrepreneur who lives in Recife, works at Leet and love JavaScript.</p>',
 		about: ''+
 			'<h2>About me</h2>'+
 
 			'<p class="about">Hi there!<br/>'+
 			'I\'m Guilherme, a Brazilian full stack web developer living in Recife.<br/> I work mostly with JavaScript, but I\'m also very enthusiastic about all related technologies that can be used to create web stuff and make my job more fun :)</p>'+
-			'<p class="about">I\'m a CEO at <a href="http://digitalbits.com.br" target="_blank">DigitalBits</a> and in my spare time I am involved with several projects, that you can check navigating the menus :)</p>'+
+			'<p class="about">I\'m a CTO at <a href="http://leet.tech" target="_blank">Leet</a> and in my spare time I am involved with several projects, that you can check navigating the menus :)</p>'+
 			'<p class="about">More info about me you can find at <a href="http://www.linkedin.com/in/guiky" target="_blank">Linkedin</a></p>',
 
 		talks: ''+
 			'<h2>Talks</h2>'+
+
+			'<div class="talks item">'+
+				'<div class="item-img"><img src="assets/img/talks/12.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Front in Fortaleza</h3>'+
+					'<p><b>Talk:</b> Firefox Developer Tools</p>'+
+					'<p><b>Where:</b> Faculdade 7 de Setembro, Fortaleza - CE</p>'+
+					'<p><b>When:</b> 16/05/2015</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/firefox-developer-tools" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
+			'</div>'+
+
+			'<div class="talks item">'+
+				'<div class="item-img"><img src="assets/img/talks/11.jpg" /></div>'+
+				'<div class="item-description">'+
+					'<h3 class="item-title">Início  do curso de S.I.</h3>'+
+					'<p><b>Talk:</b> Trabalho, Futuro e Carreira</p>'+
+					'<p><b>Where:</b> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>'+
+					'<p><b>When:</b> 23/02/2015</p>'+
+					'<p><a href="https://speakerdeck.com/guilhermefarias/trabalho-futuro-e-carreira" target="_blank">Click here to view the slides from this talk</a></p>'+
+				'</div>'+
+			'</div>'+
 
 			'<div class="talks item">'+
 				'<div class="item-img"><img src="assets/img/talks/10.jpg" /></div>'+

@@ -124,13 +124,13 @@ var Guilherme = {
 		home: ''+
 			'<h1>Guilherme Farias</h1>'+
 			'<h2 class="home-role">Full Stack Web Developer</h2>'+
-			'<p class="home-legend">I am a 21 year old web developer and entrepreneur who lives in Recife, works at DigitalBits and love JavaScript.</p>',
+			'<p class="home-legend">I am a 21 year old web developer and entrepreneur who lives in Recife, works at Leet and love JavaScript.</p>',
 		about: ''+
 			'<h2>About me</h2>'+
 
 			'<p class="about">Hi there!<br/>'+
 			'I\'m Guilherme, a Brazilian full stack web developer living in Recife.<br/> I work mostly with JavaScript, but I\'m also very enthusiastic about all related technologies that can be used to create web stuff and make my job more fun :)</p>'+
-			'<p class="about">I\'m a CEO at <a href="http://digitalbits.com.br" target="_blank">DigitalBits</a> and in my spare time I am involved with several projects, that you can check navigating the menus :)</p>'+
+			'<p class="about">I\'m a CTO at <a href="http://leet.tech" target="_blank">Leet</a> and in my spare time I am involved with several projects, that you can check navigating the menus :)</p>'+
 			'<p class="about">More info about me you can find at <a href="http://www.linkedin.com/in/guiky" target="_blank">Linkedin</a></p>',
 
 		talks: ''+

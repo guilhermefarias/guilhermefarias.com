@@ -64,6 +64,24 @@ section {
 	padding: 50px;
 }
 
+section h3 {
+	float: left;
+	width: 150px;
+	color: #e74c3c;
+	padding-right: 15px;
+	text-align: right;
+}
+
+section h3 + span {
+	float: right;
+	width: calc(100% - 150px);
+	display: block;
+}
+
+section p {
+	clear: both;
+}
+
 .page-wrapper {
 	display: block;
 	height: 100%;

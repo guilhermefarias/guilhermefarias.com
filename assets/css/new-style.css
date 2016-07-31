@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+@font-face {
+	font-family:"Roboto Light";
+	src: url("../font/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family:"Roboto Thin";
+	src: url("../font/Roboto-Thin.ttf");
+}
+
+body {
+	color: #888;
+	font-size: 17px;
+	background-color: #F4F4F4;
+	font-family: 'Roboto Light', helvetica, arial, sans-serif;
+}
+
+.clearfix {
+	clear: both;
+}
+
+a {
+	color: #888;
+}
+
+p {
+	padding: 5px 0;
+}
+
+h1,
+h2,
+h3 {
+	color: #555;
+	font-weight: 100;
+	font-family: 'Roboto Thin', helvetica, arial, sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+.page-wrapper {
+	display: block;
+	height: 100%;
+	min-width: 1000px;
+}
+
+.side-pictures,
+.wrapper-content {
+	width: 50%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+}
+
+.side-pictures {
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: #000;
+}
+
+.wrapper-content{
+	top: 0;
+	right: 0;
+	padding: 50px;
+	float: right;
+	height: auto;
+	position: absolute;
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+/*---------------------------------------*\
+               Side pictures
+\*---------------------------------------*/
+
+
+.sqr {
+	float: left;
+	background-position: center;
+	background-size: cover;
+    animation-name: show;
+    animation-duration: 4s;
+}
+
+.group-1 {
+	float: left;
+	width: 60%;
+	height: 35%;
+}
+
+.group-1 .sqr {
+	width: 33.33%;
+	height: 50.2%;
+}
+
+.group-2 {
+	float: left;
+	width: 40%;
+	height: 35%;
+}
+
+.group-2 .sqr {
+	width: 100%;
+	height: 100%;
+}
+
+.group-3 {
+	float: left;
+	width: 100%;
+	height: 35%;
+}
+
+.group-3 .sqr {
+	width: 33.33%;
+	height: 100%;
+}
+
+.group-3 .sqr-8 {
+	width: 25%;
+	height: 100%;
+	background-position: left top;
+}
+
+.group-3 .sqr-10 {
+	width: 35%;
+	height: 100%;
+}
+
+.group-3 .sqr-12 {
+	width: 40%;
+	height: 100%;
+}
+
+.group-4 {
+	float: left;
+	width: 100%;
+	height: 30%;
+}
+
+.group-4 .sqr {
+	width: 33.33%;
+	height: 100%;
+}
+
+.sqr-1 {
+	background-image: url(../talks/1.jpg);
+}
+
+.sqr-2 {
+	background-image: url(../talks/2.jpg);
+}
+
+.sqr-3 {
+	background-image: url(../talks/3.jpg);
+}
+
+.sqr-4 {
+	background-image: url(../talks/4.jpg);
+}
+
+.sqr-6 {
+	background-image: url(../talks/6.jpg);
+}
+
+.sqr-8 {
+	background-image: url(../talks/8.jpg);
+}
+
+.sqr-9 {
+	background-image: url(../talks/9.jpg);
+}
+
+.sqr-10 {
+	background-image: url(../talks/10.jpg);
+}
+
+.sqr-11 {
+	background-image: url(../talks/11.jpg);
+}
+
+.sqr-12 {
+	position: relative;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+	background-image: url(../talks/12.jpg);
+}
+
+.sqr-13 {
+	position: relative;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+	background-image: url(../talks/13.jpg);
+}
+
+.sqr-14 {
+	background-image: url(../talks/14.jpg);
+}
+
+.sqr-15 {
+	position: relative;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+	background-image: url(../talks/15.jpg);
+}
+
+@keyframes show {
+    from {
+    	opacity: 0;
+    }
+    to {
+		opacity: 1;
+    }
+}
+

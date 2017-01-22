@@ -267,6 +267,24 @@ section {
 
 /*----- TALKS ------*/
 
+.talk-year {
+	float: left;
+	width: 100%;
+	color: #aaa;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 0 0;
+}
+
+
+.talk-year + .clearfix + .talk {
+	border-top: none;
+}
+
 .talks {
 	width: 100%;
 	margin: 0 auto;
@@ -279,33 +297,16 @@ section {
 	padding: 20px 0;
 }
 
-.talk-img {
-	width: 47%;
-	float: right;
-	border: 3px solid #fff;
-}
-
-.talk-img img {
-	width: 100%;
-	float: left;
-	height: auto;
-}
-
-.talk-description {
-	width: 50%;
-	margin-bottom: 20px;
-}
-
 .talk-description a {
 	display: none;
 }
 
 .talk-title {
 	width: 100%;
-	color: #fff;
+	color: #27ae60;
+	font-size: 30px;
 	margin-bottom: 5px;
-	padding: 5px 10px;
-	background-color: #27ae60;
+	font-family: 'Roboto Light', helvetica, arial, sans-serif;
 }
 
 

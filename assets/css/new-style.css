@@ -64,24 +64,6 @@ section {
 	padding: 50px;
 }
 
-section h3 {
-	float: left;
-	width: 150px;
-	color: #e74c3c;
-	padding-right: 15px;
-	text-align: right;
-}
-
-section h3 + span {
-	float: right;
-	width: calc(100% - 150px);
-	display: block;
-}
-
-section p {
-	clear: both;
-}
-
 .page-wrapper {
 	display: block;
 	height: 100%;
@@ -282,6 +264,52 @@ section p {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+/*----- TALKS ------*/
+
+.talks {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.talk {
+	width: 100%;
+	margin: 0 auto;
+	border-top: 3px solid #fff;
+	padding: 20px 0;
+}
+
+.talk-img {
+	width: 47%;
+	float: right;
+	border: 3px solid #fff;
+}
+
+.talk-img img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+.talk-description {
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.talk-description a {
+	display: none;
+}
+
+.talk-title {
+	width: 100%;
+	color: #fff;
+	margin-bottom: 5px;
+	padding: 5px 10px;
+	background-color: #27ae60;
+}
+
+
+/*----- ITENS ------*/
 
 .itens {
 	width: 100%;

@@ -356,6 +356,16 @@ section {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
+/*----- MOBILE ------*/
+
+.mobile {
+	margin-bottom: 40px;
+}
+
+.mobile .item-description {
+	display: none;
+}
+
 /*----- FORM ------*/
 
 .resp {

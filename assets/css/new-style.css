@@ -21,7 +21,7 @@ html {
 }
 
 body {
-	color: #888;
+	color: #777;
 	font-size: 17px;
 	background-color: #fff;
 	font-family: 'Roboto Light', helvetica, arial, sans-serif;
@@ -302,12 +302,56 @@ section {
 	display: none;
 }
 
+.talk-description p {
+	padding: 0;
+}
+
+.talk-description b {
+	font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
 .talk-title {
 	width: 100%;
 	color: #27ae60;
 	font-size: 30px;
 	margin-bottom: 5px;
-	font-family: 'Roboto Light', helvetica, arial, sans-serif;
+	font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+/*----- JOB ------*/
+
+
+.jobs {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.job {
+	width: 100%;
+	margin: 0 auto;
+	border-top: 1px solid #ccc;
+	padding: 20px 0;
+}
+
+.job-title {
+	width: 100%;
+	color: #27ae60;
+	font-size: 30px;
+	margin-bottom: 5px;
+	font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+.job strong {
+	font-weight: bold;
+	font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+.job-title + p {
+	padding: 0;
+}
+
+.job-title + p strong {
+	font-size: 20px;
 }
 
 
@@ -381,7 +425,7 @@ section {
 /*----- SAAS ------*/
 
 .item.saas  {
-	width: 100%;
+	/*width: 100%;*/
 	margin-bottom: 50px;
 }
 

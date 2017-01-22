@@ -379,6 +379,17 @@ section {
 	display: none;
 }
 
+/*----- SAAS ------*/
+
+.item.saas  {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.saas .item-description {
+	display: none;
+}
+
 /*----- FORM ------*/
 
 .resp {

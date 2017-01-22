@@ -374,7 +374,6 @@ section {
 	width: 50%;
 }
 
-
 .app .item-description {
 	display: none;
 }
@@ -388,8 +387,21 @@ section {
 
 .saas .item-description {
 	display: none;
+	/*top: 50%;
+	left: 0;
+	width: 50%;
+	height: 400px;
+	margin-top: -200px;
+	position: fixed;
+	padding: 40px 50px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.8);*/
 }
 
+/*.saas:hover .item-description {
+	display: block;
+}
+*/
 /*----- FORM ------*/
 
 .resp {

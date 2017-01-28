@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family:"Roboto Thin";
+	src: url("../font/Roboto-Thin.ttf");
+}
+
+body {
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'Roboto Thin', helvetica, arial, sans-serif
+}
+
+p {
+	padding: 8px 0;
+}
+
+section {
+	padding: 50px 0;
+}
+
+.inner {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.section-title {
+	font-size: 50px;
+	line-height: 70px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+/*----- BANNER -----*/
+
+.banner {
+	padding: 0;
+}
+
+.banner-info {
+	color: #fff;
+	z-index: 5;
+	position: absolute;
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	width: 680px;
+	height: 134px;
+	overflow: hidden;
+	left: 50%;
+	top: 50%;
+	margin-left: -340px;
+	margin-top: -70px;
+	text-shadow: 0 0 10px #000;
+}
+
+.banner-name {
+	font-size: 90px;
+	line-height: 94px;
+	font-weight: normal;
+}
+
+.banner-roles {
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: normal;
+}
+
+.banners {
+	width: 100%;
+	position: relative;
+}
+
+
+.banner-shadow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-img {
+	width: 14.2857%;
+	float: left;
+	height: auto;
+}
+
+/*----- INFO -----*/
+
+.info {
+	padding-top: 0;
+	position: relative;
+	text-align: justify;
+	border-top: 10px solid #cfcfcf;
+	box-shadow: 0 -6px 5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.info-avatar {
+	width: 220px;
+	height: 220px;
+	position: relative;
+	margin: -100px auto 20px;
+	background-size: contain;
+	background-image: url(../img/profile.png);
+}
+
+.info-role {
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+/*----- TALK -----*/
+
+.talk {
+	background-color: #f5f5f5;
+}
+
+.talk-year {
+	color: #555;
+	width: 100%;
+	float: left;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-weight: normal;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background-color: #efefef;
+	font-family: 'Passion One', cursive;
+}
+
+.talk-description {
+	width: 50%;
+	float: left;
+	margin-bottom: 35px;
+}
+
+.talk-title {
+	padding: 5px 15px;
+	font-size: 22px;
+	line-height: 34px;
+	display: inline-block;
+	background-color: #dcdcdc;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

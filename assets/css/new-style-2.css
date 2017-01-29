@@ -5,14 +5,14 @@
 }
 
 @font-face {
-	font-family:"Roboto Thin";
-	src: url("../font/Roboto-Thin.ttf");
+	font-family:"Roboto Light";
+	src: url("../font/Roboto-Light.ttf");
 }
 
 body {
 	font-size: 18px;
 	line-height: 26px;
-	font-family: 'Roboto Thin', helvetica, arial, sans-serif
+	font-family: 'Roboto Light', helvetica, arial, sans-serif
 }
 
 p {

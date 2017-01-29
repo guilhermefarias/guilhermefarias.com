@@ -15,6 +15,10 @@ body {
 	font-family: 'Roboto Light', helvetica, arial, sans-serif
 }
 
+a {
+	text-decoration: none;
+}
+
 p {
 	padding: 8px 0;
 }
@@ -169,11 +173,7 @@ section {
 .job-description {
 	width: 100%;
 	float: left;
-	margin-bottom: 35px;
-}
-
-.job-description p {
-	padding: 5px 0;
+	margin-bottom: 20px;
 }
 
 .job-title {
@@ -186,12 +186,31 @@ section {
 	margin-bottom: 10px;
 }
 
-p.job-subtitle {
+.job-subtitle {
 	padding: 5px 10px;
 	display: inline-block;
 	background-color: #f5f5f5;
 }
 
+.job-subtitle.no-bg {
+	background-color: transparent;
+}
+
+.job-full {
+	width: 50%;
+	margin: 0 auto;
+	color: #888;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px 0;
+}
+
+.job-full:hover {
+	color: #222;
+	background-color: #dcdcdc;
+}
 
 /*----- FOTO -----*/
 

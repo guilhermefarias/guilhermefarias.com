@@ -191,7 +191,32 @@ p.job-subtitle {
 }
 
 
+/*----- FOTO -----*/
 
+.photo {
+	padding: 0;
+	background-color: #000;
+}
+
+.photos {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.photo-shadow {
+	width: 110%;
+	height: 100%;
+	margin-left: -5%;
+	position: absolute;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.photo-img {
+	width: 20%;
+	float: left;
+	height: auto;
+}
 
 
 

@@ -16,6 +16,7 @@ body {
 }
 
 a {
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -257,7 +258,6 @@ section {
 	width: 100%;
 	height: 340px;
 	overflow: hidden;
-	margin-bottom: 100px;
 	background-color: red;
 	background-size: cover;
 	background-position: center;
@@ -288,7 +288,45 @@ section {
 }
 
 
+/*----- REWARD -----*/
 
+.reward-text {
+	text-align: justify;
+}
+
+.reward-text em {
+	color: #aaa;
+	padding: 50px 20px;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	display: block;
+}
+
+.reward-mozilla {
+	width: 600px;
+	height: 420px;
+	float: right;
+	background-size: cover;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	border: 5px solid #ccc;
+	background-image: url(../img/moz.jpg);
+}
+
+.reward-mozilla-name {
+	width: 450px;
+	height: 170px;
+	float: right;
+	border-radius: 5px;
+	margin: -50px 60px 20px 20px;
+	border: 5px solid #ccc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../img/mozilla-name.png);
+}
 
 
 

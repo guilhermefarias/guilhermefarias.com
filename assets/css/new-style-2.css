@@ -45,6 +45,10 @@ section {
 	margin-bottom: 20px;
 }
 
+.mobile-dblock {
+	display: none;
+}
+
 @media (max-width: 960px) {
 	.inner {
 		width: 90%;

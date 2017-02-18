@@ -45,6 +45,18 @@ section {
 	margin-bottom: 20px;
 }
 
+@media (max-width: 960px) {
+	.inner {
+		width: 90%;
+	}
+
+	.section-title {
+		font-size: 30px;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+}
+
 /*----- BANNER -----*/
 
 .banner {
@@ -97,6 +109,28 @@ section {
 	width: 100%;
 	float: left;
 	height: auto;
+}
+
+@media (max-width: 960px) {
+	.banner-info {
+		width: 100%;
+		height: 100px;
+		overflow: hidden;
+		left: 0;
+		top: 20px;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.banner-name {
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	.banner-roles {
+		font-size: 20px;
+		line-height: 30px;
+	}
 }
 
 /*----- INFO -----*/
@@ -162,6 +196,12 @@ section {
 	background-image: url(../img/icon-github.png);
 }
 
+@media (max-width: 960px) {
+	.info-avatar {
+		margin-top: -50px;
+	}
+}
+
 /*----- TALK -----*/
 
 .talk {
@@ -206,6 +246,20 @@ section {
 	margin-bottom: 10px;
 }
 
+@media (max-width: 960px) {
+	.talk-description {
+		width: 100%;
+	}
+
+	.talk-description p {
+		width: 100%;
+	}
+
+	.talk-title {
+		text-align: center;
+		display: block;
+	}
+}
 
 /*----- JOB -----*/
 
@@ -323,6 +377,19 @@ section {
 	background-image: url(../img/skills.png);
 }
 
+@media (max-width: 960px) {
+	.codes {
+		height: auto;
+	}
+
+	.code-shadow {
+		height: auto;
+	}
+
+	.code-thumbs {
+		display: none;
+	}
+}
 
 /*----- REWARD -----*/
 
@@ -364,7 +431,15 @@ section {
 	background-image: url(../img/mozilla-name.png);
 }
 
+@media (max-width: 960px) {
+	.reward-mozilla {
+		width: 100%;
+		height: 300px;
+	}
 
-
-
-
+	.reward-mozilla-name {
+		width: 100%;
+		height: 170px;
+		margin: 0 0 20px 0;
+	}
+}

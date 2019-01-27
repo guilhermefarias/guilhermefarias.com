@@ -448,7 +448,10 @@ section {
 /* -------------------------- Projects ---------------------------- */
 
 #projects {
-	background-image: linear-gradient(to right,#ff8a00,#da1b60);
+	background-size: cover;
+	background-position: center;
+	/*background-image: linear-gradient(to right,#ff8a00,#da1b60);*/
+	background-image: url(img/bg.jpg);
 }
 
 #projects .section-title {
@@ -620,13 +623,18 @@ section {
 }
 
 .timeline-achievement.current {
-	margin-left: -1px;
-	border-width: 4px;
+	padding: 10px;
+	border: 2px solid #2c3e50;
 }
 
 .timeline-achievement .current {
 	color: #000;
 	font-weight: bold;
+}
+
+.timeline-achievement i + strong {
+	font-weight: normal;
+	font-family: AvenirNextBold;
 }
 
 .timeline-achievement p + p {
@@ -650,8 +658,8 @@ section {
 }
 
 .timeline-achievement.phase-4 {
-	color: #f39c12;
-	border-color: #f39c12;
+	color: #e67e22;
+	border-color: #e67e22;
 }
 
 .timeline-achievement.achievement-1 {
@@ -823,15 +831,14 @@ section {
 
 footer {
 	width: 100%;
-	padding: 20px 0;
+	padding: 30px 0;
 	height: 120px;
 	background-color: #242424;
 }
 
 .footer-text {
 	color: #ccc;
-	height: 80px;
-	line-height: 80px;
+	line-height: 30px;
 	text-align: center;
 	font-family: 'AvenirNextBold';
 }

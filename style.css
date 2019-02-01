@@ -588,13 +588,13 @@ section {
 }
 
 .timeline-bar-line.phase-3 {
-	height: 740px;
+	height: 2040px;
 	margin-top: 55px;
 	background-color: #6e1ae6;
 }
 
 .timeline-bar-line.phase-4 {
-	height: 805px;
+	height: 1690px;
 	margin-top: 185px;
 	background-color: #ffb000;
 }
@@ -699,11 +699,15 @@ section {
 }
 
 .timeline-achievement.achievement-10 {
-	margin-top: 95px;
+	margin-top: 200px;
 }
 
 .timeline-achievement.achievement-11 {
 	margin-top: 85px;
+}
+
+.timeline-achievement.achievement-12 {
+	margin-top: 320px;
 }
 
 /*

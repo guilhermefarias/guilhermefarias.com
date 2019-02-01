@@ -448,10 +448,8 @@ section {
 /* -------------------------- Projects ---------------------------- */
 
 #projects {
-	background-size: cover;
-	background-position: center;
 	/*background-image: linear-gradient(to right,#ff8a00,#da1b60);*/
-	background-image: url(img/bg.jpg);
+	background-image: linear-gradient(to right, #2d57ab, #09c4f1);
 }
 
 #projects .section-title {
@@ -560,26 +558,26 @@ section {
 }
 
 .timeline-bar-line.phase-1 {
-	height: 450px;
+	height: 1170px;
 	margin-top: 10px;
 	background-color: #2ecc71;
 }
 
 .timeline-bar-line.phase-2 {
-	height: 380px;
-	margin-top: 370px;
+	height: 850px;
+	margin-top: 610px;
 	background-color: #01cfec;
 }
 
 .timeline-bar-line.phase-3 {
-	height: 440px;
-	margin-top: 65px;
+	height: 740px;
+	margin-top: 55px;
 	background-color: #6e1ae6;
 }
 
 .timeline-bar-line.phase-4 {
-	height: 305px;
-	margin-top: 15px;
+	height: 805px;
+	margin-top: 185px;
 	background-color: #ffb000;
 }
 
@@ -663,11 +661,31 @@ section {
 }
 
 .timeline-achievement.achievement-1 {
-	margin-top: 0;
+	margin-top: 25px;
 }
 
 .timeline-achievement.achievement-2 {
-	margin-top: 215px;
+	margin-top: 355px;
+}
+
+.timeline-achievement.achievement-4 {
+	margin-top: 82px;
+}
+
+.timeline-achievement.achievement-8 {
+	margin-top: 325px;
+}
+
+.timeline-achievement.achievement-9 {
+	margin-top: 210px;
+}
+
+.timeline-achievement.achievement-10 {
+	margin-top: 95px;
+}
+
+.timeline-achievement.achievement-11 {
+	margin-top: 85px;
 }
 
 /*

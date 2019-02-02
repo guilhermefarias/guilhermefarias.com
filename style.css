@@ -326,10 +326,6 @@ section {
 	font-family: 'AvenirNextBold';
 }
 
-.knowledge-area:hover {
-	background-color: #f5f5f5;
-}
-
 .knowledge-area strong {
 	font-weight: normal;
 }
@@ -452,9 +448,9 @@ section {
 }
 
 
-.talk-description span {
-	color: #ff5851;
-	opacity: 0.5;
+.talk-description img {
+	width: 10px;
+	height: 10px;
 	margin-right: 2px;
 }
 
@@ -509,7 +505,8 @@ section {
 
 
 #timeline .linkedin {
-	color: #2980b9;
+	width: 32px;
+	height: 32px;
 	float: right;
 	margin-top: 10px;
 	font-size: 30px;
@@ -654,7 +651,12 @@ section {
 	font-weight: bold;
 }
 
-.timeline-achievement i + strong {
+.timeline-achievement img {
+	width: 12px;
+	height: 12px;
+}
+
+.timeline-achievement img + strong {
 	font-weight: normal;
 	font-family: AvenirNextBold;
 }
@@ -819,7 +821,6 @@ section {
 
 #contact {
 	background-color: #f1f1f1;
-	/*border-top: 10px solid #3498db;*/
 	box-shadow: 0 0 30px 0.1px rgba(0, 0, 0, 0.3);
 }
 
@@ -828,7 +829,7 @@ section {
 	color: #fff;
 	padding: 5px 15px;
 	text-transform: uppercase;
-	background-color: #3498db;
+	background-color: #14a477;
 }
 
 .contact-form  {
@@ -859,7 +860,7 @@ section {
 
 .contact-form .focus label {
 	color: #f1f1f1;
-	background-color: #01cfec;
+	background-color: #2ecc71;
 }
 
 .contact-form .input-text,
@@ -875,7 +876,7 @@ section {
 
 .contact-form .input-text:focus,
 .contact-form .input-textarea:focus {
-	border-color: #01cfec;
+	border-color: #2ecc71;
 	box-shadow: 0 0 6px 0.1px rgba(0,0,0,0.1) inset;
 }
 
@@ -888,7 +889,7 @@ section {
 .contact-form .submit {
 	float: right;
 	font-size: 14px;
-	background-color: #3498db;
+	background-color: #14a477;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -898,7 +899,7 @@ section {
 }
 
 .contact-form .submit:hover {
-	background-color: #01cfec;
+	background-color: #2ecc71;
 }
 
 
@@ -929,12 +930,12 @@ section {
 	padding: 5px 0;
 	display: block;
 	text-align: center;
-	background-color: #3498db;
+	background-color: #27ae60;
 	text-transform: uppercase;
 }
 
 .contact-link:hover {
-	background-color: #01cfec;
+	background-color: #2ecc71;
 }
 
 
@@ -955,14 +956,15 @@ footer {
 }
 
 .footer-text {
-	color: #ccc;
+	color: #17f3af;
 	line-height: 30px;
 	text-align: center;
 	font-family: 'AvenirNextBold';
 }
 
 
-.footer-text .fa {
-	color: #e74c3c;
+.footer-text img {
+	width: 45px;
+	height: 45px;
 }
 

@@ -1,268 +1,549 @@
 <!DOCTYPE html>
-<html>
 <head>
-	<title>Guilherme Farias</title>
+	<title>Guilherme Farias - Engenheiro de Software, Empreendedor e Palestrante</title>
+	<link rel="shortcut icon" href="assets/img/favicon.ico" />
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<link rel="stylesheet" href="assets/css/new-style-2.css" type="text/css"/>
-	<link rel="shortcut icon" href="assets/favicon.ico" />
-	<meta name="author" content="Guilherme Farias" />
-	<meta name="description" content="Eu trabalho na maior parte do tempo com JavaScript, mas também estou muito entusiasmado com todas as tecnologias relacionadas que podem ser usados para criar coisas web e fazer o meu trabalho mais divertido :)" />
-	<meta name="keywords" content="Web Developer, Backend, FrontEnd, FullStack Developer, Empreendedor, Palestrante, Guilherme Farias, DigitalBits" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="HandheldFriendly" content="true"/>
-	<meta name="MobileOptimized" content="320">
-	<meta property="og:image" content="https://guilhermefarias.com/assets/img/site-header.jpg" />
+	<link rel="stylesheet" href="assets/css/style.css" media="all" type="text/css" />
+	<meta name="description" content="Guilherme Farias - Engenheiro de Software, Empreendedor e Palestrante">
+	<meta name="keywords" content="Guilherme Farias, NodeJS, AngularJS, Software Enginner, Engenheiro de Software, FullStack Developer, FrontEnd Developer, Empreendedor, Palestrante">
 </head>
 <body>
-	<section class="banner">
-		<div class="banners">
-			<img class="banner-img" src="assets/img/site-header.jpg" />
-			<div class="banner-img-mobile"></div>
-			<div class="banner-info">
-				<h1 class="banner-name">Guilherme Farias</h1>
-				<h2 class="banner-roles">Dev Web Full Stack, Empreendedor e Palestrante</h2>
+	<header>
+		<div class="header-flags">
+			<span class="header-flag-text">VERSION</span>
+			<a class="header-flag br active"></a>
+			<a class="header-flag en"></a>
+		</div>
+		<div class="inner">
+			<div class="header-logo">Guilherme Farias.</div>
+			<nav>
+				<ul>
+					<li class="a1 active" onclick="goTo('aboutme')" data-id="aboutme">Resumo</li>
+					<li class="a2" onclick="goTo('talks')" data-id="talks">Palestras</li>
+					<li class="a3" onclick="goTo('projects')" data-id="projects">Projetos</li>
+					<li class="a4" onclick="goTo('timeline')" data-id="timeline">Experiências</li>
+					<li class="a5" onclick="goTo('contact')" data-id="contact">Contato</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="aboutme">
+		<div class="inner">
+			<div class="aboutme-photo">
+				<div class="aboutme-photo-shadow-1"></div>
+				<div class="aboutme-photo-shadow-2"></div>
+				<div class="aboutme-photo-img"></div>
 			</div>
-			<div class="banner-shadow"></div>
+			<div class="aboutme-text">
+				<h1 class="section-title">Guilherme Farias.</h1>
+				<h2>Engenheiro de Software, Empreendedor e Palestrante</h2>
+				<p>Tenho 8 anos intensos de experiência com desenvolvimento de sistemas web, sou especialista em produtos digiais. A maior parte da minha carreira foi focada na stack do JavaScript, possuo conhecimento profundo nas tecnologias de Front-End e Back-End como NodeJS, PostgreSQL e DevOps em geral.</p>
+				<p>Meu relacionamento com tecnologia e internet vem desde 2008, com a criação do meu Blog de Tecnologia, quando eu tinha apenas 15 anos, que chegou a somar 1 milhão de acessos e alguns reconhecimentos nacionais.</p>
+				<p>Minha evolução como desenvolvedor foi rápida e intensa, com cerca de 1 ano de experiência eu já estava palestrando em eventos locais e que logo em seguida expandiu para outras regiões do Brasil, já palestrei em 20 eventos em 5 estados Brasileiros e recebi até reconhecimento internacional.</p>
+				<p>Em 2012 comecei a empreender, de lá pra cá fui sócio de 5 empresas, hoje estou construindo um produto que pretende revolucionar maneira que os consultórios medicos funcionam no Brasil. A seguir você pode conferir em detalhes um pouco da minha jornada profissional</p>
+			</div>
 			<div class="clearfix"></div>
 		</div>
 	</section>
-	<section class="info">
-		<div class="info-avatar"></div>
+	<section id="knowledges">
 		<div class="inner">
-			<h2 class="info-role">CEO em DigitalBits <span class="mobile-dnone">|</span><br class="mobile-dblock"/> CTO em PráxisBPO</h2>
-			<div class="social-icons">
-				<a href="http://github.com/guilhermefarias/" target="_blank" class="social-icon github"></a>
-				<a href="http://twitter.com/guiky/" target="_blank" class="social-icon twitter"></a>
-				<a href="http://facebook.com/guiky/" target="_blank" class="social-icon facebook"></a>
-				<a href="https://linkedin.com/in/guiky" target="_blank" class="social-icon linkedin"></a>
+			<div class="knowledge-areas">
+				<div class="knowledge-area c1">
+					<strong>Software Engineering</strong>
+				</div>
+				<div class="knowledge-area c2">
+					<strong>DevOps</strong>
+				</div>
+				<div class="knowledge-area c3">
+					<strong>Management</strong>
+				</div>
+				<div class="knowledge-area c4">
+					<strong>Business</strong>
+				</div>
+				<div class="knowledge-area c5">
+					<strong>Digital Product</strong>
+				</div>
+				<div class="knowledge-area c6">
+					<strong>Inovation</strong>
+				</div>
+				<div class="clearfix"></div>
 			</div>
-			<p>Minha carreira no mundo digital começou em 2008 com a criação do meu Blog de Tecnologia, quando eu tinha apenas 15 anos, mas só em 2011 (ano em que o blog atingiu a marca de 1 milhão de visitas) é que entrei de vez na programação, minha evolução foi rápida e intensa, somei várias experiências formais e informais.</p>
-			<p>Além das experiências formais a seguir, participei de dezenas de trabalhos extras e em paralelo, como freelances, desde agências de publicidade locais de Recife até gigantes como a IBM e Globo Filmes, tive experiência com clientes de vários estados brasileiros, passando pelo Sul, Sudeste, Centro-Oeste e Nordeste</p>
-			<p>A partir de 2014 comecei a empreender, neste momento meu esforço de aprendizado intenso na Engenharia de Software foi dividido com outras área do conhecimento, com o objetivo de conseguir "me dividir" e ocupar todas as funções que uma empresa precisa para se manter, conquistar novos clientes e crescer.</p>
-			<p>Hoje acumulo conhecimentos em diversas áreas, com destaque para Marketing Digital, Economia e Administração.</p>
 		</div>
 	</section>
-	<section class="talk">
+	<section id="talks">
 		<div class="inner">
-			<h2 class="section-title">Palestras</h2>
 			<div class="talks">
+				<h2 class="section-title">Palestras</h2>
+				<div class="talk-year">2018</div>
+				<div class="clearfix"></div>
+				<div class="talk-description">
+					<h3 class="talk-title">DigitalOcean Meetup</h3>
+					<p><img src="assets/svg/comment-alt.svg" /> Foco - pode ser a peça que falta pro seu sucesso </p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Pitang, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 16/03/2018</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="talk-year">2017</div>
+				<div class="clearfix"></div>
+				<div class="talk-description">
+					<h3 class="talk-title">The Developers Conference</h3>
+					<p><img src="assets/svg/comment-alt.svg" /> Crawler e automações com NodeJS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> UniRitter, Porto Alegre - RS</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 10/11/2017</p>
+				</div>
+				<div class="talk-description">
+					<h3 class="talk-title">9º Meetup PHP Pernambuco</h3>
+					<p><img src="assets/svg/comment-alt.svg" /> Crawler e automações com NodeJS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> EloMilhas, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 30/10/2017</p>
+				</div>
+				<div class="talk-description">
+					<h3 class="talk-title">AESO</h3>
+					<p><img src="assets/svg/comment-alt.svg" /> Como Hackear sua carreira</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> AESO, Olinda - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 29/08/2017</p>
+				</div>
+				<div class="clearfix"></div>
 				<div class="talk-year">2016</div>
+				<div class="clearfix"></div>
 				<div class="talk-description">
 					<h3 class="talk-title">Coworking Connection Meetup</h3>
-					<p><b>Tema:</b> Aplicações Web Modernas</p>
-					<p><b>Onde:</b> Coworking Connection, Recife - PE</p>
-					<p><b>Quando:</b> 15/12/2016</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Aplicações Web Modernas</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Coworking Connection, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 15/12/2016</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">DevFest Nordeste</h3>
-					<p><b>Tema:</b> Crawler e automações com NodeJS</p>
-					<p><b>Onde:</b> Resort Pratagy, Maceió - AL</p>
-					<p><b>Quando:</b> 21/10/2016</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Crawler e automações com NodeJS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Resort Pratagy, Maceió - AL</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 21/10/2016</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">Liferay Meetup</h3>
-					<p><b>Tema:</b> Crawler e automações com NodeJS</p>
-					<p><b>Onde:</b> Liferay Brasil, Recife - PE</p>
-					<p><b>Quando:</b> 20/10/2016</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Crawler e automações com NodeJS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Liferay Brasil, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 20/10/2016</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">CSS Day</h3>
-					<p><b>Tema:</b> PerformanceCSS</p>
-					<p><b>Onde:</b> CESMAC, Maceió - AL</p>
-					<p><b>Quando:</b> 07/05/2016</p>
+					<p><img src="assets/svg/comment-alt.svg" /> PerformanceCSS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> CESMAC, Maceió - AL</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 07/05/2016</p>
 				</div>
+				<div class="clearfix"></div>
 				<div class="talk-year">2015</div>
+				<div class="clearfix"></div>
 				<div class="talk-description">
 					<h3 class="talk-title">Rock and Code</h3>
-					<p><b>Tema:</b> NodeJS - já está na hora de aprender!</p>
-					<p><b>Onde:</b> AABB, Aracaju - SE</p>
-					<p><b>Quando:</b> 28/11/2015</p>
+					<p><img src="assets/svg/comment-alt.svg" /> NodeJS - já está na hora de aprender!</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> AABB, Aracaju - SE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 28/11/2015</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">Front in Fortaleza</h3>
-					<p><b>Tema:</b> Firefox Developer Tools</p>
-					<p><b>Onde:</b> Faculdade 7 de Setembro, Fortaleza - CE</p>
-					<p><b>Quando:</b> 16/05/2015</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Firefox Developer Tools</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Faculdade 7 de Setembro, Fortaleza - CE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 16/05/2015</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">Início do curso de S.I. AESO</h3>
-					<p><b>Tema:</b> Trabalho, Futuro e Carreira</p>
-					<p><b>Onde:</b> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>
-					<p><b>Quando:</b> 23/02/2015</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Trabalho, Futuro e Carreira</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 23/02/2015</p>
 				</div>
+				<div class="clearfix"></div>
 				<div class="talk-year">2014</div>
+				<div class="clearfix"></div>
 				<div class="talk-description">
 					<h3 class="talk-title" title="Encontro Nacional de Desenvolvimento de Software">ENCODEV</h3>
-					<p><b>Tema:</b> Aplicações Web Modernas</p>
-					<p><b>Onde:</b> Aracaju - SE, com streaming para todo o Brasil</p>
-					<p><b>Quando:</b> 28/11/2014</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Aplicações Web Modernas</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Aracaju - SE, com streaming para todo o Brasil</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 28/11/2014</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">FEEC Lite - Recife</h3>
-					<p><b>Tema:</b> Aplicações Web Modernas</p>
-					<p><b>Onde:</b> Livraria Cultura do Recife Antigo, Recife - PE</p>
-					<p><b>Quando:</b> 04/11/2014</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Aplicações Web Modernas</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Livraria Cultura do Recife Antigo, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 04/11/2014</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">Congresso de Software Livre do NE</h3>
-					<p><b>Tema:</b> Como participar de projetos Open Source no Github?</p>
-					<p><b>Onde:</b> Faculdade dos Guararapes, Jaboatão dos Guararapes - PE</p>
-					<p><b>Quando:</b> 26/04/2014</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Como participar de projetos Open Source no Github?</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Faculdade dos Guararapes, Jaboatão dos Guararapes - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 26/04/2014</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">Alagoas Dev Day</h3>
-					<p><b>Tema:</b> Aplicações Web Isomórficas</p>
-					<p><b>Onde::</b> Arte Pajuçara, Maceió - AL</p>
-					<p><b>Quando:</b> 12/04/2014</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Aplicações Web Isomórficas</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Arte Pajuçara, Maceió - AL</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 12/04/2014</p>
 				</div>
+				<div class="clearfix"></div>
 				<div class="talk-year">2013</div>
+				<div class="clearfix"></div>
 				<div class="talk-description">
 					<h3 class="talk-title">Front In Recife</h3>
-					<p><b>Tema:</b> HTML, CSS e JS: Olhando pra frente</p>
-					<p><b>Onde::</b> Faculdade Marista, Recife - PE</p>
-					<p><b>Quando:</b> 14/12/2013</p>
+					<p><img src="assets/svg/comment-alt.svg" /> HTML, CSS e JS: Olhando pra frente</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Faculdade Marista, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 14/12/2013</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">FEEC Brazil - Recife </h3>
-					<p><b>Tema:</b> JavaScript em todos os lugares</p>
-					<p><b>Onde:</b> Recife Palace Hotel</p>
-					<p><b>Quando:</b> 23/11/2013</p>
-				</div>
-				<div class="talk-description">
-					<h3 class="talk-title">IV SECOMP AESO</h3>
-					<p><b>Tema:</b> Git e a importância de versionar um projeto</p>
-					<p><b>Onde:</b> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>
-					<p><b>Quando:</b> 25/10/2013</p>
+					<p><img src="assets/svg/comment-alt.svg" /> JavaScript em todos os lugares</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Recife Palace Hotel</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 23/11/2013</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">FEEC Lite - Recife</h3>
-					<p><b>Tema:</b> Getting Started with FirefoxOS</p>
-					<p><b>Onde:</b> Livraria Cultura do Recife Antigo, Recife - PE</p>
-					<p><b>Quando:</b> 11/09/2013</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Getting Started with FirefoxOS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Livraria Cultura do Recife Antigo, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 11/09/2013</p>
+				</div>
+				<div class="talk-description">
+					<h3 class="talk-title">IV SECOMP AESO</h3>
+					<p><img src="assets/svg/comment-alt.svg" /> Git e a importância de versionar um projeto</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Faculdades Integradas Barros Melo - AESO, Olinda - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 25/10/2013</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">FEEC Lite - Angicos</h3>
-					<p><b>Tema:</b> Como criar seu primeiro site em wordpress</p>
-					<p><b>Onde:</b> Universidade Federal Rural do Semi-árido - UFERSA, Angicos - RN</p>
-					<p><b>Quando:</b> 31/08/2013</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Como criar seu primeiro site em wordpress</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Universidade Federal Rural do Semi-árido - UFERSA, Angicos - RN</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 31/08/2013</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">FEEC Lite - Angicos</h3>
-					<p><b>Tema:</b> Getting Started with FirefoxOS</p>
-					<p><b>Onde:</b> Universidade Federal Rural do Semiárido - UFERSA, Angicos - RN</p>
-					<p><b>Quando:</b> 30/08/2013</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Getting Started with FirefoxOS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Universidade Federal Rural do Semiárido - UFERSA, Angicos - RN</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 30/08/2013</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">2° Open Meeting - PernambucoJS</h3>
-					<p><b>Tema:</b> Getting Started with FirefoxOS</p>
-					<p><b>Onde:</b> Faculdade Marista, Recife - PE</p>
-					<p><b>Quando:</b> 15/08/2013</p>
+					<p><img src="assets/svg/comment-alt.svg" /> Getting Started with FirefoxOS</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Faculdade Marista, Recife - PE</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 15/08/2013</p>
 				</div>
 				<div class="talk-description">
 					<h3 class="talk-title">MobDev Alagoas</h3>
-					<p><b>Tema:</b> FirefoxOS - A web como plataforma, usando HTML5 e Web Standards</p>
-					<p><b>Onde:</b> Centro Universitário CESMAC, Maceió - AL</p>
-					<p><b>Quando:</b> 22/03/2013</p>
-				</div>
-				<div class="talk-year">2012</div>
-				<div class="talk-description">
-					<h3 class="talk-title">FEEC Brazil - Recife</h3>
-					<p><b>Tema:</b> Aplicações hibridas usando Phonegap</p>
-					<p><b>Onde:</b> Recife Palace Hotel</p>
-					<p><b>Quando:</b> 01/12/2012</p>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</section>
-	<section class="photo">
-		<div class="photos">
-			<img class="photo-img" src="assets/img/events.jpg" />
-			<div class="photo-img-mobile"></div>
-			<div class="photo-shadow"></div>
-			<div class="clearfix"></div>
-		</div>
-	</section>
-	<section class="job">
-		<div class="inner">
-			<h2 class="section-title">Carreira</h2>
-			<div class="jobs">
-				<div class="job-description">
-					<h3 class="job-title">DigitalBits</h3>
-					<p class="job-subtitle">Fundador / CEO</p>
-					<p class="job-subtitle no-bg">mais de 2 anos (outubro de 2014 - até o momento)</p>
-				</div>
-				<div class="job-description">
-					<h3 class="job-title">Leet</h3>
-					<p class="job-subtitle">Diretor de Tecnologia / CTO</p>
-					<p class="job-subtitle no-bg">1 ano e 1 mês (julho de 2015 - julho de 2016)</p>
-				</div>
-				<div class="job-description">
-					<h3 class="job-title">Code Consultants</h3>
-					<p class="job-subtitle">Diretor de Tecnologia / CTO</p>
-					<p class="job-subtitle no-bg">7 meses (setembro de 2014 - março de 2015)</p>
-				</div>
-				<div class="job-description">
-					<h3 class="job-title">Chama Comunicação</h3>
-					<p class="job-subtitle">Desenvolvedor web</p>
-					<p class="job-subtitle no-bg">1 ano e 11 meses (novembro de 2012 - setembro de 2014)</p>
-				</div>
-				<div class="job-description">
-					<h3 class="job-title">MGR</h3>
-					<p class="job-subtitle">Front-End Engineer</p>
-					<p class="job-subtitle no-bg">2 anos e 5 meses (abril de 2012 - agosto de 2014)</p>
-				</div>
-				<div class="job-description">
-					<h3 class="job-title">Fundação Altino Ventura</h3>
-					<p class="job-subtitle">Estagiário de TI</p>
-					<p class="job-subtitle no-bg">6 meses (outubro de 2011 - março de 2012)</p>
-				</div>
-				<div class="job-description">
-					<h3 class="job-title">Guiky Blog</h3>
-					<p class="job-subtitle">Blogueiro</p>
-					<p class="job-subtitle no-bg">4 anos e 1 mês (dezembro de 2008 - dezembro de 2012)</p>
+					<p><img src="assets/svg/comment-alt.svg" /> FirefoxOS - A web como plataforma, usando HTML5 e Web Standards</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Centro Universitário CESMAC, Maceió - AL</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 22/03/2013</p>
 				</div>
 				<div class="clearfix"></div>
-				<a href="https://linkedin.com/in/guiky" target="_blank" class="job-full">A descrição completa está no meu LinkedIn</a>
-			</div>
-		</div>
-	</section>
-	<section class="code">
-		<div class="codes">
-			<div class="code-shadow">
-				<div class="inner">
-					<p>Como FullStack, tenho habilidades em Front-End, Back-End, DBA, DevOps, Scrum Master, Recrutador e Diretor de Tecnologia</p>
-					<div class="code-thumbs"></div>
+				<div class="talk-year">2012</div>
+				<div class="clearfix"></div>
+				<div class="talk-description">
+					<h3 class="talk-title">FEEC Brazil - Recife</h3>
+					<p><img src="assets/svg/comment-alt.svg" /> Aplicações hibridas usando Phonegap</p>
+					<p><img src="assets/svg/map-marker-alt.svg" /> Recife Palace Hotel</p>
+					<p><img src="assets/svg/calendar-check.svg"/> 01/12/2012</p>
 				</div>
 			</div>
+			<div class="talks-thumbs">
+				<div class="talks-thumb t1"></div>
+				<div class="talks-thumb t2"></div>
+				<div class="talks-thumb t3"></div>
+				<div class="talks-thumb t4"></div>
+				<div class="talks-thumb t5"></div>
+				<div class="talks-thumb t6"></div>
+				<div class="talks-thumb t7"></div>
+			</div>
+			<div class="clearfix"></div>
 		</div>
 	</section>
-	<section class="reward">
+	<section id="projects">
 		<div class="inner">
-			<h2 class="section-title">Mozillian</h2>
-			<div class="inner">
-				<div class="reward-text">
-					<div class="reward-mozilla"></div>
-					<div class="reward-mozilla-name"></div>
-					<p>A partir de 2012, me tornei um membro ativo da comunidade de desenvolvedores web, conheci várias pessoas e projetos, o que mais me chamou atenção foi a Mozilla Foundation, devido a sua missão e <strong><a href="https://www.mozilla.org/pt-BR/about/manifesto/" target="_blank">seus principios</a></strong>.</p>
-					<p>Em 2013, fui a um evento de lançamento do FirefoxOS que acontecia durante os dias que eu estive em São Paulo, lá pude conhecer pessoalmente alguns membros da Mozilla e a partir dai fiquei engajado.</p>
-					<p>Daquele encontro em diante, tive vários outros encontros com os membros da Mozilla e palestrei em vários eventos divulgandos as suas tecnologias, desde o FirefoxOS (fui pioneiro neste assunto fora de SP) até as mais recentes funcionalidades do Developer Tools.</p>
-					<p>Meses depois a Mozilla criou um monumento em frente ao seu escritório em San Francisco, com os nomes das pessoas que fizeram parte da sua história.</p>
-					<em>“These are the educators, technologists, thinkers and builders, past and present, who help us keep the internet alive and freely accessible - a global community working to empower people to be informed contributors and creators of the web.”</em>
+			<h2 class="section-title">Projetos</h2>
+			<div class="clearfix"></div>
+			<div class="project-achievement">+ de 20 palestras e workshops em 5 Estados Brasileiros</div>
+			<div class="project-achievement">+ de 20 sistemas desenvolvidos na minha fase Full-Stack</div>
+			<div class="project-achievement">+ de 70 sites na minha fase Front-End</div>
+			<div class="project-achievement">Criação de 2 Produtos Digitais que partiram do zero ao alcance nacional</div>
+			<div class="project-achievement">Consultoria e treinamento para empresas e times de densenvolvedores</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<section id="timeline">
+		<div class="inner">
+			<a href="https://www.linkedin.com/in/guiky/" target="_blank">
+				<img src="assets/svg/linkedin.svg" class="linkedin" />
+			</a>
+			<a href="https://github.com/guilhermefarias" target="_blank">
+				<img src="assets/svg/github-square.svg" class="github" />
+			</a>
+			<h2 class="section-title">Experiências Profissionais</h2>
+			<div class="timeline">
+				<div class="timeline-bars">
+					<div class="timeline-bar">
+						<div class="timeline-bar-line phase-1">
+							<span class="timeline-bar-line-label">Fase 1 - Blogueiro de Tecnologia</span>
+							<div class="timeline-bar-line-begin">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+							<div class="timeline-bar-line-end">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+						</div>
+						<div class="timeline-bar-line phase-3">
+							<span class="timeline-bar-line-label">Fase 3 - FullStack Web Developer</span>
+							<div class="timeline-bar-line-begin">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+							<div class="timeline-bar-line-end">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+						</div>
+					</div>
+					<div class="timeline-bar right">
+						<div class="timeline-bar-line phase-2">
+							<span class="timeline-bar-line-label">Fase 2 - Front-End</span>
+							<div class="timeline-bar-line-begin">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+							<div class="timeline-bar-line-end">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+						</div>
+						<div class="timeline-bar-line phase-4">
+							<span class="timeline-bar-line-label">Fase 4 - Teach Lead / Tech Strategy / CTO</span>
+							<div class="timeline-bar-line-begin">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+							<div class="timeline-bar-line-end">
+								<div class="timeline-bar-line-ball"></div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
 				</div>
+				<div class="timeline-contents">
+					<div class="timeline-content">
+						<div class="timeline-content-year">2008</div>
+						<div class="timeline-content-text">
+							<p>Meu primeiro contato com HTML de forma amadora foi na época dos Fotologs e Flogão em 2005 e 2006.</p>
+							<p>Em 2007 conheci a plataforma Blogger e comecei aprender como criar sites, meu primeiro projeto foi um blog de downloads (similar ao Baixaki)</p>
+							<p>Em 2008 com 15 anos de idade, criei o Guiky Blog, onde eu escrevia sobre as novidades do mundo da tecnologia, internet e cultura digital em geral. Aos poucos fui ganhando visibilidade, aprendi sobre marketing digital, fiz muitas parcerias com outros blogs do mesmo nicho, link building, SEO.
+							<p>Conforme o blog foi crescendo, foi necessario torna-lo mais profissional, neste momento comecei a estudar com intensidade as tecnologias web: HTML, CSS e JS.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2010</div>
+						<div class="timeline-content-text">
+							<p>Em 2010, o blog já somava mais de meio milhão de acessos, em dias anormais cheguei a receber picos de 10 mil leitores no dia, neste mesmo ano comecei a ter alguns reconhecimentos como ser convidado pela Nokia para o evento onde ela aprensentou seus primeiros smartphones e também fui um dos destaques do concurso do Buscapé que tinha como objetivo selecionar, recomendar e reconhecer as melhores iniciativas de produção de conteúdo independente no Brasil, fiquei no 3º Lugar do Premio TopBlog na categoria Tecnologia, pelo Juri Academico. Foi neste ano em que comecei a dedicar meus estudos a plataforma WordPress e concluí meu Ensino Médio.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2011</div>
+						<div class="timeline-content-text">
+							<p>Aos 17 anos, já com experiência em sites, blogs e marketing digital, decidi direcionar minha carreira para o desenvolvimento de sistemas para internet e comecei meu Bacharelado em Sistemas de Informação.</p>
+							<p>Tive minha primeira experiência profissional em uma empresa grande, fui Estagiário de TI na Fundação Altino Ventura, um hospital onde absorvi muito conhecimento, desde infraestrutura local de redes, configurações e gerenciamento de servidores, noções de segurança da informação, até noções de desenvolvimento de software e o principal: comecei a entender um pouco da complexidade que é administrar empresas de maior porte, com centenas de funcionarios e os mais variados processos organizacionais.</p>
+							<p>Foi o ano em que meu Blog atingiu a marca de 1 milhão de visitas.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2012</div>
+						<div class="timeline-content-text">
+							<p>O networking dos blogs me levou ao networking das agencias de publicidades, como eu já fazia meus proprios sites, surgiu a oportunidade para realizar vários trabalhos como freelancer para as agencias de publicidades. Entrei na segunda fase da minha carreira: Front-End.</p>
+							<p>Logo no inicio do ano tive outra experiência transformadora: ir até São Paulo para a quinta edição da Campus Party Brasil, foi a primeira vez que viajei de avião, foi neste mesmo evento que conheci o pessoal da Mozilla Foundation, a partir dai também comecei me engajar na evangelização do Firefox e suas tecnologias, foi o maior evento de tecnologia que eu já tinha ido até então</p>
+							<p>Mais um reconhecimento importante para o Blog aconteceu: fui convidado a participar da primeira edição da Campus Party Recife como Imprensa, ao lado de outras grandes midias, esta credêncial me deu acesso a várias areas restritas do evento, o que me ajudou a fazer uma cobertura mais completa.</p>
+							<p>Com o conhecimento mais profundo em Front-End e dominio em PHP e WordPress, fui contrato pela MGR Tecnologia, uma empresa que desenvolvia uma rede social corporativa, o Cahier.</p>
+							<p>Nesta altura eu já tinha um emprego full-time como front-end, uma faculdade e os freelas, com isso, o tempo que eu tinha para me dedicar ao blog foi ficando cada vez mais disputado, comecei a reduzir a frequencia das minhas publicações, mas pude contar com o apoio de outros editores para manter a produção de conteúdo.</p>
+							<p>A partir desse ano minha vida mudou completamente, entrei em uma rotina forte de hardwork e tive um rápido crescimento profissional, com o boom do HTML5 e ES5.1, houve uma revolução na forma de construir a Web, novas possibilidades surgiram com as aplicações web modernas, desde single page aplication e frameworks como AngularJS até os aplicativos mobile hibridos com Phonegap.</p>
+							<p>O Javascript deixou de ser apenas uma linguagem de navegadores e começou a se popularizar em outros dispositivos. Neste momento eu estava vivenciando e acompanhando de perto toda essa evolução da web, acabei ganhando uma notoriedade local e em dezembro recebi o convite para realizar a minha primeira palestra: falar sobre aplicativos mobile com html5, um tema recente para epoca e ao lado de dois grandes nomes: Stoyan Stefanov, autor de varios livros que eu ja tinha lido e engenheiro do Facebook e o Caridy Patiño, engenheiro do Yahoo, que fazia parte de varios projetos de escala global e minha primeira referência em NodeJS.</p>
+							<p>Encerrei o ano focado em me tornar um desenvolvedor web de alto nivel.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2013</div>
+						<div class="timeline-content-text">
+							<p>Fui para dezenas de eventos e metups da comunidade de desenvolvedores, inclusive ajudei a organizar alguns, comecei a palestrar em outros estados do Brasil, fiz 8 palestras ao longo do ano e me tornei referencia para muitos profissionais da area, tamém fui um dos principais evangelizadores do FirefoxOS no Brasil.</p>
+							<p>Além de estudos intensos em front-end, comecei também a me dedicar ao NodeJS, servidores CentOS e PostgreSQL, comecei a me tornar um desenvolvedor full-stack.</p>
+							<p>Sem investimento, eu e mais dois sócio iniciamos a Chama Comunicação, uma agencia de publicidade, em pouco meses tempo conseguimos montar nosso primeiro escritório em Recife, onde viramos noites trabalhando, entregamos dezenas de projetos e aprendemos muito.</p>
+							<p>Nesta fase eu costumava trabalhar e estudar 100hrs por semana, minha rotina era trabalhar na MGR, Chama Comunicação, marcar presença na Faculdade e movimentar a comunidade front-end. Tive que me afastar de vez do Blog.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2014</div>
+						<div class="timeline-content-text">
+							<p>A demanda para criação de sites e sistemas foi crescendo, saí do emprego na MGR e entrei de vez no empreendedorismo, passei a me dedicar apenas aos meus projetos.</p>
+							<p>No periodo que fiquei na Chama Comunicação, fui o único programador e fiz cerca de 70 sites para os clientes, próximo do final do saí da empresa para me dedicar apenas ao desenvolvimento de sistemas</p>
+							<p>Ao longo do ano inicei outro projeto com um novo sócio, a Code Consultants, empresa de densenvolvimento de sistemas que participei durante 7 meses</p>
+							<p>Nesse periodo recebi várias propostas para trabalhar fora do Brasil, foi o ano que percebi que havia me tornado um desenvolvedor de nível internacional, tanto por conta das propostas vindas de países da Europa, America do Sul e Estados Unidos, quanto pelo reconhecimento que a Mozilla Foundation fez a mim e a outras 4.536 pessoas de todos os lugares do mundo, onde tiveram seus nomes homenageados no monumento que foi construido na frente do seu escritório de San Francisco, California.</p>
+							<p>Próximo do final do ano, e após sair da Code Consultants, fundei a DigitalBits, também uma empresa de desenvolvimento de sistemas, mas localizada em Olinda.<p>
+							<p>No final do ano concluí o curso de Sistemas de Informação, apresentando um TCC sobre Aplicações de alto desempenho e escalabilidade com NodeJS, pesquisa que posteriormente serviu de referência para outros alunos da faculdade em que me formei e que também recebeu algumas citações em trabalhos futuros.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2015</div>
+						<div class="timeline-content-text">
+							<p>Entre os projetos da DigitalBits, surgiu o Wisp, um produto digital que fornecia metricas para perfis do Instagram, esse projeto foi desenvolvimento em conjunto com a Agencia Cloud, uma empresa com experiência em software como serviço, que já possuia o Instamizer, um produto digital para gerenciamento de perfis do Instagram, que estava crescendo rapidamente sua base de clientes.</p>
+							<p>Durante o projeto do Wisp, tivemos a ideia de unir as empresas, unindo as especialidades de cada uma, de um lado a DigitalBits com um forte know-how no desenvolvimento de aplicações web modernas, e a Agencia Cloud com um forte know-how em produtos digitais.</p>
+							<p>Com a união dos socios dessas duas empresas surgiu a Leet, uma empresa com três produtos voltados para o mercado de midias sociais: Instamizer, Automizer e Wisp.</p>
+							<p>Meu foco se tornou a Leet, e a DigitalBits parou de desenvolver sistemas, passando a ser apenas uma empresa para as minhas consultorias e treinamentos</p>
+							<p>Neste momento eu estava na quarta fase da minha carreira, além de ser desenvolvedor full-stack, assumi as responsabilidades de recrutar, formar e desenvolver a equipe de desenvolvedores, implantar SCRUM, Code Review e outras metodologias e tecnicas para manter a equipe produtiva, além de manter a qualidade de consistencia do codigo do projeto, além de repassar e distribuir os requistos da sprint para a equipe.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2016</div>
+						<div class="timeline-content-text">
+							<p>Chegamos a marca de 5.000 clientes assinantes mensais, sendo o principal sistema de gerenciamento de perfis de Instagram do Brasil, com ampla fama nacional neste segmento, sendo citado em blogs, sites e nas palestras dos maiores profissionais de marketing digital para Instagram, as principais agências de publidades do Brasil utilizavam nossos produtos, e consequentemente os maiores perfis do Brasil estavam cadastrados em nossa plataforma.</p>
+							<p>A Leet nasceu com uma cultura completamente digital, e isso foi fudamental para expandir a empresa em tão rápido em tão pouco tempo e com uma estrutura muito enxuta (menos de 20 funcionários). Em 2016, além dos 5.000 clientes pagantes mensais, já tinhamos alcançado 40.000 clientes e possuiamos mais de 100.000 usuários cadastrados em nossos produtos, tudo isso vindo de um a forte presença digital, utilizando as mais variadas e atualizadas estrategias de marketing digital.<p>
+							<p>Fizemos grandes acertos na construção do produto, grande parte disso foi graças a uma forte participação da comunidade de profissionais de marketing digital do Brasil, através do grupo do "Enstusiastas do Instamizer" no facebook, centenas de profissionais relatavam seus desejos e necessidades, internamente tinhamos um ranking e organizavamos a sprint para atender o máximo de clientes possiveis. E claro, sempre preservando a identidade e o propósito de cada produto, o que implica em dizer não para varias features requests.</p>
+							<p>Na minha época com o Blog aprendi muito sobre marketing digital, mas durante minha participação na Leet meu conhecimento se elevou para outros patamares, vivenciei e testemunhei o resultado de cada estrategia digital adotada, aprendi muito com os profissionais que faziam parte da empresa, essa experiência influenciou muito a minha visão de construção de softwares no modelo de Software as a Service, desde a coleta dos requistitos, passando pelo design das sprints, o desenvolvimento, até a entrega das features, que não poderia ser um simples changelog, mas sim uma forma mais rica de apresentar aos clientes as novidades, sem contar na experiência de formar um time de atendimento e customer success para atender e manter os 5.000 clientes satisfeitos, o que é crucial para qualquer produto que vive de assinaturas.</p>
+							<p>Em 2016, surgiu o convite para construir outro projeto de escala nacional: o AMIGO, um sistema para gestão de clinicas e consultórios, só que com um diferencial bem mais ousado: fornecer o serviço de contabilidade em tempo real e larga escala, além de desburocratizar o segmento de faturamento de convênios médicos. Um projeto muito ambicioso que elevaria minha experiência tanto como Engenheiro de Software quanto empressário para outro patamar, passei alguns meses nas duas empresas durante periodo de transição, e saí da sociedade da Leet para ser sócio da PraxisBPO e construir este novo projeto do zero.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2017</div>
+						<div class="timeline-content-text">
+							<p>No inicio do ano terminamos de desenvolver a versão experimental e começamos a validar o AMIGO no mercado, conforme o sistema foi recebendo clientes de novas especialidades médicas, fomos aprendendo as particularidades de cada segmento da saúde, 2017 foi o ano de amadurecimento do produto.</p>
+							<p>Com uma grande aceitação do mercado, começamos a expansão da empresa, crescemos a equipe, desenvolvemos novas areas e abrimos a primeira filial na cidade de São Paulo</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2018</div>
+						<div class="timeline-content-text">
+							<p>Foi um ano de forte evolução no produto, crescimento da empresa, e evolução pessoal e profissional. Foi o ano da minha primeira viagem internacional, conheci 7 países, visitei empresas no exterior e troquei experiências com profissionais de alto nível de vários lugares do mundo, com destaque para o Spotify, onde pude visitar a sede na Súecia e aprender muito sobre como eles constroem seu produto.</p>
+							<p>Expandimos o escritório de Recife para uma sala maior, que uniu os 3 escritórios anteriores de Recife, abrimos a segunda filial em Brasilia e terminamos o ano com operações em João Pessoa, Fortaleza e Porto Alegre. Além de ter cerca de 70 pessoas envolvidas no projeto.</p>
+							<p>Este projeto lida com informações sensiveis e as mais variadas regras de negócio contabéis, fiscais, médicas e financeiras, o que exigiu um nivel de maturidade maior dos profissionais, foi outro salto na minha carreira, expandir, organizar e formar um time de desenvolvedores que tenha capacidade de atender as demandas na velocidade desafiadora de crescimento que projeto exige, mantendo a qualidade do produto, com uma tolerância minima a falhas e toneladas de funcionalidades e regras de negocios.</p>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<div class="timeline-content-year">2019</div>
+						<div class="timeline-content-text">
+							<p>Só está começando ;)</p>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="timeline-achievements">
+					<div class="timeline-achievement achievement-1 phase-1">
+						<p><img src="assets/svg/briefcase-1.svg"/> Blogueiro de Tecnologia em <strong>Guiky</strong></p>
+						<p>12/2008 - 12/2012 (<i>4 anos e 1 mês</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-2">
+						<p><img src="assets/svg/graduation-cap.svg"/> Bacharelado em <strong>Sistemas de Informação</strong></p>
+						<p>02/2011 - 12/2014 (<i>4 anos</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-3 phase-1">
+						<p><img src="assets/svg/briefcase-1.svg"/> Estagiário de TI em <strong>Fundação Altino Ventura</strong></p>
+						<p>10/2011 - 03/2012 (<i>6 meses</i>)</p>
+					</div>
+					<!-- <div class="timeline-achievement achievement-3.5 phase-2">
+						<p><i class="fa fa-plane"></i> Primeira viagem de avião na vida</p>
+						<p>mar/2008</p>
+					</div> -->
+					<div class="timeline-achievement achievement-4 phase-2">
+						<p><img src="assets/svg/briefcase-2.svg"/> Front-End Freelancer</p>
+						<p>01/2012 - 12/2015 (<i>4 anos</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-5 phase-2">
+						<p><img src="assets/svg/briefcase-2.svg"/> <strong>MGR Tecnologia</strong></p>
+						<p>04/2012 - 08/2014 (<i>2 anos e 5 mês</i>)</p>
+						<p>Front-End (<i>1 ano</i>)</p>
+						<p>Full-Stack (<i>1 ano</i>)</p>
+						<p>Lider Tecnico (<i>5 meses</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-6 phase-2 current">
+						<p><img src="assets/svg/star.svg"/> Palestrante</p>
+						<p>12/2012 <strong class="current">até hoje</strong> (<i>6 anos+</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-7 phase-2">
+						<p><img src="assets/svg/star.svg"/> Voluntário na <strong>Mozilla Foundation</strong></p>
+						<p>2012 - 2016 (<i>4 anos</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-8 phase-3">
+						<p><img src="assets/svg/building-1.svg"/> Sócio e CTO em <strong>Chama Comunicação</strong></p>
+						<p>11/2012 - 09/2014 (<i>1 ano e 11 meses</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-9 phase-3">
+						<p><img src="assets/svg/building-1.svg"/> Sócio e CTO em <strong>Code Consultants</strong></p>
+						<p>09/2014 - 03/2015 (<i>7 meses</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-10 phase-4 current">
+						<p><img src="assets/svg/building-2.svg"/> CEO em <strong>DigitalBits</strong></p>
+						<p>10/2014 <strong class="current">até hoje</strong> (<i>4 anos+</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-11 phase-4">
+						<p><img src="assets/svg/building-2.svg"/> Sócio e CTO em <strong>Leet</strong></p>
+						<p>07/2015 - 07/2016 (<i>1 ano e 1 mês</i>)</p>
+					</div>
+					<div class="timeline-achievement achievement-12 phase-4 current">
+						<p><img src="assets/svg/building-2.svg"/> Sócio e CTO em <strong>PraxisBPO</strong></p>
+						<p>07/2016 <strong class="current">até hoje</strong> (<i>2 anos+</i>)</p>
+					</div>
+					<!-- <div class="timeline-achievement achievement-10.5 phase-4">
+						<p><i class="fa fa-plane"></i> Primeira viagem internacional</p>
+						<p>mar/2008</p>
+					</div> -->
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<section id="mozilla">
+		<div class="mozilla-shadow">
+			<div class="inner">
+				<h2 class="section-title">Mozillian</h2>
+				<div class="mozilla-text">“These are the educators, technologists, thinkers and builders, past and present, who help us keep the internet alive and freely accessible - a global community working to empower people to be informed contributors and creators of the web.”</div>
+				<div class="mozilla-hq"></div>
+				<div class="mozilla-hq-name"></div>
+				<div class="mozilla-hq-label">Escritório da Mozilla em San Franscisco, EUA</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="inner">
+		<h2 class="section-title">Contato</h2>
+		<div class="clearfix"></div>
+		<form class="contact-form">
+			<div>
+				<label>Assunto</label>
+				<input type="text" name="subject" class="input-text" onfocus="onFocus(event)" onblur="onBlur(event)" required />
+			</div>
+			<div>
+				<label>Seu Nome</label>
+				<input type="text" name="name" class="input-text" onfocus="onFocus(event)" onblur="onBlur(event)" required />
+			</div>
+			<div>
+				<label>E-mail para contato</label>
+				<input type="email" name="email" class="input-text" onfocus="onFocus(event)" onblur="onBlur(event)" required />
+			</div>
+			<div>
+				<label>Mensagem</label>
+				<textarea class="input-textarea" name="message" onfocus="onFocus(event)" onblur="onBlur(event)" required></textarea>
+			</div>
+			<div>
+				<input type="submit" class="submit" value="Enviar" />
+			</div>
+		</form>
+		<div class="contact-text">
+			<p>Você pode me enviar uma mensagem través do formulário ao lado. Os links abaixo levam para minhas redes sociais.</p>
+			<p>Para ter acesso aos slides das minhas palestras basta ir ao meu perfil no speakderck.</p>
+			<p>Se você quiser que eu fale em seu evento, sinta-se à vontade para entrar em contato comigo e terei prazer em ajudar, não cobro pelas palestras.</p>
+			<div class="contact-links">
+				<a href="https://www.linkedin.com/in/guiky/" target="_blank" class="contact-link">Linkedin</a>
+				<a href="https://github.com/guilhermefarias/" target="_blank" class="contact-link">Github</a>
+				<a href="https://speakerdeck.com/guilhermefarias" target="_blank" class="contact-link">Speakerdeck</a>
+				<a href="https://instagram.com/guiky" target="_blank" class="contact-link">Instagram</a>
 			</div>
 		</div>
 		<div class="clearfix"></div>
 	</section>
+	<footer>
+		<div class="footer-text">
+			<p>Your life is your message to the world. Make sure it's inspiring!</p>
+			<p><img src="assets/svg/rocket.svg"/></p>
+		</div>
+	</footer>
+	<script src="assets/js/script.js"></script>
 	<script>
-		// (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		// (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		// m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		// })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		// ga('create', 'UA-10865361-3', 'guilhermefarias.com');
-		// ga('send', 'pageview');
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-10865361-3', 'guilhermefarias.com');
+ 		ga('send', 'pageview');
 	</script>
-	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
 </body>
 </html>

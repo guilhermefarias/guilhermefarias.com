@@ -184,7 +184,7 @@ header nav .a4 {
 	border-color: #f39c12;
 }
 header nav .a5 {
-	border-color: #3498db;
+	border-color: #14a477;
 }
 
 header nav .a1.active {
@@ -200,7 +200,7 @@ header nav .a4.active {
 	color: #f39c12;
 }
 header nav .a5.active {
-	color: #3498db;
+	color: #14a477;
 }
 
 header nav li:hover,
@@ -505,6 +505,15 @@ section {
 
 
 #timeline .linkedin {
+	width: 32px;
+	height: 32px;
+	float: right;
+	margin-top: 10px;
+	font-size: 30px;
+	display: block;
+}
+
+#timeline .github {
 	width: 32px;
 	height: 32px;
 	float: right;
@@ -940,22 +949,24 @@ section {
 
 .contact-links {
 	width: 320px;
-	margin: 20px auto;
+	margin: 50px auto 0;
 }
 
 .contact-link {
 	width: 150px;
-	color: #Fff;
+	color: #34495e;
 	float: left;
 	margin: 5px 5px;
 	padding: 5px 0;
 	display: block;
 	text-align: center;
-	background-color: #27ae60;
+	border: 2px solid #34495e;
 	text-transform: uppercase;
 }
 
 .contact-link:hover {
+	color: #fff;
+	border-color: #2ecc71;
 	background-color: #2ecc71;
 }
 

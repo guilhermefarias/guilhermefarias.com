@@ -42,7 +42,7 @@ function init() {
 				'subject=' + encodeURIComponent(formElement.elements.subject.value)+'&'+
 				'message=' + encodeURIComponent(formElement.elements.message.value);
 
-		submitRequest.open('POST','http://guilhermefarias.com.br/mail',true);
+		submitRequest.open('POST','https://guilhermefarias.com.br/mail',true);
 		submitRequest.setRequestHeader('Content-type','application/x-www-form-urlencoded');
 		submitRequest.onreadystatechange = function(){
 			if (submitRequest.readyState === 4 && submitRequest.status === 200 && submitRequest.responseText === 'OK'){

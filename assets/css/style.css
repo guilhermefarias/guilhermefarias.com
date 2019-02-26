@@ -85,14 +85,9 @@ header {
 	float: left;
 	width: 70px;
 	height: 20px;
-	opacity: 0;
 	margin-top: 20px;
 	transition: opacity 0.7s;
 	margin-left: calc(calc(50vw - 560px) / 2);
-}
-
-.show .header-flags {
-	opacity: 1;
 }
 
 .header-flag {

@@ -36,14 +36,14 @@ function init() {
 		var submitRequest = new XMLHttpRequest();
 		var formElement = document.querySelector('form');
 		var respElement = document.createElement('div');
-		var formData = ''+
-				'name=' + encodeURIComponent(formElement.elements.name.value)+'&'+
-				'email=' + encodeURIComponent(formElement.elements.email.value)+'&'+
-				'subject=' + encodeURIComponent(formElement.elements.subject.value)+'&'+
-				'message=' + encodeURIComponent(formElement.elements.message.value);
+		var formData = new FormData();
 
-		submitRequest.open('POST','https://guilhermefarias.com.br/mail',true);
-		submitRequest.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+		formData.append('name', formElement.elements.name.value);
+		formData.append('email', formElement.elements.email.value);
+		formData.append('subject', formElement.elements.subject.value);
+		formData.append('message', formElement.elements.message.value);
+
+		submitRequest.open('POST', 'https://guilhermefarias.com.br/mail-contact');
 		submitRequest.onreadystatechange = function(){
 			if (submitRequest.readyState === 4 && submitRequest.status === 200 && submitRequest.responseText === 'OK'){
 				respElement.setAttribute('class','resp');

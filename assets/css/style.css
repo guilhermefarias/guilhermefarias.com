@@ -65,6 +65,12 @@ textarea {
 	margin: 0 auto;
 }
 
+@media (max-width: 1010px) {
+    .inner {
+        width: 90%;
+    }
+}
+
 /*
 ---------------------------------------------------------------
 -------------------------- Header -----------------------------
@@ -141,16 +147,6 @@ header {
 header nav {
 	width: 515px;
 	float: right;
-	-ms-transform: translate(-245px, 0); /* IE 9 */
-	-webkit-transform: translate(-245px, 0); /* Safari */
-	transform: translate(-245px, 0);
-	transition: transform 0.5s;
-}
-
-header.show nav {
-	-ms-transform: translate(0, 0); /* IE 9 */
-	-webkit-transform: translate(0, 0); /* Safari */
-	transform: translate(0, 0);
 }
 
 header nav li {
@@ -205,6 +201,51 @@ header nav li.active {
 	border-bottom-width: 4px;
 }
 
+@media (min-width: 1010px) {
+	header nav {
+		-ms-transform: translate(-245px, 0); /* IE 9 */
+		-webkit-transform: translate(-245px, 0); /* Safari */
+		transform: translate(-245px, 0);
+		transition: transform 0.5s;
+	}
+
+	header.show nav {
+		-ms-transform: translate(0, 0); /* IE 9 */
+		-webkit-transform: translate(0, 0); /* Safari */
+		transform: translate(0, 0);
+	}
+}
+
+@media (max-width: 1010px) {
+	header {
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.header-logo {
+		font-size: 20px;
+		display: none;
+	}
+
+    header nav {
+		width: 465px;
+		float: none;
+		margin: 0 auto;
+		font-size: 14px;
+    }
+
+    header nav li {
+    	padding: 0 5px;
+    	height: 50px;
+    }
+
+    header nav li:hover,
+	header nav li.active {
+		border-bottom-width: 3px;
+	}
+}
+
+
 /*
 ---------------------------------------------------------------
 -------------------------- Section ----------------------------
@@ -222,6 +263,13 @@ section {
 	line-height: 50px;
 	font-weight: normal;
 	font-family: AvenirNextBold;
+}
+
+@media (max-width: 1010px) {
+	.section-title {
+		font-size: 30px;
+		line-height: 42px;
+	}
 }
 
 /* -------------------------- Home ---------------------------- */
@@ -293,6 +341,21 @@ section {
 	text-align: justify;
 }
 
+@media (max-width: 1010px) {
+    .aboutme-photo {
+        display: none;
+    }
+
+    .aboutme-text {
+    	width: 100%;
+    }
+
+    .aboutme-text {
+    	padding-bottom: 50px;
+    }
+}
+
+
 /* -------------------------- Knowledges ---------------------------- */
 
 #knowledges {
@@ -347,6 +410,12 @@ section {
 
 .c6 {
 	color: #ff5300;
+}
+
+@media (max-width: 1010px) {
+	#knowledges {
+		display: none;
+	}
 }
 
 /* -------------------------- Talks ---------------------------- */
@@ -460,6 +529,23 @@ section {
 	margin-bottom: 5px;
 }
 
+@media (max-width: 1010px) {
+	.talks {
+		width: 100%;
+	}
+
+	.talks-thumbs {
+		display: none;
+	}
+}
+
+@media (max-width: 610px) {
+	.talk-description {
+		width: 100%;
+	}
+}
+
+
 /* -------------------------- Projects ---------------------------- */
 
 #projects {
@@ -487,6 +573,14 @@ section {
 	background-color: rgba(0,0,0,0.1);
 }
 
+
+@media (max-width: 1010px) {
+	.project-achievement {
+		font-size: 20px;
+		line-height: 30px;
+		font-family: 'AvenirNext';
+	}
+}
 
 /* -------------------------- Phases ---------------------------- */
 
@@ -772,6 +866,24 @@ section {
 }*/
 
 
+@media (max-width: 1010px) {
+	.timeline-bars {
+		display: none;
+	}
+
+	.timeline-contents {
+		display: none;
+	}
+
+	.timeline-achievements {
+		width: 100%;
+		height: auto;
+	}
+
+	.timeline-achievement {
+		margin-top: 20px !important;
+	}
+}
 
 /* -------------------------- Mozilla ---------------------------- */
 
@@ -844,6 +956,51 @@ section {
 	background-color: #bdc3c7;
 	font-family: 'AvenirNext';
 }
+
+@media (max-width: 1010px) {
+	#mozilla {
+		height: auto;
+	}
+
+	.mozilla-shadow {
+		height: auto;
+	}
+
+	.mozilla-text {
+		width: 100%;
+	}
+
+	.mozilla-hq {
+		top: 0;
+		margin-top: 20px;
+		width: 100%;
+		position: static;
+		background-position: center;
+	}
+
+	.mozilla-hq-name {
+		top: 0;
+		right: 0;
+		margin-top: 20px;
+		width: 100%;
+		position: static;
+		background-position: center;
+	}
+	.mozilla-hq-label {
+		top: 0;
+		right: 0;
+		margin-top: 20px;
+		width: 100%;
+		position: static;
+	}
+}
+
+@media (max-width: 600px) {
+	.mozilla-hq {
+		height: 300px;
+	}
+}
+
 
 /* -------------------------- Contact ---------------------------- */
 
@@ -989,6 +1146,18 @@ section {
 	background-color: #2ecc71;
 }
 
+@media (max-width: 1010px) {
+	.contact-text {
+		width: 100%;
+		padding: 50px 20px;
+	}
+
+	.contact-form {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
 
 /*
 ---------------------------------------------------------------
@@ -1018,4 +1187,21 @@ footer {
 	width: 45px;
 	height: 45px;
 }
+
+
+@media (max-width: 1010px) {
+	footer {
+		height: auto;
+		padding: 30px;
+	}
+
+	.footer-text {
+		line-height: 26px;
+	}
+
+	.footer-text img{
+		margin-top: 20px;
+	}
+}
+
 
